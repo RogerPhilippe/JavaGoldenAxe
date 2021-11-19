@@ -1,0 +1,154 @@
+sprite none LEFT 0 0 3 3 0 0
+sprite empty LEFT 0 0 3 3 0 0
+
+# kanji title
+sprite kanji RIGHT 22 22 195 145 97 144
+
+# blood
+sprite blood RIGHT 233 298 24 23 12 12
+
+# GOLDEN AXE letters
+#sprite letter_g RIGHT 16 176 21 42 10 41
+sprite letter_g RIGHT 849 232 21 42 10 41
+sprite letter_g RIGHT 849 232 21 42 10 41
+sprite letter_g RIGHT 849 232 21 42 10 41
+sprite letter_g RIGHT 849 189 21 42 10 41
+sprite letter_g RIGHT 849 146 21 42 10 41
+sprite letter_g RIGHT 849 103 21 42 10 41
+sprite letter_g RIGHT 849 60 21 42 10 41
+sprite letter_g RIGHT 849 17 21 42 10 41
+sprite letter_g RIGHT 849 60 21 42 10 41
+sprite letter_g RIGHT 849 103 21 42 10 41
+sprite letter_g RIGHT 849 146 21 42 10 41
+sprite letter_g RIGHT 849 189 21 42 10 41
+sprite letter_g_white RIGHT 849 275 21 42 10 41
+
+#sprite letter_o RIGHT 40 176 21 42 10 41
+sprite letter_o RIGHT 873 275 21 42 10 41
+sprite letter_o RIGHT 873 275 21 42 10 41
+sprite letter_o RIGHT 873 275 21 42 10 41
+sprite letter_o RIGHT 873 232 21 42 10 41
+sprite letter_o RIGHT 873 189 21 42 10 41
+sprite letter_o RIGHT 873 146 21 42 10 41
+sprite letter_o RIGHT 873 103 21 42 10 41
+sprite letter_o RIGHT 873 60 21 42 10 41
+sprite letter_o RIGHT 873 103 21 42 10 41
+sprite letter_o RIGHT 873 146 21 42 10 41
+sprite letter_o RIGHT 873 189 21 42 10 41
+sprite letter_o RIGHT 873 232 21 42 10 41
+sprite letter_o_white RIGHT 873 17 21 42 10 41
+
+#sprite letter_l RIGHT 64 176 21 42 10 41
+sprite letter_l RIGHT 897 275 21 42 10 41
+sprite letter_l RIGHT 897 275 21 42 10 41
+sprite letter_l RIGHT 897 275 21 42 10 41
+sprite letter_l RIGHT 897 232 21 42 10 41
+sprite letter_l RIGHT 897 189 21 42 10 41
+sprite letter_l RIGHT 897 146 21 42 10 41
+sprite letter_l RIGHT 897 103 21 42 10 41
+sprite letter_l RIGHT 897 60 21 42 10 41
+sprite letter_l RIGHT 897 103 21 42 10 41
+sprite letter_l RIGHT 897 146 21 42 10 41
+sprite letter_l RIGHT 897 189 21 42 10 41
+sprite letter_l RIGHT 897 232 21 42 10 41
+sprite letter_l_white RIGHT 897 17 21 42 10 41
+
+#sprite letter_d RIGHT 88 176 21 42 10 41
+sprite letter_d RIGHT 921 275 21 42 10 41
+sprite letter_d RIGHT 921 275 21 42 10 41
+sprite letter_d RIGHT 921 275 21 42 10 41
+sprite letter_d RIGHT 921 232 21 42 10 41
+sprite letter_d RIGHT 921 189 21 42 10 41
+sprite letter_d RIGHT 921 146 21 42 10 41
+sprite letter_d RIGHT 921 103 21 42 10 41
+sprite letter_d RIGHT 921 60 21 42 10 41
+sprite letter_d RIGHT 921 103 21 42 10 41
+sprite letter_d RIGHT 921 146 21 42 10 41
+sprite letter_d RIGHT 921 189 21 42 10 41
+sprite letter_d RIGHT 921 232 21 42 10 41
+sprite letter_d_white RIGHT 921 17 21 42 10 41
+
+#sprite letter_e_0 RIGHT 112 176 21 42 10 41
+sprite letter_e_0 RIGHT 945 275 21 42 10 41
+sprite letter_e_0 RIGHT 945 275 21 42 10 41
+sprite letter_e_0 RIGHT 945 275 21 42 10 41
+sprite letter_e_0 RIGHT 945 232 21 42 10 41
+sprite letter_e_0 RIGHT 945 189 21 42 10 41
+sprite letter_e_0 RIGHT 945 146 21 42 10 41
+sprite letter_e_0 RIGHT 945 103 21 42 10 41
+sprite letter_e_0 RIGHT 945 60 21 42 10 41
+sprite letter_e_0 RIGHT 945 103 21 42 10 41
+sprite letter_e_0 RIGHT 945 146 21 42 10 41
+sprite letter_e_0 RIGHT 945 189 21 42 10 41
+sprite letter_e_0 RIGHT 945 232 21 42 10 41
+sprite letter_e_0_white RIGHT 945 17 21 42 10 41
+
+#sprite letter_n RIGHT 136 176 21 42 10 41
+sprite letter_n RIGHT 969 275 21 42 10 41
+sprite letter_n RIGHT 969 275 21 42 10 41
+sprite letter_n RIGHT 969 275 21 42 10 41
+sprite letter_n RIGHT 969 232 21 42 10 41
+sprite letter_n RIGHT 969 189 21 42 10 41
+sprite letter_n RIGHT 969 146 21 42 10 41
+sprite letter_n RIGHT 969 103 21 42 10 41
+sprite letter_n RIGHT 969 60 21 42 10 41
+sprite letter_n RIGHT 969 103 21 42 10 41
+sprite letter_n RIGHT 969 146 21 42 10 41
+sprite letter_n RIGHT 969 189 21 42 10 41
+sprite letter_n RIGHT 969 232 21 42 10 41
+sprite letter_n_white RIGHT 969 17 21 42 10 41
+
+#sprite letter_a RIGHT 172 176 22 42 10 41
+sprite letter_a RIGHT 1005 275 22 42 10 41
+sprite letter_a RIGHT 1005 275 22 42 10 41
+sprite letter_a RIGHT 1005 275 22 42 10 41
+sprite letter_a RIGHT 1005 232 22 42 10 41
+sprite letter_a RIGHT 1005 189 22 42 10 41
+sprite letter_a RIGHT 1005 146 22 42 10 41
+sprite letter_a RIGHT 1005 103 22 42 10 41
+sprite letter_a RIGHT 1005 60 22 42 10 41
+sprite letter_a RIGHT 1005 103 22 42 10 41
+sprite letter_a RIGHT 1005 146 22 42 10 41
+sprite letter_a RIGHT 1005 189 22 42 10 41
+sprite letter_a RIGHT 1005 232 22 42 10 41
+sprite letter_a_white RIGHT 1005 17 22 42 10 41
+
+#sprite letter_x RIGHT 196 176 23 42 10 41
+sprite letter_x RIGHT 1029 275 23 42 10 41
+sprite letter_x RIGHT 1029 275 23 42 10 41
+sprite letter_x RIGHT 1029 275 23 42 10 41
+sprite letter_x RIGHT 1029 232 23 42 10 41
+sprite letter_x RIGHT 1029 189 23 42 10 41
+sprite letter_x RIGHT 1029 146 23 42 10 41
+sprite letter_x RIGHT 1029 103 23 42 10 41
+sprite letter_x RIGHT 1029 60 23 42 10 41
+sprite letter_x RIGHT 1029 103 23 42 10 41
+sprite letter_x RIGHT 1029 146 23 42 10 41
+sprite letter_x RIGHT 1029 189 23 42 10 41
+sprite letter_x RIGHT 1029 232 23 42 10 41
+sprite letter_x_white RIGHT 1029 17 23 42 10 41
+
+#sprite letter_e_1 RIGHT 220 176 21 42 10 41
+sprite letter_e_1 RIGHT 1053 275 21 42 10 41
+sprite letter_e_1 RIGHT 1053 275 21 42 10 41
+sprite letter_e_1 RIGHT 1053 275 21 42 10 41
+sprite letter_e_1 RIGHT 1053 232 21 42 10 41
+sprite letter_e_1 RIGHT 1053 189 21 42 10 41
+sprite letter_e_1 RIGHT 1053 146 21 42 10 41
+sprite letter_e_1 RIGHT 1053 103 21 42 10 41
+sprite letter_e_1 RIGHT 1053 60 21 42 10 41
+sprite letter_e_1 RIGHT 1053 103 21 42 10 41
+sprite letter_e_1 RIGHT 1053 146 21 42 10 41
+sprite letter_e_1 RIGHT 1053 189 21 42 10 41
+sprite letter_e_1 RIGHT 1053 232 21 42 10 41
+sprite letter_e_1_white RIGHT 1053 17 21 42 10 41
+
+
+# SEGA logo
+sprite sega RIGHT 102 248 64 24 0 0
+
+# sky background
+sprite background RIGHT 272 16 276 414 0 0
+
+# sky background darker
+sprite background_darker RIGHT 560 16 276 414 0 0

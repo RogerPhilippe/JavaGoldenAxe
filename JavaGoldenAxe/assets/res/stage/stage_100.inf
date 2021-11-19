@@ -1,0 +1,30 @@
+# demo for ax battler
+
+stage 100
+
+background 0 default stage_background 0.0 0.0 0.0 129.0 0.75 1.0 false
+background 1 default stage_full 0.0 0.0 0.0 0.0 1.0 1.0 false
+
+terrain_collision_mask stage_1_collision_mask
+camera_min_y 0 129 1920 129 1800 177 1830 227 2000 227 2147 129 2825 129 3148 113 4120 113 4161 162 4350 162 4450 0 5320 0 5400 100 5567 100 5832 32 6393 32
+camera_max_y 0 358 1850 358
+
+terrain_magic_path_z 0 406 1406 406 1565 342 1660 342 1870 438 2118 438 2494 408 2853 344 5296 344 5388 379 6493 379
+
+shadow_shear -0.75
+
+camera_position 1200 129
+
+terrain_dead_height 196
+
+command 0 SPAWN player_1 1288 400 walk_to _ _ walk_to 1338 400 null demo
+command 0 SPAWN player_2 1288 380 walk_to _ _ walk_to 1338 380 null walking
+
+camera_lock wave_5 1200 true 2000 false 0
+
+command 1100 SPAWN heninger silver heninger_5 wave_5 1230 370 walking
+command 1100 SPAWN longmoan silver longmoan_5 wave_5 1250 410 walking
+command 1100 SPAWN bad_brothers silver bad_brothers_5_a wave_5 1250 330 walking
+command 1100 SPAWN bad_brothers silver bad_brothers_5_b wave_5 1380 350 walking
+command 1080 SPAWN chicken_leg default chicken_leg_5 empty 1380 390 resting
+

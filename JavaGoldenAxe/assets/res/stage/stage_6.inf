@@ -1,0 +1,29 @@
+stage 6
+
+background 0 night sky_night 0.0 0.0 0.0 129.0 1.0 1.0 true
+background 1 night stage_full_night 0.0 0.0 0.0 0.0 1.0 1.0 false
+
+terrain_collision_mask stage_1_collision_mask
+camera_min_y 0 129 1920 129 1800 177 1830 227 2000 227 2147 129 2825 129 3148 113 4120 113 4161 162 4350 162 4450 0 5320 0 5400 100 5567 100 5832 32 6393 32
+camera_max_y 0 358 1535 358 1753 576 3216 576 3286 380 3495 369 4928 369 5267 409 5660 409 5980 329 6393 329
+
+terrain_magic_path_z 0 406 1406 406 1565 342 1660 342 1870 438 2118 438 2494 408 2853 344 5296 344 5388 379 6493 379
+
+shadow_shear 0.0
+camera_position 3665 134
+terrain_dead_height 196
+
+command 0 PLAY_MUSIC theme_of_thief 1.0 0
+
+command 0 SPAWN decoration firecamp firecamp 3803 0 290 0.1 true false 0
+
+command 0 SPAWN player_1 3853 280 resting
+command 0 SPAWN player_2 3753 300 resting
+
+camera_lock wave_0 3665 true 3000 false 0
+
+command 3650 SPAWN thief wave_0 3630 300 POTION 1
+command 3650 SPAWN thief wave_0 3650 300 POTION 1
+command 3650 SPAWN thief wave_0 4000 330 FOOD 1
+command 3650 SPAWN thief wave_0 4020 330 FOOD 1
+

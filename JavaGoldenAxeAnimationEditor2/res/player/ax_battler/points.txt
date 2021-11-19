@@ -1,0 +1,3 @@
+point grab 408 238
+point grab 441 211
+point grab 540 191

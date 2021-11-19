@@ -1,0 +1,253 @@
+# --- longmoan ---
+
+additive_blend false
+shadow true
+
+type enemy
+
+animation_parameter silver_sprite_sheet longmoan
+animation_parameter silver_walk_speed 0.55
+animation_parameter silver_run_speed 2.5
+animation_parameter silver_attack_distance_min_x 28
+animation_parameter silver_attack_frequency 2
+animation_parameter silver_jump_attack_distance_x 48
+animation_parameter silver_dif_z_attack_distance 24
+animation_parameter silver_dif_y_attack_distance 44
+
+animation_parameter purple_sprite_sheet longmoan_purple
+animation_parameter purple_walk_speed 0.65
+animation_parameter purple_run_speed 2.5
+animation_parameter purple_attack_distance_min_x 28
+animation_parameter purple_attack_frequency 6
+animation_parameter purple_jump_attack_distance_x 48
+animation_parameter purple_dif_z_attack_distance 8
+animation_parameter purple_dif_y_attack_distance 44
+
+animation_parameter red_sprite_sheet longmoan_red
+animation_parameter red_walk_speed 0.75
+animation_parameter red_run_speed 2.5
+animation_parameter red_attack_distance_min_x 28
+animation_parameter red_attack_frequency 10
+animation_parameter red_jump_attack_distance_x 48
+animation_parameter red_dif_z_attack_distance 8
+animation_parameter red_dif_y_attack_distance 44
+
+animation_parameter gray_sprite_sheet longmoan_gray
+animation_parameter gray_walk_speed 0.75
+animation_parameter gray_run_speed 2.5
+animation_parameter gray_attack_distance_min_x 28
+animation_parameter gray_attack_frequency 10
+animation_parameter gray_jump_attack_distance_x 48
+animation_parameter gray_dif_z_attack_distance 8
+animation_parameter gray_dif_y_attack_distance 44
+
+animation_parameter gold_sprite_sheet longmoan_gold
+animation_parameter gold_walk_speed 0.75
+animation_parameter gold_run_speed 2.5
+animation_parameter gold_attack_distance_min_x 28
+animation_parameter gold_attack_frequency 10
+animation_parameter gold_jump_attack_distance_x 48
+animation_parameter gold_dif_z_attack_distance 8
+animation_parameter gold_dif_y_attack_distance 44
+
+animation_parameter dark_sprite_sheet longmoan_dark
+animation_parameter dark_walk_speed 0.75
+animation_parameter dark_run_speed 2.5
+animation_parameter dark_attack_distance_min_x 28
+animation_parameter dark_attack_frequency 10
+animation_parameter dark_jump_attack_distance_x 48
+animation_parameter dark_dif_z_attack_distance 8
+animation_parameter dark_dif_y_attack_distance 44
+
+animation_parameter bronze_sprite_sheet longmoan_bronze
+animation_parameter bronze_walk_speed 0.75
+animation_parameter bronze_run_speed 2.5
+animation_parameter bronze_attack_distance_min_x 28
+animation_parameter bronze_attack_frequency 10
+animation_parameter bronze_jump_attack_distance_x 48
+animation_parameter bronze_dif_z_attack_distance 8
+animation_parameter bronze_dif_y_attack_distance 44
+
+
+# --- animation sprites ---
+
+sprite none LEFT 0 0 3 3 0 0
+
+parameter appearance animation_speed 0.3
+sprite appearance LEFT 232 5 37 58 25 54
+sprite appearance LEFT 0 0 3 3 0 0
+sprite appearance LEFT 232 5 37 58 25 54
+sprite appearance LEFT 0 0 3 3 0 0
+sprite appearance LEFT 232 5 37 58 25 54
+sprite appearance LEFT 0 0 3 3 0 0
+sprite appearance LEFT 232 5 37 58 25 54
+sprite appearance LEFT 0 0 3 3 0 0
+sprite appearance LEFT 232 5 37 58 25 54
+sprite appearance LEFT 0 0 3 3 0 0
+sprite appearance LEFT 232 5 37 58 25 54
+sprite appearance LEFT 0 0 3 3 0 0
+sprite appearance LEFT 232 5 37 58 25 54
+sprite appearance LEFT 0 0 3 3 0 0
+sprite appearance LEFT 232 5 37 58 25 54
+sprite appearance LEFT 0 0 3 3 0 0
+sprite appearance LEFT 232 5 37 58 25 54
+sprite appearance LEFT 0 0 3 3 0 0
+sprite appearance LEFT 232 5 37 58 25 54
+sprite appearance LEFT 0 0 3 3 0 0
+
+sprite stand_by LEFT 232 5 37 58 25 54
+
+sprite idle LEFT 232 5 37 58 25 54
+
+parameter walking_up animation_speed 0.1
+parameter walking_up animation_loop true
+sprite walking_up LEFT 8 5 25 60 17 56
+sprite walking_up LEFT 43 2 37 64 24 55
+sprite walking_up LEFT 97 2 24 64 17 56
+sprite walking_up LEFT 136 1 26 66 18 57
+
+parameter walking_down animation_speed 0.1
+parameter walking_down animation_loop true
+sprite walking_down LEFT 183 4 37 61 26 51
+sprite walking_down LEFT 232 5 37 58 25 54
+sprite walking_down LEFT 280 8 37 58 26 51
+sprite walking_down LEFT 327 6 39 63 27 52
+
+parameter running animation_speed 0.125
+parameter running animation_loop true
+sprite running RIGHT 1 76 46 56 21 56
+sprite running RIGHT 59 76 44 58 19 57
+sprite running RIGHT 116 78 46 56 21 56
+sprite running RIGHT 180 76 45 58 20 57
+
+sprite running_attack RIGHT 237 82 40 46 8 58
+
+sprite jumping RIGHT 426 126 39 71 25 70
+sprite jumping RIGHT 426 126 39 71 25 70
+
+parameter attack_1 sound attack_swing
+parameter attack_1 animation_speed 0.175
+sprite attack_1 LEFT 4 144 44 55 22 50
+sprite attack_1 LEFT 66 142 51 60 22 55
+sprite attack_1 LEFT 119 142 59 61 42 56
+sprite attack_1 LEFT 205 142 38 61 19 56
+sprite attack_1 LEFT 205 142 38 61 19 56
+
+parameter attack_2 sound attack_swing
+parameter attack_2 animation_speed 0.175
+sprite attack_2 LEFT 261 143 62 58 45 53
+sprite attack_2 LEFT 339 123 59 79 42 74
+sprite attack_2 LEFT 339 123 59 79 42 74
+sprite attack_2 LEFT 4 144 44 55 21 51
+sprite attack_2 LEFT 4 144 44 55 21 51
+
+parameter attack_3 sound attack_swing
+parameter attack_3 animation_speed 0.175
+sprite attack_3 LEFT 171 278 44 55 21 51
+sprite attack_3 LEFT 233 276 51 60 21 56
+sprite attack_3 LEFT 286 276 59 61 41 56
+sprite attack_3 LEFT 372 276 38 61 18 56
+sprite attack_3 LEFT 372 276 38 61 18 56
+
+parameter stunned_1 sound hit
+sprite stunned_1 LEFT 4 203 40 62 20 55
+sprite stunned_1 LEFT 103 214 42 42 25 41
+sprite stunned_1 LEFT 103 214 42 42 25 41
+sprite stunned_1 LEFT 103 214 42 42 25 41
+sprite stunned_1 LEFT 103 214 42 42 25 41
+
+parameter stunned_2 sound hit_rap
+sprite stunned_2 LEFT 59 219 42 39 25 38
+sprite stunned_2 LEFT 103 214 42 42 25 41
+sprite stunned_2 LEFT 103 214 42 42 25 41
+sprite stunned_2 LEFT 103 214 42 42 25 41
+sprite stunned_2 LEFT 103 214 42 42 25 41
+
+sprite thrown LEFT 59 219 42 39 21 25
+sprite thrown LEFT 17 288 60 32 33 12
+sprite thrown LEFT 95 273 40 62 21 33
+
+parameter knock_down dust_dx 4.0
+parameter knock_down dust_dz 0.0
+sprite knock_down LEFT 157 220 60 35 28 18
+sprite knock_down LEFT 228 226 64 29 30 20
+
+sprite stand_up LEFT 228 226 64 29 30 20
+sprite stand_up LEFT 228 226 64 29 30 20
+sprite stand_up LEFT 59 219 42 39 25 38
+
+parameter dying sound male_dead
+parameter dying animation_speed 0.5
+parameter dying animation_loop true
+sprite dying LEFT 228 226 64 29 30 20
+sprite dying LEFT 19 346 64 29 30 20
+
+sprite dead LEFT 19 346 64 29 30 20
+
+sprite mounting RIGHT 414 202 47 64 20 61
+sprite mounted_up RIGHT 422 64 24 51 6 30
+sprite mounted_up_flip LEFT 422 64 24 51 6 30
+sprite mounted_down RIGHT 320 207 37 56 13 34
+sprite mounted_down_flip LEFT 320 207 37 56 13 34
+sprite mounted_side RIGHT 371 206 32 52 7 32
+sprite mounted_side_flip LEFT 371 206 32 52 7 32
+
+
+# --- colliders ---
+
+collider BODY NONE 53 10 19 55
+collider BODY NONE 12 14 18 51
+collider BODY NONE 100 11 19 55
+collider BODY NONE 140 12 20 55
+collider BODY NONE 197 9 20 56
+collider BODY NONE 243 11 23 51
+collider BODY NONE 292 13 24 52
+collider BODY NONE 340 11 25 57
+collider BODY NONE 13 83 27 37
+collider BODY NONE 2 117 12 14
+collider BODY NONE 33 77 14 13
+collider BODY NONE 75 83 15 52
+collider BODY NONE 90 77 13 14
+collider BODY NONE 59 108 16 12
+collider BODY NONE 128 84 25 34
+collider BODY NONE 150 80 12 24
+collider BODY NONE 119 118 18 15
+collider BODY NONE 196 83 17 51
+collider BODY NONE 181 108 15 12
+collider BODY NONE 213 77 12 13
+collider BODY NONE 239 97 23 30
+collider BODY NONE 251 84 11 13
+collider ATTACK 8 2 KNOCK_DOWN 262 84 11 43
+collider BODY NONE 8 149 26 49
+collider BODY NONE 70 146 20 53
+collider ATTACK 8 2 STUNNED_1 123 153 38 13
+collider BODY NONE 161 144 15 59
+collider BODY NONE 216 145 18 57
+collider BODY NONE 289 150 18 47
+collider ATTACK 8 2 STUNNED_1 264 150 25 25
+collider BODY NONE 365 150 18 48
+collider BODY NONE 441 135 13 62
+collider BODY NONE 323 212 22 51
+collider BODY NONE 371 213 15 45
+collider BODY NONE 113 217 24 39
+collider BODY NONE 177 282 24 50
+collider BODY NONE 238 279 17 53
+collider BODY NONE 327 279 16 58
+collider ATTACK 8 2 KNOCK_DOWN 291 288 36 13
+collider BODY NONE 383 280 17 57
+collider FIRE GRAB_AND_THROW 116 211 16 48
+collider ATTACK 8 2 STUNNED_1 341 125 35 27
+collider BODY NONE 255 318 10 17
+collider BODY NONE 90 186 8 16
+collider BODY NONE 149 173 12 26
+collider BODY NONE 307 182 14 19
+collider BODY NONE 383 183 14 19
+collider BODY NONE 454 161 9 27
+collider BODY NONE 316 308 11 24
+collider BODY NONE 425 70 19 45
+
+
+# --- points ---
+
+
+

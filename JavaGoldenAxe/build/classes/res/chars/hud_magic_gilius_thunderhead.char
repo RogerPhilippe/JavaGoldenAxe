@@ -1,0 +1,62 @@
+# --- hud magic gilius thunder head ---
+
+additive_blend false
+shadow false
+
+blink_time_factor 0.000000035
+blink_color_1 0xffffff
+blink_color_2 0xffffff
+
+type hud
+
+
+# --- animation sprites ---
+
+sprite potion_0 LEFT 0 0 33 16 0 0
+sprite potion_1 LEFT 0 16 33 16 0 0
+sprite potion_1 LEFT 0 32 33 16 0 0
+sprite potion_1 LEFT 0 48 33 16 0 0
+sprite potion_1 LEFT 0 64 33 16 0 0
+sprite potion_1 LEFT 0 80 33 16 0 0
+sprite potion_1 LEFT 0 96 33 16 0 0
+sprite potion_1 LEFT 0 112 33 16 0 0
+sprite potion_1 LEFT 0 128 33 16 0 0
+sprite potion_1 LEFT 0 144 33 16 0 0
+sprite potion_1 LEFT 0 160 33 16 0 0
+sprite potion_2 LEFT 0 176 33 16 0 0
+sprite potion_2 LEFT 0 192 33 16 0 0
+sprite potion_2 LEFT 0 208 33 16 0 0
+sprite potion_2 LEFT 0 224 33 16 0 0
+sprite potion_2 LEFT 0 240 33 16 0 0
+sprite potion_2 LEFT 0 256 33 16 0 0
+sprite potion_2 LEFT 0 272 33 16 0 0
+sprite potion_2 LEFT 0 288 33 16 0 0
+sprite potion_2 LEFT 0 304 33 16 0 0
+sprite potion_2 LEFT 0 320 33 16 0 0
+sprite potion_3 LEFT 0 336 33 16 0 0
+sprite potion_3 LEFT 0 352 33 16 0 0
+sprite potion_3 LEFT 0 368 33 16 0 0
+sprite potion_3 LEFT 0 384 33 16 0 0
+sprite potion_3 LEFT 0 400 33 16 0 0
+sprite potion_3 LEFT 0 416 33 16 0 0
+sprite potion_3 LEFT 0 432 33 16 0 0
+sprite potion_3 LEFT 0 448 33 16 0 0
+sprite potion_3 LEFT 0 464 33 16 0 0
+sprite potion_3 LEFT 0 480 33 16 0 0
+sprite potion_4 LEFT 0 496 33 16 0 0
+sprite potion_4 LEFT 0 512 33 16 0 0
+sprite potion_4 LEFT 0 528 33 16 0 0
+sprite potion_4 LEFT 0 544 33 16 0 0
+sprite potion_4 LEFT 0 560 33 16 0 0
+sprite potion_4 LEFT 0 576 33 16 0 0
+sprite potion_4 LEFT 0 592 33 16 0 0
+sprite potion_4 LEFT 0 608 33 16 0 0
+sprite potion_4 LEFT 0 624 33 16 0 0
+sprite potion_4 LEFT 0 640 33 16 0 0
+
+
+# --- colliders ---
+
+
+# --- points ---
+

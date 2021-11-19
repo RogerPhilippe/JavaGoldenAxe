@@ -1,0 +1,4 @@
+collider ATTACK NONE true 13 106 26 54
+collider ATTACK NONE true 51 137 25 55
+collider ATTACK NONE true 112 105 24 55
+collider ATTACK NONE true 161 136 25 56

@@ -1,0 +1,177 @@
+# animator animator_id speed loop
+# keyframe animator_id actor_id frame_index animation_id animation_frame wx wy wz scale_x scale_y rotation_angle direction tween sound_id
+
+
+# --- magic fire f ---
+
+animator magic_fire_c 0.25 false false null null
+
+# --- actors ---
+
+add_actor magic_fire_c ghost_a magic_fire null
+add_actor magic_fire_c ghost_b magic_fire null
+
+
+# --- 
+
+keyframe magic_fire_c ghost_a 0 fire_3 -1 146 103 0.003 1.00 1.00 0.0 LEFT true magic_fire_c_start
+keyframe magic_fire_c ghost_a 1 fire_3 -1 147 102 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 2 fire_3 -1 147 103 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 3 fire_3 -1 146 103 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 4 fire_3 -1 143 103 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 5 fire_3 -1 139 103 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 6 fire_3 -1 133 103 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 7 fire_3 -1 126 102 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 8 fire_3 -1 120 100 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 9 fire_3 -1 114 97 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 10 fire_3 -1 110 94 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 11 fire_3 -1 108 90 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 12 fire_3 -1 109 86 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 13 fire_3 -1 113 82 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 14 fire_3 -1 120 78 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 15 fire_3 -1 129 75 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 16 fire_3 -1 141 73 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 17 fire_3 -1 153 73 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 18 fire_3 -1 165 73 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 19 fire_3 -1 176 75 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 20 fire_3 -1 184 78 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 21 fire_3 -1 187 82 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 22 fire_3 -1 187 86 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 23 fire_3 -1 182 90 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 24 fire_3 -1 172 93 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 25 fire_3 -1 158 95 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 26 fire_3 -1 141 96 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 27 fire_3 -1 122 95 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 28 fire_3 -1 104 93 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 29 fire_3 -1 88 88 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 30 fire_3 -1 76 82 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 31 fire_3 -1 68 74 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 32 fire_3 -1 67 66 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 33 fire_3 -1 72 58 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 34 fire_3 -1 83 51 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 35 fire_3 -1 100 45 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 36 fire_3 -1 122 41 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 37 fire_3 -1 146 39 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 38 fire_3 -1 171 39 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 39 fire_3 -1 193 42 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 40 fire_3 -1 212 47 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 41 fire_3 -1 224 54 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 42 fire_3 -1 229 62 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 43 fire_3 -1 226 70 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 44 fire_3 -1 215 77 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 45 fire_3 -1 196 83 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 46 fire_3 -1 171 88 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 47 fire_3 -1 141 89 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 48 fire_3 -1 110 88 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 49 fire_3 -1 81 83 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 50 fire_3 -1 55 76 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 51 fire_3 -1 37 66 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 52 fire_3 -1 26 54 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 53 fire_3 -1 26 42 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 54 fire_3 -1 35 30 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 55 fire_3 -1 55 20 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 56 fire_3 -1 82 11 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 57 fire_3 -1 116 6 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 58 fire_3 -1 152 4 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 59 fire_3 -1 189 6 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 60 fire_3 -1 222 11 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 61 fire_3 -1 248 19 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 62 fire_3 -1 265 30 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 63 fire_3 -1 271 42 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 64 fire_3 -1 265 54 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 65 fire_3 -1 247 65 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 66 fire_3 -1 219 74 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 67 fire_3 -1 182 80 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 68 fire_3 -1 140 82 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 69 fire_3 -1 97 80 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 70 fire_3 -1 56 73 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 71 fire_3 -1 22 63 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 72 fire_3 -1 -2 50 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 73 fire_3 -1 -15 34 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 74 fire_3 -1 -14 18 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 75 fire_3 -1 0 2 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 76 fire_3 -1 27 -11 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 77 fire_3 -1 65 -21 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 78 fire_3 -1 111 -28 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_a 79 fire_3 -1 160 -30 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 80 fire_3 -1 209 -27 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 81 fire_3 -1 252 -19 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 82 fire_3 -1 286 -7 0.003 1.00 1.00 0.0 LEFT true magic_fire_c_end
+keyframe magic_fire_c ghost_a 83 fire_3 -1 307 6 0.003 1.15 1.15 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 85 fire_3 -1 313 22 0.003 1.30 1.30 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 88 fire_3 -1 304 39 0.003 1.45 1.45 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 92 fire_3 -1 279 53 0.003 1.60 1.60 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 97 fire_3 -1 241 65 0.003 1.75 1.75 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 103 fire_3 -1 192 72 0.003 1.90 1.90 0.0 LEFT true null
+keyframe magic_fire_c ghost_a 110 fire_3 -1 138 75 0.003 2.05 2.05 0.0 LEFT true null
+
+keyframe magic_fire_c ghost_b 0 fire_3 -1 130 103 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 1 fire_3 -1 128 101 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 2 fire_3 -1 128 98 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 3 fire_3 -1 129 96 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 4 fire_3 -1 132 94 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 5 fire_3 -1 136 92 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 6 fire_3 -1 142 90 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 7 fire_3 -1 149 89 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 8 fire_3 -1 155 89 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 9 fire_3 -1 161 90 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 10 fire_3 -1 165 91 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 11 fire_3 -1 167 93 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 12 fire_3 -1 166 95 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 13 fire_3 -1 162 97 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 14 fire_3 -1 155 99 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 15 fire_3 -1 146 100 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 16 fire_3 -1 134 100 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 17 fire_3 -1 122 98 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 18 fire_3 -1 110 96 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 19 fire_3 -1 99 92 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 20 fire_3 -1 91 87 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 21 fire_3 -1 88 81 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 22 fire_3 -1 88 75 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 23 fire_3 -1 93 69 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 24 fire_3 -1 103 64 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 25 fire_3 -1 117 60 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 26 fire_3 -1 134 57 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 27 fire_3 -1 153 56 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 28 fire_3 -1 171 56 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 29 fire_3 -1 187 59 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 30 fire_3 -1 199 63 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 31 fire_3 -1 207 69 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 32 fire_3 -1 208 75 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 33 fire_3 -1 203 81 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 34 fire_3 -1 192 86 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 35 fire_3 -1 175 90 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 36 fire_3 -1 153 92 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 37 fire_3 -1 129 92 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 38 fire_3 -1 104 90 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 39 fire_3 -1 82 85 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 40 fire_3 -1 63 78 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 41 fire_3 -1 51 69 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 42 fire_3 -1 46 59 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 43 fire_3 -1 49 49 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 44 fire_3 -1 60 40 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 45 fire_3 -1 79 32 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 46 fire_3 -1 104 25 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 47 fire_3 -1 134 22 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 48 fire_3 -1 165 21 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 49 fire_3 -1 194 24 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 50 fire_3 -1 220 29 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 51 fire_3 -1 238 37 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 52 fire_3 -1 249 47 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 53 fire_3 -1 249 57 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 54 fire_3 -1 240 67 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 55 fire_3 -1 220 75 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 56 fire_3 -1 193 82 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 57 fire_3 -1 159 85 0.003 1.00 1.00 0.0 LEFT true null
+keyframe magic_fire_c ghost_b 58 fire_3 -1 123 85 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 59 fire_3 -1 86 81 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 60 fire_3 -1 53 74 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 61 fire_3 -1 27 64 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 62 fire_3 -1 10 51 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 63 fire_3 -1 4 37 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 64 fire_3 -1 10 23 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 65 fire_3 -1 28 10 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 66 fire_3 -1 56 0 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 67 fire_3 -1 93 -8 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 68 fire_3 -1 135 -12 0.003 1.00 1.00 0.0 RIGHT true null
+keyframe magic_fire_c ghost_b 69 fire_3 -1 178 -12 0.003 1.00 1.00 0.0 LEFT true null

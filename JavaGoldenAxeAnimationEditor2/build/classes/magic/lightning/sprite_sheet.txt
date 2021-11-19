@@ -1,0 +1,12 @@
+sprite spark RIGHT 82 22 37 31 13 25
+sprite spark RIGHT 121 22 53 31 13 25
+sprite spark RIGHT 176 22 53 31 1 25
+sprite spark RIGHT 44 37 36 16 -22 10
+sprite dust RIGHT 166 148 41 56 21 50
+sprite dust RIGHT 125 162 39 39 20 33
+sprite dust RIGHT 87 163 30 30 16 25
+sprite dust RIGHT 50 166 36 24 17 22
+sprite ligthning_a RIGHT 26 235 55 368 30 363
+sprite ligthning_a RIGHT 100 235 64 368 27 363
+sprite ligthning_b RIGHT 201 239 54 363 20 358
+sprite ligthning_b RIGHT 259 239 40 363 20 358

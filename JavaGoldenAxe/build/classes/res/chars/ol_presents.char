@@ -1,0 +1,20 @@
+# --- ol presents ---
+
+additive_blend false
+shadow false
+blink false
+
+type ol_presents
+
+sprite none LEFT 0 0 3 3 0 0
+sprite empty LEFT 0 0 3 3 0 0
+
+sprite background RIGHT 141 128 141 128 0 0
+
+sprite logo_0 RIGHT 0 0 141 64 70 32
+sprite logo_1 RIGHT 0 64 141 64 70 32
+
+sprite logo_0_shadow RIGHT 0 128 141 64 70 32
+sprite logo_1_shadow RIGHT 0 192 141 64 70 32
+
+sprite gradient RIGHT 141 0 141 256 70 192

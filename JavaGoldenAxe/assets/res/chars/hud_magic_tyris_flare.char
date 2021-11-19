@@ -1,0 +1,112 @@
+# --- hud magic tyris flare ---
+
+additive_blend false
+shadow false
+
+blink_time_factor 0.000000035
+blink_color_1 0xffffff
+blink_color_2 0xffffff
+
+type hud
+
+
+# --- animation sprites ---
+
+sprite potion_0 LEFT 0 0 73 16 0 0
+sprite potion_1 LEFT 0 16 73 16 0 0
+sprite potion_1 LEFT 0 32 73 16 0 0
+sprite potion_1 LEFT 0 48 73 16 0 0
+sprite potion_1 LEFT 0 64 73 16 0 0
+sprite potion_1 LEFT 0 80 73 16 0 0
+sprite potion_1 LEFT 0 96 73 16 0 0
+sprite potion_1 LEFT 0 112 73 16 0 0
+sprite potion_1 LEFT 0 128 73 16 0 0
+sprite potion_1 LEFT 0 144 73 16 0 0
+sprite potion_1 LEFT 0 160 73 16 0 0
+sprite potion_2 LEFT 0 176 73 16 0 0
+sprite potion_2 LEFT 0 192 73 16 0 0
+sprite potion_2 LEFT 0 208 73 16 0 0
+sprite potion_2 LEFT 0 224 73 16 0 0
+sprite potion_2 LEFT 0 240 73 16 0 0
+sprite potion_2 LEFT 0 256 73 16 0 0
+sprite potion_2 LEFT 0 272 73 16 0 0
+sprite potion_2 LEFT 0 288 73 16 0 0
+sprite potion_2 LEFT 0 304 73 16 0 0
+sprite potion_2 LEFT 0 320 73 16 0 0
+sprite potion_3 LEFT 0 336 73 16 0 0
+sprite potion_3 LEFT 0 352 73 16 0 0
+sprite potion_3 LEFT 0 368 73 16 0 0
+sprite potion_3 LEFT 0 384 73 16 0 0
+sprite potion_3 LEFT 0 400 73 16 0 0
+sprite potion_3 LEFT 0 416 73 16 0 0
+sprite potion_3 LEFT 0 432 73 16 0 0
+sprite potion_3 LEFT 0 448 73 16 0 0
+sprite potion_3 LEFT 0 464 73 16 0 0
+sprite potion_3 LEFT 0 480 73 16 0 0
+sprite potion_4 LEFT 0 496 73 16 0 0
+sprite potion_4 LEFT 0 512 73 16 0 0
+sprite potion_4 LEFT 0 528 73 16 0 0
+sprite potion_4 LEFT 0 544 73 16 0 0
+sprite potion_4 LEFT 0 560 73 16 0 0
+sprite potion_4 LEFT 0 576 73 16 0 0
+sprite potion_4 LEFT 0 592 73 16 0 0
+sprite potion_4 LEFT 0 608 73 16 0 0
+sprite potion_4 LEFT 0 624 73 16 0 0
+sprite potion_4 LEFT 0 640 73 16 0 0
+sprite potion_5 LEFT 0 656 73 16 0 0
+sprite potion_5 LEFT 0 672 73 16 0 0
+sprite potion_5 LEFT 0 688 73 16 0 0
+sprite potion_5 LEFT 0 704 73 16 0 0
+sprite potion_5 LEFT 0 720 73 16 0 0
+sprite potion_5 LEFT 0 736 73 16 0 0
+sprite potion_5 LEFT 0 752 73 16 0 0
+sprite potion_5 LEFT 0 768 73 16 0 0
+sprite potion_5 LEFT 0 784 73 16 0 0
+sprite potion_5 LEFT 0 800 73 16 0 0
+sprite potion_6 LEFT 0 816 73 16 0 0
+sprite potion_6 LEFT 0 832 73 16 0 0
+sprite potion_6 LEFT 0 848 73 16 0 0
+sprite potion_6 LEFT 0 864 73 16 0 0
+sprite potion_6 LEFT 0 880 73 16 0 0
+sprite potion_6 LEFT 0 896 73 16 0 0
+sprite potion_6 LEFT 0 912 73 16 0 0
+sprite potion_6 LEFT 0 928 73 16 0 0
+sprite potion_6 LEFT 0 944 73 16 0 0
+sprite potion_6 LEFT 0 960 73 16 0 0
+sprite potion_7 LEFT 0 976 73 16 0 0
+sprite potion_7 LEFT 0 992 73 16 0 0
+sprite potion_7 LEFT 0 1008 73 16 0 0
+sprite potion_7 LEFT 0 1024 73 16 0 0
+sprite potion_7 LEFT 0 1040 73 16 0 0
+sprite potion_7 LEFT 0 1056 73 16 0 0
+sprite potion_7 LEFT 0 1072 73 16 0 0
+sprite potion_7 LEFT 0 1088 73 16 0 0
+sprite potion_7 LEFT 0 1104 73 16 0 0
+sprite potion_7 LEFT 0 1120 73 16 0 0
+sprite potion_8 LEFT 0 1136 73 16 0 0
+sprite potion_8 LEFT 0 1152 73 16 0 0
+sprite potion_8 LEFT 0 1168 73 16 0 0
+sprite potion_8 LEFT 0 1184 73 16 0 0
+sprite potion_8 LEFT 0 1200 73 16 0 0
+sprite potion_8 LEFT 0 1216 73 16 0 0
+sprite potion_8 LEFT 0 1232 73 16 0 0
+sprite potion_8 LEFT 0 1248 73 16 0 0
+sprite potion_8 LEFT 0 1264 73 16 0 0
+sprite potion_8 LEFT 0 1280 73 16 0 0
+sprite potion_9 LEFT 0 1296 73 16 0 0
+sprite potion_9 LEFT 0 1312 73 16 0 0
+sprite potion_9 LEFT 0 1328 73 16 0 0
+sprite potion_9 LEFT 0 1344 73 16 0 0
+sprite potion_9 LEFT 0 1360 73 16 0 0
+sprite potion_9 LEFT 0 1376 73 16 0 0
+sprite potion_9 LEFT 0 1392 73 16 0 0
+sprite potion_9 LEFT 0 1408 73 16 0 0
+sprite potion_9 LEFT 0 1424 73 16 0 0
+sprite potion_9 LEFT 0 1440 73 16 0 0
+
+
+# --- colliders ---
+
+
+# --- points ---
+

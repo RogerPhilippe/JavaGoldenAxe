@@ -1,0 +1,31 @@
+# --- flame ---
+
+additive_blend true
+shadow false
+
+type projectile
+
+
+# --- animation sprites ---
+
+sprite_sheet dragon_blue
+
+parameter flame animation_speed 0.2
+parameter flame animation_loop false
+parameter flame destroy_if_hit false
+sprite flame RIGHT 25 190 55 42 0 0
+sprite flame RIGHT 27 248 58 46 0 0
+sprite flame RIGHT 33 305 58 46 0 0
+sprite flame RIGHT 25 190 55 42 0 0
+sprite flame RIGHT 27 248 58 46 0 0
+sprite flame RIGHT 33 305 58 46 0 0
+
+
+# --- colliders ---
+
+collider ATTACK 8 2 KNOCK_DOWN 34 198 46 34
+collider ATTACK 8 2 KNOCK_DOWN 39 265 46 29
+collider ATTACK 8 2 KNOCK_DOWN 46 322 45 29
+
+
+# --- points ---

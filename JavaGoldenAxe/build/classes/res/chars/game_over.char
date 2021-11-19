@@ -1,0 +1,20 @@
+# --- decorations ---
+
+additive_blend false
+shadow false
+
+
+# --- animation sprites ---
+
+parameter game_over animation_speed 0.2
+parameter game_over animation_loop true
+sprite game_over RIGHT 0 34 136 34 0 0
+sprite game_over RIGHT 0 0 136 34 0 0 
+sprite game_over RIGHT 0 68 136 34 0 0
+
+
+# --- colliders ---
+
+
+# --- points ---
+

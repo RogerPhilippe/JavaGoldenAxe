@@ -1,0 +1,7 @@
+sprite prince RIGHT 18 14 31 92 17 91
+sprite prince RIGHT 77 21 47 69 22 68
+sprite prince RIGHT 142 47 49 41 33 30
+sprite princess RIGHT 21 122 34 69 15 68
+sprite princess RIGHT 87 129 38 57 19 50
+sprite princess RIGHT 154 129 42 48 19 41
+sprite chain RIGHT 227 19 8 189 5 187

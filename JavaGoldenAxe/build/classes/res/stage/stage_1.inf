@@ -1,0 +1,81 @@
+stage 1
+
+background 0 fog stage_background_fog 0.0 0.0 0.0 129.0 0.75 1.0 false
+background 0 default stage_background 0.0 0.0 0.0 129.0 0.75 1.0 false
+
+background 1 fog stage_full_fog 0.0 0.0 0.0 0.0 1.0 1.0 false
+background 1 default stage_full 0.0 0.0 0.0 0.0 1.0 1.0 false
+background 1 red stage_full_red 0.0 0.0 0.0 0.0 1.0 1.0 false
+
+terrain_collision_mask stage_1_collision_mask
+camera_min_y 0 129 1920 129 1800 177 1830 227 2000 227 2147 129 2825 129 3148 113 4120 113 4161 162 4350 162 4450 0 5320 0 5400 100 5567 100 5832 32 6393 32
+camera_max_y 0 358 1850 358
+
+terrain_magic_path_z 0 406 1406 406 1565 342 1660 342 1870 438 2118 438 2494 408 2853 344 5296 344 5388 379 6493 379
+
+shadow_shear -0.75
+
+camera_position 64 129
+
+# test
+#camera_position 1064 129
+
+
+terrain_dead_height 196
+
+command 0 PLAY_MUSIC wilderness 1.0 0
+command 1100 PLAY_MUSIC battle_field 0.1 2000
+
+command 420 BACKGROUND_TRANSITION 0 default 0.01 0
+command 420 BACKGROUND_TRANSITION 1 default 0.01 0
+command 1100 BACKGROUND_TRANSITION 1 red 0.02 0
+
+command 0 SHADOW_SHEAR_TRANSITION -0.75 1.00
+command 420 SHADOW_SHEAR_TRANSITION 0.0 0.015
+command 1100 SHADOW_SHEAR_TRANSITION 0.75 0.015
+
+command 0 SPAWN player_1 24 400 walk_to _ _ walk_to 128 400 null show_start_dialog_text 
+command 0 SPAWN player_2 8 380 walk_to _ _ walk_to 96 380 null show_start_dialog_text 
+
+#test
+#command 0 SPAWN player_1 128 400 walking
+#command 0 SPAWN player_2 128 380 walking
+
+camera_lock wave_0 150 false 0 false 0
+camera_lock wave_1 350 false 0 false 0
+camera_lock wave_2 520 false 0 false 0
+camera_lock wave_3 820 false 0 false 0
+camera_lock wave_4 900 false 0 false 0
+camera_lock wave_5 1200 true 2000 true 0
+
+#command 0 SPAWN chicken_leg default chicken_leg_0 empty 150 350 resting
+#command 0 SPAWN dragon_blue default dragon_blue_0 empty 150 380 resting
+#command 0 SPAWN dragon_red default dragon_red_0 empty 150 410 resting
+#command 0 SPAWN thief wave_0 150 400 POTION 3
+
+#command 0 ANIMATOR gilius test
+
+command 80 SPAWN heninger silver heninger_0 wave_0 450 370 walking
+command 80 SPAWN longmoan silver longmoan_0 wave_0 500 410 walking
+
+command 80 SPAWN heninger purple heninger_0_b wave_0 450 380 wait_until_actors_death 2 heninger_0 longmoan_0 walking
+command 80 SPAWN longmoan purple longmoan_0_b wave_0 500 400 wait_until_actors_death 2 heninger_0 longmoan_0 walking
+
+command 300 SPAWN thief wave_1 650 400 POTION 2
+
+command 420 SPAWN heninger silver heninger_1 wave_2 800 382 walking
+command 420 SPAWN storchinaya purple storchinaya_1 wave_2 850 340 walking
+command 420 SPAWN chicken_leg default chicken_leg_1 empty 850 340 resting
+
+command 770 SPAWN thief wave_3 1130 340 POTION 1
+command 770 SPAWN thief wave_3 720 400 POTION 2
+
+command 850 SPAWN heninger silver heninger_4 wave_4 1200 330 walking
+command 850 SPAWN longmoan silver longmoan_4 wave_4 1250 390 walking
+
+command 1100 SPAWN heninger silver heninger_5 wave_5 1450 370 stand_by 2000
+command 1100 SPAWN longmoan silver longmoan_5 wave_5 1470 410 stand_by 2000
+command 1100 SPAWN bad_brothers silver bad_brothers_5_a wave_5 1430 350 stand_by 5000
+command 1100 SPAWN bad_brothers silver bad_brothers_5_b wave_5 1400 380 stand_by 5000
+command 1080 SPAWN chicken_leg default chicken_leg_5 empty 1380 390 resting
+

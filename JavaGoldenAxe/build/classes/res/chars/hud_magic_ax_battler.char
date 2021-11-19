@@ -1,0 +1,82 @@
+# --- hud magic ax battler ---
+
+additive_blend false
+shadow false
+
+blink_time_factor 0.000000035
+blink_color_1 0xffffff
+blink_color_2 0xffffff
+
+type hud
+
+
+# --- animation sprites ---
+
+sprite potion_0 LEFT 0 0 49 16 0 0
+sprite potion_1 LEFT 0 16 49 16 0 0
+sprite potion_1 LEFT 0 32 49 16 0 0
+sprite potion_1 LEFT 0 48 49 16 0 0
+sprite potion_1 LEFT 0 64 49 16 0 0
+sprite potion_1 LEFT 0 80 49 16 0 0
+sprite potion_1 LEFT 0 96 49 16 0 0
+sprite potion_1 LEFT 0 112 49 16 0 0
+sprite potion_1 LEFT 0 128 49 16 0 0
+sprite potion_1 LEFT 0 144 49 16 0 0
+sprite potion_1 LEFT 0 160 49 16 0 0
+sprite potion_2 LEFT 0 176 49 16 0 0
+sprite potion_2 LEFT 0 192 49 16 0 0
+sprite potion_2 LEFT 0 208 49 16 0 0
+sprite potion_2 LEFT 0 224 49 16 0 0
+sprite potion_2 LEFT 0 240 49 16 0 0
+sprite potion_2 LEFT 0 256 49 16 0 0
+sprite potion_2 LEFT 0 272 49 16 0 0
+sprite potion_2 LEFT 0 288 49 16 0 0
+sprite potion_2 LEFT 0 304 49 16 0 0
+sprite potion_2 LEFT 0 320 49 16 0 0
+sprite potion_3 LEFT 0 336 49 16 0 0
+sprite potion_3 LEFT 0 352 49 16 0 0
+sprite potion_3 LEFT 0 368 49 16 0 0
+sprite potion_3 LEFT 0 384 49 16 0 0
+sprite potion_3 LEFT 0 400 49 16 0 0
+sprite potion_3 LEFT 0 416 49 16 0 0
+sprite potion_3 LEFT 0 432 49 16 0 0
+sprite potion_3 LEFT 0 448 49 16 0 0
+sprite potion_3 LEFT 0 464 49 16 0 0
+sprite potion_3 LEFT 0 480 49 16 0 0
+sprite potion_4 LEFT 0 496 49 16 0 0
+sprite potion_4 LEFT 0 512 49 16 0 0
+sprite potion_4 LEFT 0 528 49 16 0 0
+sprite potion_4 LEFT 0 544 49 16 0 0
+sprite potion_4 LEFT 0 560 49 16 0 0
+sprite potion_4 LEFT 0 576 49 16 0 0
+sprite potion_4 LEFT 0 592 49 16 0 0
+sprite potion_4 LEFT 0 608 49 16 0 0
+sprite potion_4 LEFT 0 624 49 16 0 0
+sprite potion_4 LEFT 0 640 49 16 0 0
+sprite potion_5 LEFT 0 656 49 16 0 0
+sprite potion_5 LEFT 0 672 49 16 0 0
+sprite potion_5 LEFT 0 688 49 16 0 0
+sprite potion_5 LEFT 0 704 49 16 0 0
+sprite potion_5 LEFT 0 720 49 16 0 0
+sprite potion_5 LEFT 0 736 49 16 0 0
+sprite potion_5 LEFT 0 752 49 16 0 0
+sprite potion_5 LEFT 0 768 49 16 0 0
+sprite potion_5 LEFT 0 784 49 16 0 0
+sprite potion_5 LEFT 0 800 49 16 0 0
+sprite potion_6 LEFT 0 816 49 16 0 0
+sprite potion_6 LEFT 0 832 49 16 0 0
+sprite potion_6 LEFT 0 848 49 16 0 0
+sprite potion_6 LEFT 0 864 49 16 0 0
+sprite potion_6 LEFT 0 880 49 16 0 0
+sprite potion_6 LEFT 0 896 49 16 0 0
+sprite potion_6 LEFT 0 912 49 16 0 0
+sprite potion_6 LEFT 0 928 49 16 0 0
+sprite potion_6 LEFT 0 944 49 16 0 0
+sprite potion_6 LEFT 0 960 49 16 0 0
+
+
+# --- colliders ---
+
+
+# --- points ---
+

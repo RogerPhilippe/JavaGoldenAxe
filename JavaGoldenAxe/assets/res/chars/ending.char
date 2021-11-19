@@ -1,0 +1,76 @@
+# --- ending ---
+
+additive_blend false
+
+type ending
+
+
+# --- sprites ---
+
+shadow false
+
+sprite empty RIGHT 0 0 3 3 0 0
+
+sprite sega_logo RIGHT 226 473 80 27 0 0
+
+sprite background_0_a RIGHT 39 19 276 207 0 0 
+sprite background_0_b RIGHT 21 299 316 85 0 0
+
+sprite background_1_a RIGHT 345 36 276 207 0 0
+sprite background_1_b RIGHT 345 248 254 128 0 0
+
+sprite background_1_darker RIGHT 26 526 320 224 0 0
+
+
+additive_blend true
+parameter smoke animation_speed 0.2
+parameter smoke animation_loop true
+sprite smoke RIGHT 309 390 45 75 26 74
+sprite smoke RIGHT 365 403 43 62 23 59
+sprite smoke RIGHT 414 418 41 49 23 47
+
+additive_blend false
+shadow true
+
+
+sprite girl_playing RIGHT 320 471 14 30 6 29
+
+sprite girl_scared RIGHT 339 484 12 17 5 16
+
+parameter girl_running animation_speed 0.1
+parameter girl_running animation_loop true
+sprite girl_running RIGHT 357 475 23 26 10 24
+sprite girl_running RIGHT 390 475 19 26 7 25
+sprite girl_running RIGHT 416 476 22 25 9 24
+sprite girl_running RIGHT 448 474 19 27 7 25
+
+
+sprite man_0_playing RIGHT 459 398 25 54 12 53
+
+sprite man_0_scared RIGHT 488 425 21 27 13 25
+
+parameter man_0_running animation_speed 0.1
+parameter man_0_running animation_loop true
+sprite man_0_running RIGHT 513 406 32 46 16 45
+sprite man_0_running RIGHT 558 407 21 45 9 44
+sprite man_0_running RIGHT 587 406 31 46 16 45
+sprite man_0_running RIGHT 635 407 18 45 6 44
+
+
+sprite man_1_playing RIGHT 471 457 18 44 6 42
+
+sprite man_1_scared RIGHT 492 474 32 27 16 22
+
+parameter man_1_running animation_speed 0.1
+parameter man_1_running animation_loop true
+sprite man_1_running RIGHT 529 460 29 41 14 39
+sprite man_1_running RIGHT 568 458 16 43 7 40
+sprite man_1_running RIGHT 595 459 29 42 14 39
+sprite man_1_running RIGHT 634 458 16 43 7 40
+
+# --- colliders ---
+
+
+# --- points ---
+
+

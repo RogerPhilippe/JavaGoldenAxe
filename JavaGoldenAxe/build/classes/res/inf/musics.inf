@@ -1,0 +1,14 @@
+#                    id          midi_file  start_tick_position   loop_start_tick   loop_end_tick  loop_count
+music             title,             title,                   0,                0,           9264,          0
+music        wilderness,        wilderness,                   0,                0,         141310,         -1
+music      battle_field,      battle_field,                   0,                0,          53782,         -1
+music    theme_of_thief,    theme_of_thief,                   0,                0,          20000,         -1
+music    turtle_village,    turtle_village,                   0,             1570,          29567,         -1
+music  turtle_village_2,  turtle_village_2,                   0,                0,          29180,         -1
+music path_of_the_fiend, path_of_the_fiend,                   0,                0,         144003,         -1
+music       death_adder,       death_adder,                   0,                0,          30560,         -1  
+music           old_map,           old_map,                   0,                0,           7680,         -1
+music        conclusion,        conclusion,                   0,                0,           6720,          0
+music            ending,    sutakora_sassa,                   0,                0,          33792,         -1
+music         game_over,         game_over,                   0,                0,            528,          0
+music           ranking,  battle_axe_march,                   0,                0,          64624,          0

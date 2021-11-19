@@ -1,0 +1,47 @@
+# --- magic lightning ---
+
+additive_blend true
+shadow false
+
+type magic
+
+
+# --- animation sprites ---
+
+parameter spark animation_speed 0.1
+parameter spark animation_loop true
+parameter spark keep_on_floor true
+sprite spark RIGHT 82 22 37 31 13 25
+sprite spark RIGHT 121 22 53 31 13 25
+sprite spark RIGHT 176 22 53 31 1 25
+sprite spark RIGHT 44 37 36 16 -22 10
+
+parameter ligthning_a animation_speed 0.3
+parameter ligthning_a animation_loop true
+parameter ligthning_a check_height_hit false
+parameter ligthning_a check_walkable_hit false
+parameter ligthning_a keep_on_floor true
+sprite ligthning_a RIGHT 26 235 55 368 30 359
+sprite ligthning_a RIGHT 100 235 64 368 27 359
+
+parameter ligthning_b animation_speed 0.3
+parameter ligthning_b animation_loop true
+parameter ligthning_b trail_id lightning_dust
+parameter ligthning_b trails_count 10
+parameter ligthning_b trail_interval 100
+parameter ligthning_b trail_random_x 20
+parameter ligthning_b trail_random_offset_x 10
+parameter ligthning_b trail_random_z 20
+parameter ligthning_b trail_random_offset_z 10
+parameter ligthning_b check_height_hit false
+parameter ligthning_b check_walkable_hit false
+parameter ligthning_b keep_on_floor true
+sprite ligthning_b RIGHT 201 239 54 363 20 372
+sprite ligthning_b RIGHT 259 239 40 363 20 372
+
+
+# --- colliders ---
+
+
+# --- points ---
+

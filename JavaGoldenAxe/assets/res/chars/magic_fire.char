@@ -1,0 +1,108 @@
+# --- magic fire ---
+
+additive_blend true
+shadow false
+
+type magic
+
+
+# --- animation sprites ---
+
+sprite empty RIGHT 0 0 3 3 0 0
+
+parameter fire_0_small animation_speed 0.2
+parameter fire_0_small animation_loop true
+sprite fire_0_small RIGHT 8 52 24 24 13 11
+sprite fire_0_small RIGHT 8 93 24 24 13 11
+
+parameter fire_0_normal animation_speed 0.2
+parameter fire_0_normal animation_loop true
+sprite fire_0_normal RIGHT 35 68 27 32 13 14
+sprite fire_0_normal RIGHT 36 109 27 32 13 14
+
+parameter fire_0 animation_speed 0.4
+parameter fire_0 animation_loop true
+sprite fire_0 RIGHT 8 52 24 24 13 11
+sprite fire_0 RIGHT 8 93 24 24 13 11
+sprite fire_0 RIGHT 8 52 24 24 13 11
+sprite fire_0 RIGHT 8 93 24 24 13 11
+sprite fire_0 RIGHT 8 52 24 24 13 11
+sprite fire_0 RIGHT 8 93 24 24 13 11
+sprite fire_0 RIGHT 35 68 27 32 13 14
+sprite fire_0 RIGHT 36 109 27 32 13 14
+sprite fire_0 RIGHT 35 68 27 32 13 14
+sprite fire_0 RIGHT 36 109 27 32 13 14
+sprite fire_0 RIGHT 35 68 27 32 13 14
+sprite fire_0 RIGHT 36 109 27 32 13 14
+
+parameter fire_1 animation_speed 0.2
+parameter fire_1 animation_loop true
+parameter fire_1 keep_on_floor true
+sprite fire_1 RIGHT 31 10 63 35 32 28
+sprite fire_1 RIGHT 103 10 63 35 32 28
+
+parameter fire_2 animation_speed 0.2
+parameter fire_2 animation_loop false
+sprite fire_2 RIGHT 83 73 62 52 31 43
+sprite fire_2 RIGHT 154 60 78 84 39 75
+sprite fire_2 RIGHT 249 34 78 124 39 115
+sprite fire_2 RIGHT 344 31 78 132 39 123
+sprite fire_2 RIGHT 249 34 78 124 39 115
+sprite fire_2 RIGHT 154 60 78 84 39 75
+sprite fire_2 RIGHT 83 73 62 52 31 43
+
+parameter fire_3 animation_speed 0.2
+parameter fire_3 animation_loop true
+sprite fire_3 RIGHT 441 123 71 40 34 27
+sprite fire_3 RIGHT 528 123 71 40 34 27
+sprite fire_3 RIGHT 610 119 71 40 34 27
+sprite fire_3 RIGHT 528 123 71 40 34 27
+
+parameter fire_4 animation_speed 0.2
+parameter fire_4 animation_loop true
+parameter fire_4 check_height_hit true
+parameter fire_4 keep_on_floor true
+sprite fire_4 RIGHT 565 25 63 79 31 69
+sprite fire_4 RIGHT 644 26 63 70 32 60
+
+parameter fire_lava animation_speed 0.2
+parameter fire_lava animation_loop true
+sprite fire_lava RIGHT 31 181 192 125 96 73
+sprite fire_lava RIGHT 246 181 192 125 96 73
+sprite fire_lava RIGHT 469 181 192 125 96 73
+sprite fire_lava RIGHT 246 181 192 125 96 73
+
+parameter fire_ball animation_speed 0.3
+parameter fire_ball animation_loop true
+parameter fire_ball destroy_if_hit true
+parameter fire_ball affected_by_gravity true
+sprite fire_ball LEFT 793 271 37 38 18 19
+sprite fire_ball LEFT 840 271 37 38 18 19
+sprite fire_ball LEFT 890 270 37 38 18 19
+
+sprite breath_fire_start RIGHT 42 355 45 43 44 0
+sprite breath_fire_start RIGHT 114 344 78 83 74 4
+sprite breath_fire_start RIGHT 190 347 129 135 126 4
+
+sprite breath_fire_end RIGHT 190 347 129 135 126 4
+sprite breath_fire_end RIGHT 114 344 78 83 74 4
+sprite breath_fire_end RIGHT 42 355 45 43 44 0
+
+parameter breath_fire animation_speed 0.2
+parameter breath_fire animation_loop true
+sprite breath_fire RIGHT 328 341 191 145 190 3
+sprite breath_fire RIGHT 547 346 194 146 190 4
+sprite breath_fire RIGHT 756 354 194 147 190 4
+
+
+additive_blend false
+
+sprite dragon_top RIGHT 848 118 128 83 78 39
+sprite dragon_bottom RIGHT 700 118 128 103 78 39
+
+
+# --- colliders ---
+
+
+# --- points ---
+

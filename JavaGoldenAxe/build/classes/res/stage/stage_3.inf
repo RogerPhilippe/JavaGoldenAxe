@@ -1,0 +1,88 @@
+stage 3
+
+background 0 sky_turtle sky_turtle 0.125 0.0 0.0 0.0 1.0 1.0 true
+
+background 1 default stage_full 0.0 0.0 0.0 0.0 1.0 1.0 false
+background 1 red stage_full_red 0.0 0.0 0.0 0.0 1.0 1.0 false
+
+terrain_collision_mask stage_full_collision_mask
+camera_min_y 0 129 1920 129 1800 177 1830 227 2000 227 2055 290 2539 290 2646 235 2800 235
+camera_max_y 0 458 1535 458 1753 576 2055 497 2539 497 2646 443 2800 443
+
+terrain_magic_path_z 0 406 1406 406 1565 342 1660 342 1870 438 2118 438 2494 408 2853 344 5296 344 5388 379 6493 379
+
+shadow_shear 0.0
+
+camera_position 1220 129
+terrain_dead_height 196
+
+command 1200 PLAY_MUSIC turtle_village 1.0 0
+command 2380 PLAY_MUSIC battle_field 0.1 2000
+
+command 1950 SPAWN water
+command 1950 CAMERA_SMOOTH_SHAKE_ENABLED true
+
+command 2230 BACKGROUND_TRANSITION 1 red 0.02 0
+command 2230 SHADOW_SHEAR_TRANSITION 0.75 0.015
+#command 2230 CAMERA_SMOOTH_SHAKE_ENABLED false
+
+command 0 SPAWN player_1 1320 330 walking
+command 0 SPAWN player_2 1290 360 walking
+
+#test
+#command 0 SPAWN player_1 2020 430 walking
+#command 0 SPAWN player_2 2090 440 walking
+
+camera_lock wave_0 1550 false 0 false 0
+camera_lock wave_1 1650 false 0 false 0
+camera_lock wave_2 1860 false 0 false 0
+camera_lock wave_3 2075 false 0 false 0
+camera_lock wave_4 2200 false 0 false 0
+camera_lock wave_5 2390 true 2000 true 0
+
+command 1230 SPAWN villager 1550 310 MALE false
+command 1230 SPAWN villager 1560 330 MALE false
+command 1230 SPAWN villager 1580 340 MALE false
+command 1230 SPAWN villager 1530 315 FEMALE false
+command 1230 SPAWN villager 1570 335 FEMALE false
+
+# test
+command 1500 SPAWN heninger red heninger_0 wave_0 1880 422 walking
+
+command 1600 SPAWN longmoan red longmoan_1 wave_1 1900 440 walking
+
+command 1810 SPAWN heninger red heninger_2 wave_2 1780 420 walking
+command 1810 SPAWN longmoan red longmoan_2 wave_2 2160 450 walking
+
+command 1865 SPAWN villager 2270 420 MALE true
+command 1865 SPAWN villager 2275 430 FEMALE true
+command 1865 SPAWN villager 2290 435 MALE true
+command 1865 SPAWN villager 2285 440 FEMALE true
+command 1865 SPAWN villager 2300 445 FEMALE true
+
+command 1910 SPAWN dragon_blue default dragon_blue_3 empty 2250 440 resting
+command 1910 SPAWN storchinaya purple storchinaya_3_a wave_3 2251 400 walking
+command 1910 MOUNT dragon_blue_3 storchinaya_3_a
+
+command 2055 SPAWN storchinaya purple storchinaya_3_b wave_3 2355 400 walking
+command 2055 SPAWN heninger silver heninger_3 wave_3 2020 440 walking
+
+command 2150 SPAWN villager 2470 375 MALE true
+command 2150 SPAWN villager 2525 385 FEMALE true
+command 2150 SPAWN villager 2490 395 MALE true
+command 2150 SPAWN villager 2485 415 FEMALE true
+command 2150 SPAWN villager 2520 425 MALE true
+
+command 2150 SPAWN thief wave_4 2500 380 POTION 3
+
+command 2280 SPAWN storchinaya green storchinaya_5_a wave_5 2610 340 stand_by 5000
+command 2280 SPAWN storchinaya green storchinaya_5_b wave_5 2630 375 stand_by 5000
+command 2280 SPAWN heninger silver heninger_5 wave_5 2620 400 stand_by 3000
+
+command 2280 SPAWN dragon_red default dragon_red_5 empty 2350 410 wait_until_actors_death 3 storchinaya_5_a storchinaya_5_b heninger_5 resting
+command 2280 SPAWN storchinaya red storchinaya_5_c wave_5 2348 410 wait_until_actors_death 3 storchinaya_5_a storchinaya_5_b heninger_5 walking
+command 2280 MOUNT dragon_red_5 storchinaya_5_c
+
+command 2280 SPAWN storchinaya red storchinaya_5_d wave_5 2320 410 wait_until_actors_death 3 storchinaya_5_a storchinaya_5_b heninger_5 walking
+command 2280 SPAWN skeleton default skeleton_5 wave_5 2310 400 wait_until_actors_death 3 storchinaya_5_a storchinaya_5_b heninger_5 walking
+

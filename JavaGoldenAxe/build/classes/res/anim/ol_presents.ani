@@ -1,0 +1,55 @@
+# animator animator_id speed loop
+# keyframe animator_id actor_id frame_index animation_id animation_frame wx wy wz scale_x scale_y rotation_angle direction tween sound_id
+
+# --- ol presents ---
+
+animator ol_presents 1.0 false false null null
+
+# --- actors ---
+
+sprite background RIGHT 141 128 141 128 0 0
+
+sprite ol_presents RIGHT 0 0 141 128 70 64
+sprite ol_presents_shadow RIGHT 0 128 141 128 70 64
+
+sprite white_gradient RIGHT 141 0 141 256 0 0
+
+add_actor ol_presents background ol_presents null
+
+add_actor ol_presents logo_0 ol_presents null
+add_actor ol_presents logo_1 ol_presents null
+add_actor ol_presents logo_0_shadow ol_presents null
+add_actor ol_presents logo_1_shadow ol_presents null
+
+add_actor ol_presents gradient ol_presents null
+
+
+# --- 
+
+keyframe ol_presents background 0 background 0 0.0 0.0 0.0 2.0 2.0 0.0 RIGHT false null
+
+keyframe ol_presents logo_0_shadow 0 logo_0_shadow 0 142.0 92.0 0.0 0.1 0.1 9.424 RIGHT true null
+keyframe ol_presents logo_0_shadow 140 logo_0_shadow 0 142.0 92.0 0.0 0.1 0.1 9.424 RIGHT true null
+keyframe ol_presents logo_0_shadow 180 logo_0_shadow 0 142.0 92.0 0.0 0.9 0.7 0.0 RIGHT true null
+
+keyframe ol_presents logo_1_shadow 0 logo_1_shadow 0 142.0 92.0 0.0 0.2 0.2 -9.424 RIGHT true null
+keyframe ol_presents logo_1_shadow 140 logo_1_shadow 0 142.0 92.0 0.0 0.2 0.2 -9.424 RIGHT true null
+keyframe ol_presents logo_1_shadow 180 logo_1_shadow 0 142.0 92.0 0.0 0.9 0.7 0.0 RIGHT true null
+
+keyframe ol_presents logo_0 0 logo_0 0 140.0 90.0 1.0 0.1 0.1 9.424 RIGHT true null
+keyframe ol_presents logo_0 140 logo_0 0 140.0 90.0 1.0 0.1 0.1 9.424 RIGHT true null
+keyframe ol_presents logo_0 180 logo_0 0 140.0 90.0 1.0 0.9 0.7 0.0 RIGHT true null
+
+keyframe ol_presents logo_1 0 logo_1 0 140.0 90.0 1.0 0.2 0.2 -9.424 RIGHT true null
+keyframe ol_presents logo_1 140 logo_1 0 140.0 90.0 1.0 0.2 0.2 -9.424 RIGHT true null
+keyframe ol_presents logo_1 180 logo_1 0 140.0 90.0 1.0 0.9 0.7 0.0 RIGHT true null
+
+keyframe ol_presents gradient 0 gradient 0 138.0 86.0 2.0 1.0 1.0 0.0 RIGHT true null
+keyframe ol_presents gradient 140 gradient 0 138.0 86.0 2.0 1.0 1.0 0.0 RIGHT true null
+keyframe ol_presents gradient 160 empty 0 128.0 300.0 2.0 1.0 1.0 0.0 RIGHT false null
+keyframe ol_presents gradient 500 empty 0 128.0 300.0 2.0 1.0 1.0 0.0 RIGHT false null
+
+dialog ol_presents 210 255 ol_presents 13 12 25 20 false 0xccccaa 0x000000
+
+
+

@@ -1,0 +1,81 @@
+
+sprite none LEFT 0 0 3 3 0 0
+
+sprite appearance RIGHT 0 0 3 3 0 0
+
+parameter stand_by animation_speed 0.1
+parameter stand_by animation_loop true
+sprite stand_by LEFT 9 4 40 95 19 89
+sprite stand_by LEFT 62 7 40 94 19 88
+
+parameter idle animation_speed 0.1
+parameter idle animation_loop true
+sprite idle LEFT 9 4 40 95 19 89
+sprite idle LEFT 62 7 40 94 19 88
+
+parameter walking_up animation_speed 0.1
+parameter walking_up animation_loop true
+sprite walking_up RIGHT 154 14 54 85 20 78
+sprite walking_up RIGHT 218 17 56 80 21 77
+sprite walking_up RIGHT 283 15 54 84 20 78
+sprite walking_up RIGHT 345 15 55 88 22 77
+
+parameter walking_down animation_speed 0.1
+parameter walking_down animation_loop true
+sprite walking_down RIGHT 154 14 54 85 20 78
+sprite walking_down RIGHT 218 17 56 80 21 77
+sprite walking_down RIGHT 283 15 54 84 20 78
+sprite walking_down RIGHT 345 15 55 88 22 77
+
+parameter running animation_speed 0.125
+parameter running animation_loop true
+sprite running RIGHT 154 14 54 85 20 78
+sprite running RIGHT 218 17 56 80 21 77
+sprite running RIGHT 283 15 54 84 20 78
+sprite running RIGHT 345 15 55 88 22 77
+
+sprite running_attack RIGHT 4 111 59 63 29 78
+
+parameter attack_1 sound sledgehammer
+parameter attack_1 animation_speed 0.175
+sprite attack_1 RIGHT 90 108 67 97 25 94
+sprite attack_1 RIGHT 174 99 59 109 12 106
+sprite attack_1 RIGHT 261 131 90 76 12 73
+sprite attack_1 RIGHT 261 131 90 76 12 73
+sprite attack_1 RIGHT 261 131 90 76 12 73
+
+parameter attack_short animation_speed 0.1
+sprite attack_short RIGHT 365 130 45 79 32 78
+sprite attack_short RIGHT 417 129 66 79 35 78
+sprite attack_short RIGHT 365 130 45 79 32 78
+
+sprite stunned_1 RIGHT 265 215 73 78 29 77
+sprite stunned_1 RIGHT 430 237 65 59 27 56
+sprite stunned_1 RIGHT 430 237 65 59 27 56
+sprite stunned_1 RIGHT 430 237 65 59 27 56
+sprite stunned_1 RIGHT 430 237 65 59 27 56
+
+sprite stunned_2 RIGHT 350 240 65 56 27 53
+sprite stunned_2 RIGHT 430 237 65 59 27 56
+sprite stunned_2 RIGHT 430 237 65 59 27 56
+sprite stunned_2 RIGHT 430 237 65 59 27 56
+sprite stunned_2 RIGHT 430 237 65 59 27 56
+
+sprite knock_down RIGHT 9 232 72 55 42 46
+sprite knock_down RIGHT 157 243 92 40 72 26
+
+sprite stand_up RIGHT 430 237 65 59 27 56
+sprite stand_up RIGHT 430 237 65 59 27 56
+sprite stand_up RIGHT 265 215 73 78 29 77
+
+sprite thrown RIGHT 91 228 48 54 22 37
+sprite thrown RIGHT 9 232 72 55 42 24
+sprite thrown RIGHT 157 243 92 40 72 30
+
+parameter dying sound male_dead
+parameter dying animation_speed 0.5
+parameter dying animation_loop true
+sprite dying RIGHT 157 243 92 40 72 26
+sprite dying RIGHT 158 297 92 40 72 26
+
+sprite dead RIGHT 158 297 92 40 72 26

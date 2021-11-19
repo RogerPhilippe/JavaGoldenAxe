@@ -1,0 +1,106 @@
+# --- chicken leg ---
+
+additive_blend false
+shadow true
+
+type beast
+
+animation_parameter control NONE
+
+animation_parameter mountable true
+
+animation_parameter default_sprite_sheet chicken_leg
+animation_parameter default_run_speed 2.5
+animation_parameter default_attack_distance_min_x 64
+animation_parameter default_attack_frequency 4
+animation_parameter default_jump_attack_distance_x 48
+animation_parameter default_dif_z_attack_distance 16
+animation_parameter default_dif_y_attack_distance 44
+
+
+# --- animation sprites ---
+
+sprite none LEFT 0 0 3 3 0 0
+
+sprite idle RIGHT 8 51 58 39 35 37
+
+parameter walking_up animation_speed 0.1
+parameter walking_up animation_loop true
+sprite walking_up RIGHT 8 51 58 39 35 37
+sprite walking_up RIGHT 78 52 57 38 35 37
+sprite walking_up RIGHT 143 52 57 45 35 37
+sprite walking_up RIGHT 208 52 57 44 35 37
+
+parameter walking_down animation_speed 0.1
+parameter walking_down animation_loop true
+sprite walking_down RIGHT 8 51 58 39 35 37
+sprite walking_down RIGHT 78 52 57 38 35 37
+sprite walking_down RIGHT 143 52 57 45 35 37
+sprite walking_down RIGHT 208 52 57 44 35 37
+
+parameter running animation_speed 0.2
+parameter running animation_loop true
+sprite running RIGHT 8 51 58 39 35 37
+sprite running RIGHT 78 52 57 38 35 37
+sprite running RIGHT 143 52 57 45 35 37
+sprite running RIGHT 208 52 57 44 35 37
+
+sprite running_attack RIGHT 275 51 80 39 51 37
+
+parameter runaway animation_speed 0.2
+parameter runaway animation_loop true
+sprite runaway RIGHT 8 51 58 39 35 37
+sprite runaway RIGHT 78 52 57 38 35 37
+sprite runaway RIGHT 143 52 57 45 35 37
+sprite runaway RIGHT 208 52 57 44 35 37
+
+sprite jumping RIGHT 8 51 58 39 35 37
+sprite jumping RIGHT 8 51 58 39 35 37
+
+parameter attack_1 sound chicken_leg_attack
+parameter attack_1 animation_speed 0.175
+parameter attack_1 invert_direction_when_finished true
+sprite attack_1 RIGHT 16 213 80 39 51 37
+sprite attack_1 RIGHT 114 215 50 39 34 37
+sprite attack_1 RIGHT 178 216 51 40 32 38
+sprite attack_1 RIGHT 244 212 96 39 29 37
+sprite attack_1 RIGHT 353 209 80 39 29 37
+
+sprite resting RIGHT 11 13 70 31 41 29
+
+parameter runaway animation_speed 0.2
+parameter runaway animation_loop true
+sprite runaway RIGHT 8 51 58 39 35 37
+sprite runaway RIGHT 78 52 57 38 35 37
+sprite runaway RIGHT 143 52 57 45 35 37
+sprite runaway RIGHT 208 52 57 44 35 37
+
+
+# --- colliders ---
+
+collider ATTACK 8 2 KNOCK_DOWN 139 122 52 17
+collider ATTACK 8 2 KNOCK_DOWN 336 55 15 35
+collider TOUCH MOUNT 40 42 19 6
+collider ATTACK 8 2 KNOCK_DOWN 290 232 48 19
+
+
+# --- points ---
+
+point mounted_down 47 60
+point mounted_down 117 62
+point mounted_down 182 61
+point mounted_down 247 62
+point mounted_side 206 105
+point mounted_side 293 105
+point mounted_side 326 56
+point mounted_up_flip 25 107
+point mounted_up 93 108
+point mounted_side 67 217
+point mounted_up 148 218
+point mounted_side_flip 273 216
+point mounted_side_flip 382 213
+point mounted_up_flip 209 219
+
+
+
+

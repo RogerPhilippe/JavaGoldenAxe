@@ -1,0 +1,26 @@
+# --- villagers ---
+
+additive_blend false
+shadow true
+
+type villagers
+
+
+# --- animation sprites ---
+
+sprite running_male LEFT 5 10 14 39 6 37
+sprite running_male LEFT 26 9 22 39 12 37
+sprite running_male LEFT 5 10 14 39 6 37
+sprite running_male LEFT 57 9 23 38 12 36
+
+sprite running_female LEFT 101 5 22 44 12 42
+sprite running_female LEFT 132 6 17 44 9 42
+sprite running_female LEFT 159 5 23 46 10 44
+sprite running_female LEFT 132 6 17 44 9 42
+
+
+# --- colliders ---
+
+
+# --- points ---
+

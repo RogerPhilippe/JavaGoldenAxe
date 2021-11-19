@@ -1,0 +1,266 @@
+# animator animator_id speed loop
+# keyframe animator_id actor_id frame_index animation_id animation_frame wx wy wz scale_x scale_y rotation_angle direction tween sound_id
+
+
+# --- ending ---
+
+animator ending 1.0 false true background_0 background_0_a
+
+# --- actors ---
+
+add_actor ending sega_logo ending null
+add_actor ending background_0 ending null
+add_actor ending background_1 ending null
+add_actor ending background_1_darker ending null
+add_actor ending smoke ending null
+add_actor ending girl ending null
+add_actor ending man_0 ending null
+add_actor ending man_1 ending null
+add_actor ending longmoan longmoan red
+add_actor ending heninger heninger silver
+add_actor ending storchinaya storchinaya purple
+add_actor ending bad_brothers bad_brothers silver
+add_actor ending skeleton skeleton default
+add_actor ending lieutenant_bitter lieutenant_bitter red
+add_actor ending chicken_leg chicken_leg default
+add_actor ending dragon_red dragon_red default
+add_actor ending dragon_blue dragon_blue default
+add_actor ending thief_blue thief_potion null
+add_actor ending thief_green thief_food null
+add_actor ending ax ax_battler null
+add_actor ending tyris tyris_flare null
+add_actor ending gilius gilius_thunderhead null
+
+
+# --- 1st part ---
+
+keyframe ending background_0 0 background_0_a 0 0.0 0.0 0.0 1.0 1.0 0.0 RIGHT false null
+keyframe ending background_1 0 background_0_b 0 -24.0 -200.0 339.0 1.0 1.0 0.0 RIGHT false null
+
+keyframe ending smoke 0 empty 0 138.0 60.0 24.0 1.0 1.0 0.0 RIGHT false null
+keyframe ending smoke 165 empty 0 138.0 60.0 24.0 1.0 1.0 0.0 RIGHT false explosion
+keyframe ending smoke 175 smoke -1 138.0 60.0 24.0 1.0 1.0 0.0 RIGHT false null
+keyframe ending smoke 1771 empty 0 138.0 60.0 24.0 1.0 1.0 0.0 RIGHT false null
+
+keyframe ending man_1 0 man_1_playing -1 122.0 0.0 126.0 1.0 1.0 0.0 RIGHT false null
+keyframe ending girl 0 girl_playing -1 138.0 0.0 124.0 1.0 1.0 0.0 RIGHT false null
+keyframe ending man_0 0 man_0_playing -1 152.0 0.0 128.0 1.0 1.0 0.0 RIGHT false null
+
+keyframe ending man_1 180 man_1_scared -1 118.0 0.0 130.0 1.0 1.0 0.0 RIGHT false null
+keyframe ending girl 180 girl_scared -1 138.0 0.0 129.0 1.0 1.0 0.0 RIGHT false null
+keyframe ending man_0 180 man_0_scared -1 152.0 0.0 128.0 1.0 1.0 0.0 RIGHT false null
+
+keyframe ending man_1 300 man_1_running -1 118.0 0.0 130.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending girl 300 girl_running -1 138.0 0.0 129.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending man_0 300 man_0_running -1 152.0 0.0 128.0 1.0 1.0 0.0 RIGHT true null
+
+keyframe ending man_1 720 man_1_running -1 418.0 0.0 130.0 1.0 1.0 0.0 RIGHT false null
+keyframe ending girl 720 girl_running -1 438.0 0.0 129.0 1.0 1.0 0.0 RIGHT false null
+keyframe ending man_0 720 man_0_running -1 522.0 0.0 128.0 1.0 1.0 0.0 RIGHT false null
+
+keyframe ending longmoan 0 none 0 138.0 -50.0 130.0 0.3 0.3 0.0 RIGHT false null
+keyframe ending longmoan 400 idle 0 138.0 -50.0 130.0 0.3 0.3 0.0 RIGHT true null
+keyframe ending longmoan 410 idle 0 148.0 -60.0 130.0 0.5 0.5 0.0 RIGHT true null
+keyframe ending longmoan 420 idle 0 158.0 -70.0 130.0 0.7 0.7 0.0 RIGHT true null
+keyframe ending longmoan 430 idle 0 168.0 -70.0 130.0 0.8 0.8 0.0 RIGHT true null
+keyframe ending longmoan 440 idle 0 178.0 -60.0 130.0 0.9 0.9 0.0 RIGHT true null
+keyframe ending longmoan 470 idle 0 184.0 0.0 130.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending longmoan 650 running -1 184.0 0.0 130.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending longmoan 900 running -1 400.0 0.0 130.0 1.0 1.0 0.0 RIGHT false null
+
+keyframe ending heninger 0 none 0 138.0 -50.0 131.0 0.3 0.3 0.0 RIGHT false null
+keyframe ending heninger 500 idle 0 138.0 -50.0 131.0 0.3 0.3 0.0 RIGHT true null
+keyframe ending heninger 510 idle 0 138.0 -60.0 131.0 0.5 0.5 0.0 RIGHT true null
+keyframe ending heninger 520 idle 0 138.0 -70.0 131.0 0.7 0.7 0.0 RIGHT true null
+keyframe ending heninger 530 idle 0 138.0 -70.0 131.0 0.8 0.8 0.0 RIGHT true null
+keyframe ending heninger 540 idle 0 138.0 -60.0 131.0 0.9 0.9 0.0 RIGHT true null
+keyframe ending heninger 570 idle 0 138.0 0.0 131.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending heninger 700 running -1 138.0 0.0 131.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending heninger 1010 running -1 400.0 0.0 131.0 1.0 1.0 0.0 RIGHT false null
+
+keyframe ending bad_brothers 0 none 0 138.0 -50.0 130.0 0.3 0.3 0.0 RIGHT false null
+keyframe ending bad_brothers 550 idle 0 138.0 -50.0 130.0 0.3 0.3 0.0 RIGHT true null
+keyframe ending bad_brothers 560 idle 0 143.0 -60.0 130.0 0.5 0.5 0.0 RIGHT true null
+keyframe ending bad_brothers 570 idle 0 155.0 -70.0 130.0 0.7 0.7 0.0 RIGHT true null
+keyframe ending bad_brothers 580 idle 0 162.0 -70.0 130.0 0.8 0.8 0.0 RIGHT true null
+keyframe ending bad_brothers 590 idle 0 166.0 -60.0 130.0 0.9 0.9 0.0 RIGHT true null
+keyframe ending bad_brothers 620 idle 0 168.0 0.0 130.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending bad_brothers 750 running -1 168.0 0.0 130.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending bad_brothers 1024 running -1 400.0 0.0 130.0 1.0 1.0 0.0 RIGHT false null
+
+keyframe ending chicken_leg 0 none 0 138.0 -50.0 130.0 0.3 0.3 0.0 RIGHT true null
+keyframe ending chicken_leg 600 idle 0 138.0 -50.0 130.0 0.3 0.3 0.0 RIGHT true null
+keyframe ending chicken_leg 610 idle 0 122.0 -60.0 130.0 0.5 0.5 0.0 RIGHT true null
+keyframe ending chicken_leg 620 idle 0 98.0 -70.0 130.0 0.7 0.7 0.0 RIGHT true null
+keyframe ending chicken_leg 630 idle 0 86.0 -70.0 130.0 0.8 0.8 0.0 RIGHT true null
+keyframe ending chicken_leg 640 idle 0 80.0 -60.0 130.0 0.9 0.9 0.0 RIGHT true null
+keyframe ending chicken_leg 670 idle 0 78.0 0.0 130.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending chicken_leg 800 running -1 78.0 0.0 130.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending chicken_leg 1180 running -1 400.0 0.0 130.0 1.0 1.0 0.0 RIGHT false null
+
+keyframe ending storchinaya 0 none 0 138.0 -50.0 129.0 0.3 0.3 0.0 RIGHT true null
+keyframe ending storchinaya 650 idle 0 138.0 -50.0 129.0 0.3 0.3 0.0 RIGHT true null
+keyframe ending storchinaya 660 idle 0 140.0 -60.0 129.0 0.5 0.5 0.0 RIGHT true null
+keyframe ending storchinaya 670 idle 0 142.0 -70.0 129.0 0.7 0.7 0.0 RIGHT true null
+keyframe ending storchinaya 680 idle 0 144.0 -70.0 129.0 0.8 0.8 0.0 RIGHT true null
+keyframe ending storchinaya 690 idle 0 146.0 -60.0 129.0 0.9 0.9 0.0 RIGHT true null
+keyframe ending storchinaya 720 idle 0 148.0 0.0 129.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending storchinaya 800 running -1 148.0 0.0 129.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending storchinaya 1097 running -1 400.0 0.0 129.0 1.0 1.0 0.0 RIGHT false null
+
+keyframe ending dragon_red 0 none 0 138.0 -50.0 130.0 0.3 0.3 0.0 RIGHT true null
+keyframe ending dragon_red 700 idle 0 138.0 -50.0 130.0 0.3 0.3 0.0 RIGHT true null
+keyframe ending dragon_red 710 idle 0 120.0 -60.0 130.0 0.5 0.5 0.0 RIGHT true null
+keyframe ending dragon_red 720 idle 0 104.0 -70.0 130.0 0.7 0.7 0.0 RIGHT true null
+keyframe ending dragon_red 730 idle 0 96.0 -70.0 130.0 0.8 0.8 0.0 RIGHT true null
+keyframe ending dragon_red 740 idle 0 92.0 -60.0 130.0 0.9 0.9 0.0 RIGHT true null
+keyframe ending dragon_red 770 idle 0 88.0 0.0 130.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending dragon_red 850 running -1 88.0 0.0 130.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending dragon_red 1218 running -1 400.0 0.0 130.0 1.0 1.0 0.0 RIGHT false null
+
+keyframe ending dragon_blue 0 none 0 138.0 -50.0 120.0 0.3 0.3 0.0 RIGHT true null
+keyframe ending dragon_blue 725 idle 0 138.0 -50.0 120.0 0.3 0.3 0.0 RIGHT true null
+keyframe ending dragon_blue 735 idle 0 120.0 -60.0 120.0 0.5 0.5 0.0 RIGHT true null
+keyframe ending dragon_blue 740 idle 0 108.0 -70.0 120.0 0.7 0.7 0.0 RIGHT true null
+keyframe ending dragon_blue 755 idle 0 104.0 -70.0 120.0 0.8 0.8 0.0 RIGHT true null
+keyframe ending dragon_blue 765 idle 0 100.0 -60.0 120.0 0.9 0.9 0.0 RIGHT true null
+keyframe ending dragon_blue 795 idle 0 98.0 0.0 120.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending dragon_blue 975 running -1 98.0 0.0 120.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending dragon_blue 1331 running -1 400.0 0.0 120.0 1.0 1.0 0.0 RIGHT false null
+
+keyframe ending skeleton 0 none 0 138.0 -50.0 130.0 0.3 0.3 0.0 RIGHT true null
+keyframe ending skeleton 750 idle 0 138.0 -50.0 132.0 0.3 0.3 0.0 RIGHT true null
+keyframe ending skeleton 760 idle 0 130.0 -60.0 134.0 0.5 0.5 0.0 RIGHT true null
+keyframe ending skeleton 770 idle 0 125.0 -70.0 136.0 0.7 0.7 0.0 RIGHT true null
+keyframe ending skeleton 780 idle 0 121.0 -70.0 138.0 0.8 0.8 0.0 RIGHT true null
+keyframe ending skeleton 790 idle 0 119.0 -60.0 140.0 0.9 0.9 0.0 RIGHT true null
+keyframe ending skeleton 820 idle 0 118.0 0.0 140.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending skeleton 900 running -1 118.0 0.0 140.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending skeleton 1233 running -1 400.0 0.0 140.0 1.0 1.0 0.0 RIGHT false null
+
+keyframe ending lieutenant_bitter 0 none 0 138.0 -50.0 131.0 0.3 0.3 0.0 RIGHT true null
+keyframe ending lieutenant_bitter 800 idle 0 138.0 -50.0 131.0 0.3 0.3 0.0 RIGHT true null
+keyframe ending lieutenant_bitter 810 idle 0 128.0 -60.0 131.0 0.5 0.5 0.0 RIGHT true null
+keyframe ending lieutenant_bitter 820 idle 0 112.0 -70.0 131.0 0.7 0.7 0.0 RIGHT true null
+keyframe ending lieutenant_bitter 830 idle 0 104.0 -70.0 131.0 0.8 0.8 0.0 RIGHT true null
+keyframe ending lieutenant_bitter 840 idle 0 100.0 -60.0 131.0 0.9 0.9 0.0 RIGHT true null
+keyframe ending lieutenant_bitter 870 idle 0 98.0 0.0 131.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending lieutenant_bitter 950 running -1 98.0 0.0 131.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending lieutenant_bitter 1306 running -1 400.0 0.0 131.0 1.0 1.0 0.0 RIGHT false null
+
+keyframe ending thief_blue 0 none 0 138.0 -50.0 130.0 0.3 0.3 0.0 RIGHT true null
+keyframe ending thief_blue 850 idle_bag_full 0 138.0 -50.0 130.0 0.3 0.3 0.0 RIGHT true null
+keyframe ending thief_blue 860 idle_bag_full 0 110.0 -60.0 130.0 0.5 0.5 0.0 RIGHT true null
+keyframe ending thief_blue 870 idle_bag_full 0 92.0 -70.0 130.0 0.7 0.7 0.0 RIGHT true null
+keyframe ending thief_blue 880 idle_bag_full 0 84.0 -70.0 130.0 0.8 0.8 0.0 RIGHT true null
+keyframe ending thief_blue 890 idle_bag_full 0 80.0 -60.0 130.0 0.9 0.9 0.0 RIGHT true null
+keyframe ending thief_blue 920 idle_bag_full 0 78.0 0.0 130.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending thief_blue 1000 walking_bag_full -1 78.0 0.0 130.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending thief_blue 1380 walking_bag_full -1 400.0 0.0 130.0 1.0 1.0 0.0 RIGHT false null
+
+keyframe ending thief_green 0 none 0 138.0 -50.0 130.0 0.3 0.3 0.0 RIGHT true null
+keyframe ending thief_green 875 idle_bag_full 0 138.0 -50.0 130.0 0.3 0.3 0.0 RIGHT true null
+keyframe ending thief_green 885 idle_bag_full 0 132.0 -60.0 130.0 0.5 0.5 0.0 RIGHT true null
+keyframe ending thief_green 895 idle_bag_full 0 122.0 -70.0 130.0 0.7 0.7 0.0 RIGHT true null
+keyframe ending thief_green 905 idle_bag_full 0 114.0 -70.0 130.0 0.8 0.8 0.0 RIGHT true null
+keyframe ending thief_green 915 idle_bag_full 0 110.0 -60.0 130.0 0.9 0.9 0.0 RIGHT true null
+keyframe ending thief_green 945 idle_bag_full 0 108.0 0.0 130.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending thief_green 955 walking_bag_full -1 108.0 0.0 130.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending thief_green 1295 walking_bag_full -1 430.0 0.0 130.0 1.0 1.0 0.0 RIGHT false null
+        
+keyframe ending ax 0 none 0 138.0 -50.0 130.0 0.3 0.3 0.0 RIGHT false null
+keyframe ending ax 1200 idle 0 138.0 -50.0 130.0 0.3 0.3 0.0 RIGHT true null
+keyframe ending ax 1210 idle 0 148.0 -60.0 130.0 0.5 0.5 0.0 RIGHT true null
+keyframe ending ax 1220 idle 0 158.0 -70.0 130.0 0.7 0.7 0.0 RIGHT true null
+keyframe ending ax 1230 idle 0 168.0 -70.0 130.0 0.8 0.8 0.0 RIGHT true null
+keyframe ending ax 1240 idle 0 178.0 -60.0 130.0 0.9 0.9 0.0 RIGHT true null
+keyframe ending ax 1270 idle 0 184.0 0.0 130.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending ax 1350 running -1 184.0 0.0 130.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending ax 1600 running -1 400.0 0.0 130.0 1.0 1.0 0.0 RIGHT false null
+
+keyframe ending tyris 0 none 0 138.0 -50.0 130.0 0.3 0.3 0.0 RIGHT false null
+keyframe ending tyris 1300 idle 0 138.0 -50.0 130.0 0.3 0.3 0.0 RIGHT true null
+keyframe ending tyris 1310 idle 0 145.0 -60.0 130.0 0.5 0.5 0.0 RIGHT true null
+keyframe ending tyris 1320 idle 0 157.0 -70.0 130.0 0.7 0.7 0.0 RIGHT true null
+keyframe ending tyris 1330 idle 0 166.0 -70.0 130.0 0.8 0.8 0.0 RIGHT true null
+keyframe ending tyris 1340 idle 0 177.0 -60.0 130.0 0.9 0.9 0.0 RIGHT true null
+keyframe ending tyris 1370 idle 0 180.0 0.0 130.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending tyris 1400 running -1 180.0 0.0 130.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending tyris 1650 running -1 400.0 0.0 130.0 1.0 1.0 0.0 RIGHT false null
+
+keyframe ending gilius 0 none 0 138.0 -50.0 130.0 0.3 0.3 0.0 RIGHT false null
+keyframe ending gilius 1500 idle 0 138.0 -50.0 130.0 0.3 0.3 0.0 RIGHT true null
+keyframe ending gilius 1510 idle 0 148.0 -60.0 130.0 0.5 0.5 0.0 RIGHT true null
+keyframe ending gilius 1520 idle 0 156.0 -70.0 130.0 0.7 0.7 0.0 RIGHT true null
+keyframe ending gilius 1530 idle 0 168.0 -70.0 130.0 0.8 0.8 0.0 RIGHT true null
+keyframe ending gilius 1540 idle 0 178.0 -60.0 130.0 0.9 0.9 0.0 RIGHT true null
+keyframe ending gilius 1570 idle 0 186.0 0.0 130.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending gilius 1600 running -1 186.0 0.0 130.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending gilius 1770 running -1 335.0 0.0 130.0 1.0 1.0 0.0 RIGHT false null
+
+
+# --- 2nd part ---
+
+keyframe ending sega_logo 0 empty 0 98.0 -975.0 1000.0 1.0 1.0 0.0 RIGHT false null
+keyframe ending sega_logo 4254 sega_logo 0 98.0 -975.0 1000.0 1.0 1.0 0.0 RIGHT false null
+
+keyframe ending background_0 1771 background_1_a 0 0.0 0.0 0.0 1.0 1.0 0.0 RIGHT false null
+keyframe ending background_1 1771 background_1_b 0 0.0 -200.0 271.0 1.0 1.0 0.0 RIGHT false null
+
+keyframe ending background_1_darker 0 empty 0 0.0 -300.0 300.0 1.0 1.0 0.0 RIGHT false null
+keyframe ending background_1_darker 3904 background_1_darker 0 0.0 -524.0 300.0 1.0 1.0 0.0 RIGHT true null
+keyframe ending background_1_darker 4104 background_1_darker 0 0.0 -300.0 300.0 1.0 1.0 0.0 RIGHT true null
+
+keyframe ending man_0 1801 man_0_running -1 32.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+keyframe ending man_0 2920 man_0_running -1 350.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+
+keyframe ending girl 1871 girl_running -1 32.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+keyframe ending girl 2990 girl_running -1 315.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+
+keyframe ending man_1 1901 man_1_running -1 32.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+keyframe ending man_1 3020 man_1_running -1 350.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+
+keyframe ending longmoan 1981 running -1 32.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+keyframe ending longmoan 3100 running -1 320.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+
+keyframe ending heninger 2021 running -1 32.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+keyframe ending heninger 3140 running -1 320.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+
+keyframe ending bad_brothers 2091 running -1 32.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+keyframe ending bad_brothers 3210 running -1 320.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+
+keyframe ending chicken_leg 2161 running -1 32.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+keyframe ending chicken_leg 3280 running -1 320.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+
+keyframe ending storchinaya 2231 running -1 32.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+keyframe ending storchinaya 3350 running -1 320.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+
+keyframe ending dragon_red 2301 running -1 32.0 0.0 188.0 0.4 0.4 0.0 RIGHT true null
+keyframe ending dragon_red 3420 running -1 320.0 0.0 188.0 0.4 0.4 0.0 RIGHT true null
+
+keyframe ending dragon_blue 2371 running -1 32.0 0.0 188.0 0.4 0.4 0.0 RIGHT true null
+keyframe ending dragon_blue 3490 running -1 320.0 0.0 188.0 0.4 0.4 0.0 RIGHT true null
+
+keyframe ending skeleton 2441 running -1 32.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+keyframe ending skeleton 3560 running -1 320.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+
+keyframe ending lieutenant_bitter 2511 running -1 32.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+keyframe ending lieutenant_bitter 3630 running -1 320.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+
+keyframe ending thief_blue 2551 walking_bag_full -1 32.0 0.0 190.1 0.4 0.4 0.0 RIGHT true null
+keyframe ending thief_blue 3670 walking_bag_full -1 320.0 0.0 190.1 0.4 0.4 0.0 RIGHT true null
+
+keyframe ending thief_green 2591 walking_bag_full -1 32.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+keyframe ending thief_green 3710 walking_bag_full -1 320.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+
+keyframe ending ax 2821 running -1 32.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+keyframe ending ax 3940 running -1 320.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+
+keyframe ending tyris 2871 running -1 32.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+keyframe ending tyris 3990 running -1 320.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+
+keyframe ending gilius 3061 running -1 32.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+keyframe ending gilius 4104 running -1 300.0 0.0 190.0 0.4 0.4 0.0 RIGHT true null
+
+dialog ending 4104 4624 ending 6 1 25 20 false 0xffffff 0x000000
+

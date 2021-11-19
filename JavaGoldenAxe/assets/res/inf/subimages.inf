@@ -1,0 +1,157 @@
+# this allows to create new subimages and optionally with different palettes 
+# and make it available through Resource.getImage(imageRes) method.
+
+# --- title ---
+
+subimage title_background title 272 16 276 207
+subimage title_background_darker title 560 16 276 207
+
+
+# --- select player ---
+
+subimage select_player_background select_player 0 0 276 207
+subimage select_player_skeleton select_player 276 0 276 207
+subimage select_player_gilius_thunderhead gilius_thunderhead 14 24 45 54
+subimage select_player_ax_battler ax_battler 6 21 32 64
+subimage select_player_tyris_flare tyris_flare 30 15 29 62
+
+
+# --- old map ---
+
+subimage old_map_feather_pen old_map 10 228 60 62
+subimage old_map_background old_map 5 3 135 217
+subimage old_map_model old_map 139 0 283 297
+
+
+# --- HUD ---
+
+subimage go stage 802 402 54 34
+subimage game_over stage 950 404 136 102
+
+
+# --- decorations ---
+
+subimage decorations stage 0 0 3 3
+subimage firecamp stage 0 386 96 15
+subimage turtle_eye stage 3231 538 71 21
+subimage door stage 3488 371 200 116
+subimage door_red stage 3690 371 200 116
+subimage pillar stage 4184 370 32 117
+subimage eagle_eye stage 5453 409 96 32
+subimage hole stage 4244 370 184 33
+subimage hole_red stage 4244 405 184 33
+subimage death_adder_resurrection_support death_adder 12 1025 89 96
+
+
+# --- water ---
+
+subimage water_0 stage 2324 579 56 96
+subimage water_1 stage 2380 579 56 96
+subimage water_2 stage 2436 579 56 96
+
+
+# --- enemies ---
+
+subimage heninger_red_palette heninger 382 1 117 2
+subimage heninger_gold_palette heninger 382 4 117 2
+subimage heninger_gray_palette heninger 382 7 117 2
+subimage heninger_dark_palette heninger 382 10 117 2
+subimage heninger_purple_palette heninger 382 13 117 2
+subimage heninger_bronze_palette heninger 382 16 117 2
+
+subimage heninger_red heninger 0 0 500 400 heninger_red_palette
+subimage heninger_gold heninger 0 0 500 400 heninger_gold_palette
+subimage heninger_gray heninger 0 0 500 400 heninger_gray_palette
+subimage heninger_dark heninger 0 0 500 400 heninger_dark_palette
+subimage heninger_purple heninger 0 0 500 400 heninger_purple_palette
+subimage heninger_bronze heninger 0 0 500 400 heninger_bronze_palette
+
+subimage longmoan_red_palette longmoan 383 1 115 2
+subimage longmoan_gold_palette longmoan 383 4 115 2
+subimage longmoan_gray_palette longmoan 383 7 115 2
+subimage longmoan_dark_palette longmoan 383 10 115 2
+subimage longmoan_purple_palette longmoan 383 13 115 2
+subimage longmoan_bronze_palette longmoan 383 16 115 2
+
+subimage longmoan_red longmoan 0 0 498 400 longmoan_red_palette
+subimage longmoan_gold longmoan 0 0 498 400 longmoan_gold_palette
+subimage longmoan_gray longmoan 0 0 498 400 longmoan_gray_palette
+subimage longmoan_dark longmoan 0 0 498 400 longmoan_dark_palette
+subimage longmoan_purple longmoan 0 0 498 400 longmoan_purple_palette
+subimage longmoan_bronze longmoan 0 0 498 400 longmoan_bronze_palette
+
+subimage storchinaya_green_palette storchinaya 465 1 22 2
+subimage storchinaya_red_palette storchinaya 465 4 22 2
+subimage storchinaya_green storchinaya 0 0 488 600 storchinaya_green_palette
+subimage storchinaya_red storchinaya 0 0 488 600 storchinaya_red_palette
+
+subimage bad_brothers_red_palette bad_brothers 481 1 18 2
+subimage bad_brothers_blue_palette bad_brothers 481 4 18 2
+subimage bad_brothers_red bad_brothers 0 0 500 600 bad_brothers_red_palette
+subimage bad_brothers_blue bad_brothers 0 0 500 600 bad_brothers_blue_palette
+
+subimage lieutenant_bitter_red_palette lieutenant_bitter 479 1 20 2
+subimage lieutenant_bitter_red lieutenant_bitter 0 0 500 600 lieutenant_bitter_red_palette
+
+
+# --- stage full ---
+
+subimage stage_full_palette_fog stage 794 386 420 2
+subimage stage_full_palette_red stage 794 389 420 2
+subimage stage_full_palette_night stage 794 392 420 2
+subimage stage_full stage 0 0 6494 578
+subimage stage_full_red stage 0 0 6494 578 stage_full_palette_red
+subimage stage_full_fog stage 0 0 6494 578 stage_full_palette_fog
+subimage stage_full_night stage 0 0 6494 578 stage_full_palette_night
+
+
+# --- (forest) background ---
+
+subimage stage_background stage 0 402 800 104
+subimage stage_background_palette_fog stage 0 507 15 2
+subimage stage_background_fog stage_background 0 0 800 104 stage_background_palette_fog
+
+
+# --- skies ---
+
+subimage sky_eagle_palette_red stage 651 766 8 2
+subimage sky_eagle_palette_night stage 651 769 8 2
+subimage sky_turtle stage 0 510 650 295
+subimage sky_eagle stage 651 510 511 255
+subimage sky_eagle_red sky_eagle 0 0 511 255 sky_eagle_palette_red
+subimage sky_eagle_night sky_eagle 0 0 511 255 sky_eagle_palette_night
+subimage sky_night stage 1842 578 480 256
+
+# --- magic layer ---
+
+subimage magic_layer stage 2494 579 276 207
+
+
+# --- top layers ---
+
+subimage feathers stage 4764 411 552 414
+subimage cloud_red stage 5420 460 552 414
+
+
+# --- stage collision mask ---
+
+subimage stage_1_collision_mask stage 0 570 6494 578
+
+subimage stage_full_collision_mask_palette stage 0 1141 39 2
+subimage stage_full_collision_mask stage_1_collision_mask 0 0 6494 578 stage_full_collision_mask_palette
+
+
+# --- effects ---
+
+#TODO fix later
+subimage flame stage 0 0 1 1
+subimage fire_ball stage 0 0 1 1
+
+subimage effects stage 0 0 1 1
+subimage dust stage 859 402 70 105
+
+
+# --- arrows ---
+
+subimage arrow_left title 144 315 8 8 
+subimage arrow_right title 144 323 8 8 

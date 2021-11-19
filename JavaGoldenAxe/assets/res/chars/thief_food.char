@@ -1,0 +1,68 @@
+# --- thief food ---
+
+additive_blend false
+shadow true
+
+type enemy
+
+# --- sprites ---
+
+sprite none LEFT 0 0 3 3 0 0
+
+parameter walking_bag_full animation_speed 0.4
+parameter walking_bag_full animation_loop true
+sprite walking_bag_full LEFT 6 3 31 32 10 29
+sprite walking_bag_full LEFT 55 3 31 32 10 30
+sprite walking_bag_full LEFT 113 1 32 32 11 29
+sprite walking_bag_full LEFT 55 3 31 32 10 30
+
+parameter walking_bag_empty animation_speed 0.4
+parameter walking_bag_empty animation_loop true
+sprite walking_bag_empty LEFT 86 107 29 32 10 29
+sprite walking_bag_empty LEFT 135 107 27 32 10 30
+sprite walking_bag_empty LEFT 193 105 29 32 11 29
+sprite walking_bag_empty LEFT 135 107 27 32 10 30
+
+sprite idle_bag_full LEFT 55 3 31 32 10 30
+sprite idle_bag_full LEFT 5 47 32 32 11 30
+
+sprite idle_bag_empty LEFT 135 107 27 32 10 30
+sprite idle_bag_empty LEFT 90 149 28 32 11 30
+
+sprite hit_bag_full RIGHT 59 38 37 52 15 50
+
+sprite hit_bag_empty RIGHT 135 143 30 44 15 42
+
+sprite item_magic_potion LEFT 173 13 13 16 6 15
+sprite item_life_food LEFT 111 55 28 8 14 6
+
+# --- colliders ---
+
+# magic potion
+collider TOUCH PICK_UP 173 13 13 16
+
+# food
+collider TOUCH PICK_UP 111 55 28 8
+
+# thief
+collider BODY NONE 6 3 22 32
+collider BODY NONE 55 3 17 32
+collider BODY NONE 114 1 22 32
+collider BODY NONE 5 47 19 32
+collider BODY NONE 86 107 22 32
+collider BODY NONE 135 107 17 32
+collider BODY NONE 194 105 22 32
+collider BODY NONE 90 149 18 32
+
+collider FIRE ATTACK_SHORT -5 4 44 30
+collider FIRE ATTACK_SHORT 44 4 39 30
+collider FIRE ATTACK_SHORT 103 2 44 30
+collider FIRE ATTACK_SHORT -6 48 41 30
+collider FIRE ATTACK_SHORT 75 108 44 30
+collider FIRE ATTACK_SHORT 124 108 39 30
+collider FIRE ATTACK_SHORT 183 106 44 30
+
+
+# --- points ---
+
+point grab 179 28

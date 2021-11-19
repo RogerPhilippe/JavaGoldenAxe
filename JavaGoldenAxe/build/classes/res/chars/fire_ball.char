@@ -1,0 +1,33 @@
+# --- fire ball ---
+
+additive_blend true
+
+type projectile
+
+# --- animation sprites ---
+
+sprite_sheet dragon_red
+
+shadow true
+parameter fire_ball animation_speed 0.2
+parameter fire_ball animation_loop true
+parameter fire_ball vx 3.0
+sprite fire_ball LEFT 349 135 23 13 16 6
+sprite fire_ball LEFT 376 135 24 13 16 6
+
+shadow false
+parameter hit animation_speed 0.2
+parameter hit animation_loop false
+sprite hit LEFT 406 125 16 28 11 14
+sprite hit LEFT 425 113 23 48 14 24
+sprite hit LEFT 457 88 29 100 14 50
+
+
+# --- colliders ---
+
+collider ATTACK 8 2 KNOCK_DOWN 365 15 39 29
+collider ATTACK 8 2 KNOCK_DOWN 350 136 14 11
+collider ATTACK 8 2 KNOCK_DOWN 377 136 15 11
+
+
+# --- points ---

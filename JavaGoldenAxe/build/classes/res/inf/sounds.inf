@@ -1,0 +1,56 @@
+
+amazon_magic_1 = 14
+
+
+
+magic_5 = 19
+xxx_7 = 21
+xxx_9 = 23
+xxx_10 = 24
+skeleton_hit_11 = 25
+door_open_2 = 28
+xxx_19 = 34
+xxx_20 = 35
+    
+# ok sounds
+
+attack_swing = 1
+hit = 2
+hit_2 = 3
+attack_enemy = 4
+hit_rap = 5
+hit_knock_down = 6
+knock_down_2 = 7
+hit_ground = 8
+hit_ground_2 = 9
+
+sledgehammer = 10
+chicken_leg_attack = 11
+long_sword = 11
+golden_axe = 11
+spawn_item = 12
+get_item = 13
+magic_fire_a = 14
+magic_fire_c_start = 14
+magic_fire_c_end = 15
+magic_fire_b = 15
+magic_fire_d = 15
+golden_axe_rotating = 16
+magic_fire_f = 17
+death_adder_defeated = 17
+magic_fire_e = 18
+door = 20
+explosion = 21
+magic_volcano_d = 22
+skeleton_appearance= 26
+flame = 27
+fire_ball = 27
+go = 29
+title_letter = 30
+death_adder_projectile = 30
+char_selected = 31
+magic_used = 31
+magic_lightning = 32
+magic_volcano_abc = 33
+male_dead = 36
+scream = 37

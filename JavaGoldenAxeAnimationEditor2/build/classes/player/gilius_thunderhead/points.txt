@@ -1,0 +1,4 @@
+point grab 403 201
+point grab 431 177
+point grab 528 162
+point magic 439 9

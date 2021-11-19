@@ -1,0 +1,23 @@
+# --- select player ---
+
+type select_player
+
+shadow false
+
+additive_blend false
+
+sprite ax RIGHT 571 13 32 64 16 60
+sprite gilius RIGHT 611 16 45 54 29 50
+sprite tyris RIGHT 669 13 29 62 15 58
+
+
+additive_blend true
+
+parameter burning animation_speed 0.2
+parameter burning animation_loop false
+sprite burning RIGHT 572 114 20 21 11 20
+sprite burning RIGHT 599 110 20 25 10 30
+sprite burning RIGHT 626 100 20 34 11 48
+sprite burning RIGHT 653 101 18 28 8 53
+sprite burning RIGHT 678 100 17 34 9 60
+sprite burning RIGHT 700 100 3 3 0 0

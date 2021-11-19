@@ -1,0 +1,54 @@
+# animator animator_id speed loop shadowEnabled shadowActorId shadowAnimationId
+# keyframe animator_id actor_id frame_index animation_id animation_frame wx wy wz scale_x scale_y rotation_angle direction tween sound_id
+
+
+# --- related to death adder - support animations ---
+
+animator snake 1.0 false false null null
+
+keyframe snake snake_0 0 snake_0 -1 6195 -85 370 1.0 1.0 0.5 RIGHT true null
+keyframe snake snake_0 770 snake_0 -1 6211 -85 290 1.0 0.6 0.5 RIGHT true null
+keyframe snake snake_0 770 empty 0 6211 -85 290 1.0 0.3 0.5 RIGHT false null
+
+keyframe snake snake_1 0 snake_1 -1 6210 -85 360 1.0 1.0 0.5 RIGHT true null
+keyframe snake snake_1 810 snake_1 -1 6221 -85 290 1.0 0.6 0.5 RIGHT true null
+keyframe snake snake_1 810 empty 0 6221 -85 290 1.0 0.6 0.5 RIGHT false null
+
+keyframe snake snake_2 0 snake_2 -1 6231 -85 330 1.0 1.0 0.0 RIGHT true null
+keyframe snake snake_2 800 snake_2 -1 6231 -85 290 1.0 0.6 0.0 RIGHT true null
+keyframe snake snake_2 800 empty 0 6231 -85 290 1.0 0.6 0.0 RIGHT false null
+
+keyframe snake snake_3 0 snake_0 -1 6260 -85 350 1.0 1.0 -0.2 RIGHT true null
+keyframe snake snake_3 760 snake_0 -1 6231 -85 290 1.0 0.6 -0.2 RIGHT true null
+keyframe snake snake_3 760 empty 0 6231 -85 290 1.0 0.6 -0.2 RIGHT false null
+
+keyframe snake snake_4 0 snake_1 -1 6285 -85 345 1.0 1.0 -0.5 RIGHT true null
+keyframe snake snake_4 740 snake_1 -1 6251 -85 290 1.0 0.6 -0.5 RIGHT true null
+keyframe snake snake_4 740 empty 0 6251 -85 290 1.0 0.6 -0.5 RIGHT false null
+
+keyframe snake snake_5 0 snake_2 -1 6300 -85 350 1.0 1.0 -0.5 RIGHT true null
+keyframe snake snake_5 790 snake_2 -1 6251 -85 290 1.0 0.6 -0.5 RIGHT true null
+keyframe snake snake_5 790 empty 0 6251 -85 290 1.0 0.6 -0.5 RIGHT false null
+
+keyframe snake snake_6 0 snake_0 -1 6220 -85 385 1.0 1.0 0.2 RIGHT true null
+keyframe snake snake_6 740 snake_0 -1 6231 -85 290 1.0 0.6 0.2 RIGHT true null
+keyframe snake snake_6 740 empty 0 6231 -85 290 1.0 0.6 0.2 RIGHT false null
+
+
+keyframe snake death_adder_resurrection_support 0 death_adder_resurrection_support -1 6231 -85 301 1.0 1.0 0.0 RIGHT false null
+keyframe snake death_adder_resurrection_support 1080 death_adder_resurrection_support_disappearing -1 6231 -85 301 1.0 1.0 0.0 RIGHT false null
+keyframe snake death_adder_resurrection_support 1175 empty 0 6231 -85 301 1.0 1.0 0.0 RIGHT false null
+
+
+# --- prince & princess ---
+
+keyframe snake prince 0 prince 0 6183.0 -200.0 300.0 1.0 1.0 0.0 RIGHT true null
+keyframe snake princess 0 princess 0 6293.0 -200.0 300.0 1.0 1.0 0.0 RIGHT true null
+keyframe snake chain_prince 0 chain_prince 0 6183.0 -200.0 301.0 1.0 1.0 0.0 RIGHT true null
+keyframe snake chain_princess 0 chain_princess 0 6293.0 -200.0 301.0 1.0 1.0 0.0 RIGHT true null
+
+keyframe snake prince 300 prince 0 6183.0 -170.0 300.0 1.0 1.0 0.0 RIGHT true null
+keyframe snake princess 300 princess 0 6293.0 -170.0 300.0 1.0 1.0 0.0 RIGHT true null
+keyframe snake chain_prince 300 chain_prince 0 6183.0 -170.0 301.0 1.0 1.0 0.0 RIGHT true null
+keyframe snake chain_princess 300 chain_princess 0 6293.0 -170.0 301.0 1.0 1.0 0.0 RIGHT true null
+

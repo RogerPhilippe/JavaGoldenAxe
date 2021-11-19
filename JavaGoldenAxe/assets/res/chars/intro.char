@@ -1,0 +1,600 @@
+# --- intro ---
+
+additive_blend false
+shadow false
+
+type intro
+
+
+# --- sprites ---
+
+parameter intro_0 animation_speed 0.2
+
+# image ax battler
+sprite intro_0 RIGHT 0 0 162 117 -23 -69
+sprite intro_0 RIGHT 0 0 162 117 -23 -69
+sprite intro_0 RIGHT 0 0 162 117 -23 -69
+sprite intro_0 RIGHT 0 0 162 117 -23 -69
+sprite intro_0 RIGHT 0 0 162 117 -23 -69
+sprite intro_0 RIGHT 0 0 162 117 -23 -69
+sprite intro_0 RIGHT 0 0 162 117 -23 -69
+sprite intro_0 RIGHT 0 0 162 117 -23 -69
+sprite intro_0 RIGHT 0 0 162 117 -23 -69
+sprite intro_0 RIGHT 0 0 162 117 -23 -69
+sprite intro_0 RIGHT 0 0 162 117 -23 -69
+sprite intro_0 RIGHT 0 0 162 117 -23 -69
+sprite intro_0 RIGHT 0 0 162 117 -23 -69
+sprite intro_0 RIGHT 0 0 162 117 -23 -69
+sprite intro_0 RIGHT 0 0 162 117 -23 -69
+sprite intro_0 RIGHT 0 0 162 117 -23 -69
+sprite intro_0 RIGHT 0 0 162 117 -23 -69
+sprite intro_0 RIGHT 0 0 162 117 -23 -69
+sprite intro_0 RIGHT 0 0 162 117 -23 -69
+sprite intro_0 RIGHT 0 0 162 117 -23 -69
+
+# letters ax battler
+sprite intro_0 RIGHT 170 0 16 16 -125 -21
+sprite intro_0 RIGHT 186 0 16 16 -142 -21
+sprite intro_0 RIGHT 202 0 7 6 -157 -26
+sprite intro_0 RIGHT 209 0 12 16 -165 -21
+sprite intro_0 RIGHT 221 0 16 16 -178 -21
+sprite intro_0 RIGHT 237 0 12 16 -192 -21
+sprite intro_0 RIGHT 249 0 12 16 -205 -21
+sprite intro_0 RIGHT 170 32 12 16 -218 -21
+sprite intro_0 RIGHT 182 32 12 16 -231 -21
+sprite intro_0 RIGHT 194 32 12 16 -244 -21
+
+# pause
+sprite intro_0 RIGHT 194 32 12 16 -244 -21
+sprite intro_0 RIGHT 194 32 12 16 -244 -21
+sprite intro_0 RIGHT 194 32 12 16 -244 -21
+sprite intro_0 RIGHT 194 32 12 16 -244 -21
+sprite intro_0 RIGHT 194 32 12 16 -244 -21
+sprite intro_0 RIGHT 194 32 12 16 -244 -21
+sprite intro_0 RIGHT 194 32 12 16 -244 -21
+sprite intro_0 RIGHT 194 32 12 16 -244 -21
+sprite intro_0 RIGHT 194 32 12 16 -244 -21
+
+# letters the barbarian
+sprite intro_0 RIGHT 206 32 6 8 -169 -41
+sprite intro_0 RIGHT 212 32 6 8 -176 -41
+sprite intro_0 RIGHT 218 32 6 8 -183 -41
+sprite intro_0 RIGHT 224 32 6 8 -194 -41
+sprite intro_0 RIGHT 230 32 7 8 -201 -41
+sprite intro_0 RIGHT 237 32 6 8 -209 -41
+sprite intro_0 RIGHT 243 32 6 8 -216 -41
+sprite intro_0 RIGHT 249 32 7 8 -223 -41
+sprite intro_0 RIGHT 256 32 6 8 -231 -41
+sprite intro_0 RIGHT 170 64 2 8 -238 -41
+sprite intro_0 RIGHT 172 64 7 8 -242 -41
+sprite intro_0 RIGHT 179 64 6 8 -250 -41
+
+# pause
+sprite intro_0 RIGHT 179 64 6 8 -250 -41
+sprite intro_0 RIGHT 179 64 6 8 -250 -41
+sprite intro_0 RIGHT 179 64 6 8 -250 -41
+sprite intro_0 RIGHT 179 64 6 8 -250 -41
+sprite intro_0 RIGHT 179 64 6 8 -250 -41
+sprite intro_0 RIGHT 179 64 6 8 -250 -41
+sprite intro_0 RIGHT 179 64 6 8 -250 -41
+sprite intro_0 RIGHT 179 64 6 8 -250 -41
+sprite intro_0 RIGHT 179 64 6 8 -250 -41
+sprite intro_0 RIGHT 179 64 6 8 -250 -41
+sprite intro_0 RIGHT 179 64 6 8 -250 -41
+sprite intro_0 RIGHT 179 64 6 8 -250 -41
+sprite intro_0 RIGHT 179 64 6 8 -250 -41
+sprite intro_0 RIGHT 179 64 6 8 -250 -41
+sprite intro_0 RIGHT 179 64 6 8 -250 -41
+sprite intro_0 RIGHT 179 64 6 8 -250 -41
+sprite intro_0 RIGHT 179 64 6 8 -250 -41
+sprite intro_0 RIGHT 179 64 6 8 -250 -41
+sprite intro_0 RIGHT 179 64 6 8 -250 -41
+
+# history
+sprite intro_0 RIGHT 185 64 10 8 -155 -69
+sprite intro_0 RIGHT 195 64 4 7 -164 -70
+sprite intro_0 RIGHT 199 64 5 5 -167 -72
+sprite intro_0 RIGHT 204 64 8 5 -176 -72
+sprite intro_0 RIGHT 212 64 4 5 -185 -72
+sprite intro_0 RIGHT 216 64 4 7 -190 -70
+sprite intro_0 RIGHT 220 64 5 8 -193 -69
+sprite intro_0 RIGHT 225 64 4 5 -199 -72
+sprite intro_0 RIGHT 229 64 5 5 -204 -72
+sprite intro_0 RIGHT 234 64 6 5 -212 -72
+sprite intro_0 RIGHT 240 64 4 5 -218 -72
+sprite intro_0 RIGHT 244 64 5 5 -223 -72
+sprite intro_0 RIGHT 249 64 5 7 -231 -70
+sprite intro_0 RIGHT 254 64 3 7 -237 -70
+sprite intro_0 RIGHT 257 64 4 8 -241 -69
+sprite intro_0 RIGHT 170 96 4 8 -244 -69
+sprite intro_0 RIGHT 174 96 4 5 -247 -72
+sprite intro_0 RIGHT 178 96 6 8 -252 -69
+sprite intro_0 RIGHT 184 96 4 8 -155 -80
+sprite intro_0 RIGHT 188 96 5 6 -159 -84
+sprite intro_0 RIGHT 193 96 8 8 -167 -80
+sprite intro_0 RIGHT 201 96 4 5 -176 -83
+sprite intro_0 RIGHT 205 96 4 5 -181 -83
+sprite intro_0 RIGHT 209 96 4 7 -186 -81
+sprite intro_0 RIGHT 213 96 5 8 -189 -80
+sprite intro_0 RIGHT 218 96 4 3 -196 -83
+sprite intro_0 RIGHT 222 96 4 5 -202 -83
+sprite intro_0 RIGHT 226 96 6 8 -207 -80
+sprite intro_0 RIGHT 232 96 6 8 -212 -80
+sprite intro_0 RIGHT 238 96 4 5 -217 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+
+# pause
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+sprite intro_0 RIGHT 242 96 5 5 -222 -83
+
+
+parameter intro_1 animation_speed 0.2
+
+# image tyris flare
+sprite intro_1 RIGHT 0 196 94 150 -160 -42
+sprite intro_1 RIGHT 0 196 94 150 -160 -42
+sprite intro_1 RIGHT 0 196 94 150 -160 -42
+sprite intro_1 RIGHT 0 196 94 150 -160 -42
+sprite intro_1 RIGHT 0 196 94 150 -160 -42
+sprite intro_1 RIGHT 0 196 94 150 -160 -42
+sprite intro_1 RIGHT 0 196 94 150 -160 -42
+sprite intro_1 RIGHT 0 196 94 150 -160 -42
+sprite intro_1 RIGHT 0 196 94 150 -160 -42
+sprite intro_1 RIGHT 0 196 94 150 -160 -42
+sprite intro_1 RIGHT 0 196 94 150 -160 -42
+sprite intro_1 RIGHT 0 196 94 150 -160 -42
+sprite intro_1 RIGHT 0 196 94 150 -160 -42
+sprite intro_1 RIGHT 0 196 94 150 -160 -42
+sprite intro_1 RIGHT 0 196 94 150 -160 -42
+sprite intro_1 RIGHT 0 196 94 150 -160 -42
+sprite intro_1 RIGHT 0 196 94 150 -160 -42
+sprite intro_1 RIGHT 0 196 94 150 -160 -42
+sprite intro_1 RIGHT 0 196 94 150 -160 -42
+sprite intro_1 RIGHT 0 196 94 150 -160 -42
+
+# letters tyris flare
+sprite intro_1 RIGHT 102 196 12 16 -18 -21
+sprite intro_1 RIGHT 114 196 16 16 -31 -21
+sprite intro_1 RIGHT 130 196 12 16 -48 -21
+sprite intro_1 RIGHT 142 196 4 16 -61 -21
+sprite intro_1 RIGHT 146 196 12 16 -66 -21
+sprite intro_1 RIGHT 158 196 7 6 -79 -26
+sprite intro_1 RIGHT 165 196 12 16 -87 -21
+sprite intro_1 RIGHT 177 196 12 16 -100 -21
+sprite intro_1 RIGHT 189 196 16 16 -113 -21
+sprite intro_1 RIGHT 205 196 12 16 -130 -21
+sprite intro_1 RIGHT 217 196 12 16 -143 -21
+
+# pause
+sprite intro_1 RIGHT 217 196 12 16 -143 -21
+sprite intro_1 RIGHT 217 196 12 16 -143 -21
+sprite intro_1 RIGHT 217 196 12 16 -143 -21
+sprite intro_1 RIGHT 217 196 12 16 -143 -21
+sprite intro_1 RIGHT 217 196 12 16 -143 -21
+sprite intro_1 RIGHT 217 196 12 16 -143 -21
+sprite intro_1 RIGHT 217 196 12 16 -143 -21
+sprite intro_1 RIGHT 217 196 12 16 -143 -21
+sprite intro_1 RIGHT 217 196 12 16 -143 -21
+
+# letters the amazon
+sprite intro_1 RIGHT 229 196 6 8 -84 -41
+sprite intro_1 RIGHT 235 196 6 8 -91 -41
+sprite intro_1 RIGHT 241 196 6 8 -98 -41
+sprite intro_1 RIGHT 247 196 7 8 -109 -41
+sprite intro_1 RIGHT 254 196 8 8 -117 -41
+sprite intro_1 RIGHT 102 228 7 8 -126 -41
+sprite intro_1 RIGHT 109 228 7 8 -134 -41
+sprite intro_1 RIGHT 116 228 6 8 -142 -41
+sprite intro_1 RIGHT 122 228 6 8 -149 -41
+
+# pause
+sprite intro_1 RIGHT 122 228 6 8 -149 -41
+sprite intro_1 RIGHT 122 228 6 8 -149 -41
+sprite intro_1 RIGHT 122 228 6 8 -149 -41
+sprite intro_1 RIGHT 122 228 6 8 -149 -41
+sprite intro_1 RIGHT 122 228 6 8 -149 -41
+sprite intro_1 RIGHT 122 228 6 8 -149 -41
+sprite intro_1 RIGHT 122 228 6 8 -149 -41
+sprite intro_1 RIGHT 122 228 6 8 -149 -41
+sprite intro_1 RIGHT 122 228 6 8 -149 -41
+sprite intro_1 RIGHT 122 228 6 8 -149 -41
+sprite intro_1 RIGHT 122 228 6 8 -149 -41
+sprite intro_1 RIGHT 122 228 6 8 -149 -41
+sprite intro_1 RIGHT 122 228 6 8 -149 -41
+sprite intro_1 RIGHT 122 228 6 8 -149 -41
+sprite intro_1 RIGHT 122 228 6 8 -149 -41
+sprite intro_1 RIGHT 122 228 6 8 -149 -41
+sprite intro_1 RIGHT 122 228 6 8 -149 -41
+sprite intro_1 RIGHT 122 228 6 8 -149 -41
+sprite intro_1 RIGHT 122 228 6 8 -149 -41
+
+# history
+sprite intro_1 RIGHT 128 228 10 8 -24 -69
+sprite intro_1 RIGHT 138 228 4 5 -33 -72
+sprite intro_1 RIGHT 142 228 5 5 -38 -72
+sprite intro_1 RIGHT 147 228 8 10 -45 -69
+sprite intro_1 RIGHT 155 228 4 5 -51 -72
+sprite intro_1 RIGHT 159 228 4 7 -56 -70
+sprite intro_1 RIGHT 163 228 5 8 -59 -69
+sprite intro_1 RIGHT 168 228 4 5 -65 -72
+sprite intro_1 RIGHT 172 228 5 5 -70 -72
+sprite intro_1 RIGHT 177 228 4 5 -78 -72
+sprite intro_1 RIGHT 181 228 5 5 -83 -72
+sprite intro_1 RIGHT 186 228 6 8 -89 -69
+sprite intro_1 RIGHT 192 228 8 5 -98 -72
+sprite intro_1 RIGHT 200 228 4 5 -107 -72
+sprite intro_1 RIGHT 204 228 4 7 -112 -70
+sprite intro_1 RIGHT 208 228 5 8 -115 -69
+sprite intro_1 RIGHT 213 228 4 5 -121 -72
+sprite intro_1 RIGHT 217 228 5 5 -126 -72
+sprite intro_1 RIGHT 222 228 6 5 -134 -72
+sprite intro_1 RIGHT 228 228 4 5 -140 -72
+sprite intro_1 RIGHT 232 228 5 5 -145 -72
+sprite intro_1 RIGHT 237 228 4 5 -150 -72
+sprite intro_1 RIGHT 241 228 5 7 -24 -81
+sprite intro_1 RIGHT 246 228 3 7 -30 -81
+sprite intro_1 RIGHT 249 228 4 8 -34 -80
+sprite intro_1 RIGHT 253 228 4 8 -37 -80
+sprite intro_1 RIGHT 257 228 4 5 -40 -83
+sprite intro_1 RIGHT 102 260 6 8 -45 -80
+sprite intro_1 RIGHT 108 260 4 8 -54 -80
+sprite intro_1 RIGHT 112 260 5 6 -58 -84
+sprite intro_1 RIGHT 117 260 8 8 -66 -80
+sprite intro_1 RIGHT 125 260 4 5 -75 -83
+sprite intro_1 RIGHT 129 260 4 5 -80 -83
+sprite intro_1 RIGHT 133 260 4 7 -85 -81
+sprite intro_1 RIGHT 137 260 5 8 -88 -80
+sprite intro_1 RIGHT 142 260 4 3 -95 -83
+sprite intro_1 RIGHT 146 260 4 5 -101 -83
+sprite intro_1 RIGHT 150 260 6 8 -106 -80
+sprite intro_1 RIGHT 156 260 6 8 -111 -80
+sprite intro_1 RIGHT 162 260 4 5 -116 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+
+# pause
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+sprite intro_1 RIGHT 166 260 5 5 -121 -83
+
+
+parameter intro_2 animation_speed 0.2
+
+# image gilius thunderhead
+sprite intro_2 RIGHT 0 360 140 145 -14 -9
+sprite intro_2 RIGHT 0 360 140 145 -14 -9
+sprite intro_2 RIGHT 0 360 140 145 -14 -9
+sprite intro_2 RIGHT 0 360 140 145 -14 -9
+sprite intro_2 RIGHT 0 360 140 145 -14 -9
+sprite intro_2 RIGHT 0 360 140 145 -14 -9
+sprite intro_2 RIGHT 0 360 140 145 -14 -9
+sprite intro_2 RIGHT 0 360 140 145 -14 -9
+sprite intro_2 RIGHT 0 360 140 145 -14 -9
+sprite intro_2 RIGHT 0 360 140 145 -14 -9
+sprite intro_2 RIGHT 0 360 140 145 -14 -9
+sprite intro_2 RIGHT 0 360 140 145 -14 -9
+sprite intro_2 RIGHT 0 360 140 145 -14 -9
+sprite intro_2 RIGHT 0 360 140 145 -14 -9
+sprite intro_2 RIGHT 0 360 140 145 -14 -9
+sprite intro_2 RIGHT 0 360 140 145 -14 -9
+sprite intro_2 RIGHT 0 360 140 145 -14 -9
+sprite intro_2 RIGHT 0 360 140 145 -14 -9
+sprite intro_2 RIGHT 0 360 140 145 -14 -9
+sprite intro_2 RIGHT 0 360 140 145 -14 -9
+
+# letters gilius thunderhead
+sprite intro_2 RIGHT 148 360 12 16 -35 -157
+sprite intro_2 RIGHT 160 360 4 16 -48 -157
+sprite intro_2 RIGHT 164 360 12 16 -53 -157
+sprite intro_2 RIGHT 176 360 4 16 -66 -157
+sprite intro_2 RIGHT 180 360 12 16 -71 -157
+sprite intro_2 RIGHT 192 360 12 16 -84 -157
+sprite intro_2 RIGHT 204 360 7 6 -97 -162
+sprite intro_2 RIGHT 211 360 12 16 -105 -157
+sprite intro_2 RIGHT 223 360 12 16 -118 -157
+sprite intro_2 RIGHT 235 360 12 16 -131 -157
+sprite intro_2 RIGHT 247 360 12 16 -144 -157
+sprite intro_2 RIGHT 259 360 12 16 -157 -157
+sprite intro_2 RIGHT 148 392 12 16 -170 -157
+sprite intro_2 RIGHT 160 392 25 16 -183 -157
+sprite intro_2 RIGHT 185 392 12 16 -209 -157
+sprite intro_2 RIGHT 197 392 16 16 -222 -157
+sprite intro_2 RIGHT 213 392 12 16 -239 -157
+
+# pause
+sprite intro_2 RIGHT 213 392 12 16 -239 -157
+sprite intro_2 RIGHT 213 392 12 16 -239 -157
+sprite intro_2 RIGHT 213 392 12 16 -239 -157
+sprite intro_2 RIGHT 213 392 12 16 -239 -157
+sprite intro_2 RIGHT 213 392 12 16 -239 -157
+sprite intro_2 RIGHT 213 392 12 16 -239 -157
+sprite intro_2 RIGHT 213 392 12 16 -239 -157
+sprite intro_2 RIGHT 213 392 12 16 -239 -157
+sprite intro_2 RIGHT 213 392 12 16 -239 -157
+
+# letters the dwarf
+sprite intro_2 RIGHT 225 392 6 8 -188 -177
+sprite intro_2 RIGHT 231 392 6 8 -195 -177
+sprite intro_2 RIGHT 237 392 6 8 -202 -177
+sprite intro_2 RIGHT 243 392 6 8 -213 -177
+sprite intro_2 RIGHT 249 392 10 8 -220 -177
+sprite intro_2 RIGHT 259 392 7 8 -230 -177
+sprite intro_2 RIGHT 148 424 6 8 -238 -177
+sprite intro_2 RIGHT 154 424 6 8 -245 -177
+
+# pause
+sprite intro_2 RIGHT 154 424 6 8 -245 -177
+sprite intro_2 RIGHT 154 424 6 8 -245 -177
+sprite intro_2 RIGHT 154 424 6 8 -245 -177
+sprite intro_2 RIGHT 154 424 6 8 -245 -177
+sprite intro_2 RIGHT 154 424 6 8 -245 -177
+sprite intro_2 RIGHT 154 424 6 8 -245 -177
+sprite intro_2 RIGHT 154 424 6 8 -245 -177
+sprite intro_2 RIGHT 154 424 6 8 -245 -177
+sprite intro_2 RIGHT 154 424 6 8 -245 -177
+sprite intro_2 RIGHT 154 424 6 8 -245 -177
+sprite intro_2 RIGHT 154 424 6 8 -245 -177
+sprite intro_2 RIGHT 154 424 6 8 -245 -177
+sprite intro_2 RIGHT 154 424 6 8 -245 -177
+sprite intro_2 RIGHT 154 424 6 8 -245 -177
+sprite intro_2 RIGHT 154 424 6 8 -245 -177
+sprite intro_2 RIGHT 154 424 6 8 -245 -177
+sprite intro_2 RIGHT 154 424 6 8 -245 -177
+sprite intro_2 RIGHT 154 424 6 8 -245 -177
+sprite intro_2 RIGHT 154 424 6 8 -245 -177
+
+# history
+sprite intro_2 RIGHT 160 424 10 8 -146 -114
+sprite intro_2 RIGHT 170 424 3 7 -155 -115
+sprite intro_2 RIGHT 173 424 6 5 -157 -117
+sprite intro_2 RIGHT 179 424 4 8 -167 -114
+sprite intro_2 RIGHT 183 424 5 5 -172 -117
+sprite intro_2 RIGHT 188 424 4 5 -177 -117
+sprite intro_2 RIGHT 192 424 4 7 -182 -115
+sprite intro_2 RIGHT 196 424 5 8 -185 -114
+sprite intro_2 RIGHT 201 424 4 5 -191 -117
+sprite intro_2 RIGHT 205 424 5 5 -196 -117
+sprite intro_2 RIGHT 210 424 6 5 -204 -117
+sprite intro_2 RIGHT 216 424 4 5 -210 -117
+sprite intro_2 RIGHT 220 424 5 5 -215 -117
+sprite intro_2 RIGHT 225 424 5 7 -224 -115
+sprite intro_2 RIGHT 230 424 3 7 -230 -115
+sprite intro_2 RIGHT 233 424 4 8 -234 -114
+sprite intro_2 RIGHT 237 424 4 8 -237 -114
+sprite intro_2 RIGHT 241 424 4 5 -240 -117
+sprite intro_2 RIGHT 245 424 6 8 -245 -114
+sprite intro_2 RIGHT 251 424 4 8 -146 -125
+sprite intro_2 RIGHT 255 424 5 6 -150 -129
+sprite intro_2 RIGHT 260 424 8 8 -158 -125
+sprite intro_2 RIGHT 148 456 4 5 -167 -128
+sprite intro_2 RIGHT 152 456 4 5 -172 -128
+sprite intro_2 RIGHT 156 456 4 7 -177 -126
+sprite intro_2 RIGHT 160 456 5 8 -180 -125
+sprite intro_2 RIGHT 165 456 4 3 -187 -128
+sprite intro_2 RIGHT 169 456 4 5 -193 -128
+sprite intro_2 RIGHT 173 456 6 8 -198 -125
+sprite intro_2 RIGHT 179 456 6 8 -203 -125
+sprite intro_2 RIGHT 185 456 4 5 -208 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+
+# pause
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+sprite intro_2 RIGHT 189 456 5 5 -213 -128
+
+
+parameter intro_3 animation_speed 0.2
+
+# image death adder
+sprite intro_3 RIGHT 0 556 164 169 -45 -11
+sprite intro_3 RIGHT 0 556 164 169 -45 -11
+sprite intro_3 RIGHT 0 556 164 169 -45 -11
+sprite intro_3 RIGHT 0 556 164 169 -45 -11
+sprite intro_3 RIGHT 0 556 164 169 -45 -11
+sprite intro_3 RIGHT 0 556 164 169 -45 -11
+sprite intro_3 RIGHT 0 556 164 169 -45 -11
+sprite intro_3 RIGHT 0 556 164 169 -45 -11
+sprite intro_3 RIGHT 0 556 164 169 -45 -11
+sprite intro_3 RIGHT 0 556 164 169 -45 -11
+sprite intro_3 RIGHT 0 556 164 169 -45 -11
+sprite intro_3 RIGHT 0 556 164 169 -45 -11
+sprite intro_3 RIGHT 0 556 164 169 -45 -11
+sprite intro_3 RIGHT 0 556 164 169 -45 -11
+sprite intro_3 RIGHT 0 556 164 169 -45 -11
+sprite intro_3 RIGHT 0 556 164 169 -45 -11
+sprite intro_3 RIGHT 0 556 164 169 -45 -11
+sprite intro_3 RIGHT 0 556 164 169 -45 -11
+sprite intro_3 RIGHT 0 556 164 169 -45 -11
+sprite intro_3 RIGHT 0 556 164 169 -45 -11
+
+# letters death adder
+sprite intro_3 RIGHT 172 556 12 16 -68 -182
+sprite intro_3 RIGHT 184 556 12 16 -81 -182
+sprite intro_3 RIGHT 196 556 16 16 -94 -182
+sprite intro_3 RIGHT 212 556 12 16 -107 -182
+sprite intro_3 RIGHT 224 556 12 16 -120 -182
+sprite intro_3 RIGHT 236 556 7 6 -134 -187
+sprite intro_3 RIGHT 243 556 16 16 -141 -182
+sprite intro_3 RIGHT 259 556 12 16 -158 -182
+sprite intro_3 RIGHT 172 588 12 16 -171 -182
+sprite intro_3 RIGHT 184 588 12 16 -184 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+
+# pause
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+sprite intro_3 RIGHT 196 588 12 16 -197 -182
+

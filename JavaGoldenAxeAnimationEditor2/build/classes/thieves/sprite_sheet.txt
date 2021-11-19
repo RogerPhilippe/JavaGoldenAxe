@@ -1,0 +1,15 @@
+sprite walking_bag_full LEFT 6 3 31 32 10 29
+sprite walking_bag_full LEFT 55 3 31 32 10 30
+sprite walking_bag_full LEFT 113 1 32 32 11 29
+sprite walking_bag_full LEFT 55 3 31 32 10 30
+sprite walking_bag_empty LEFT 86 107 29 32 10 29
+sprite walking_bag_empty LEFT 135 107 27 32 10 30
+sprite walking_bag_empty LEFT 193 105 29 32 11 29
+sprite walking_bag_empty LEFT 135 107 27 32 10 30
+sprite idle_bag_full LEFT 55 3 31 32 10 30
+sprite idle_bag_full LEFT 5 47 32 32 11 30
+sprite idle_bag_empty LEFT 135 107 27 32 10 30
+sprite idle_bag_empty LEFT 90 149 28 32 11 30
+sprite hit_bag_full LEFT 59 38 37 52 15 50
+sprite hit_bag_empty LEFT 135 143 30 44 15 42
+sprite food LEFT 108 246 28 8 14 6

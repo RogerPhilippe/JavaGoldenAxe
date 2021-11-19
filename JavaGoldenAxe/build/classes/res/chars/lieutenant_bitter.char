@@ -1,0 +1,163 @@
+# --- lieutenant bitter ---
+
+additive_blend false
+shadow true
+
+type enemy
+
+
+animation_parameter silver_boss true
+animation_parameter silver_max_energy 160
+animation_parameter silver_sprite_sheet lieutenant_bitter
+animation_parameter silver_walk_speed 0.5
+animation_parameter silver_run_speed 1.5
+animation_parameter silver_attack_distance_min_x 88
+animation_parameter silver_attack_short_distance_min_x 48
+animation_parameter silver_attack_frequency 5
+animation_parameter silver_jump_attack_distance_x 16
+animation_parameter silver_dif_z_attack_distance 16
+animation_parameter silver_dif_y_attack_distance 44
+
+animation_parameter red_boss false
+animation_parameter red_sprite_sheet lieutenant_bitter_red
+animation_parameter red_walk_speed 0.55
+animation_parameter red_run_speed 1.5
+animation_parameter red_attack_distance_min_x 88
+animation_parameter red_attack_short_distance_min_x 48
+animation_parameter red_attack_frequency 6
+animation_parameter red_jump_attack_distance_x 16
+animation_parameter red_dif_z_attack_distance 16
+animation_parameter red_dif_y_attack_distance 44
+
+
+# --- animation sprites ---
+
+sprite none LEFT 0 0 3 3 0 0
+
+sprite appearance RIGHT 0 0 3 3 0 0
+
+parameter stand_by animation_speed 0.1
+parameter stand_by animation_loop true
+sprite stand_by LEFT 383 8 49 90 21 86
+sprite stand_by LEFT 439 8 49 89 21 85
+
+parameter idle animation_speed 0.1
+parameter idle animation_loop true
+sprite idle LEFT 383 8 49 90 21 86
+sprite idle LEFT 439 8 49 89 21 85
+
+parameter walking_up animation_speed 0.1
+parameter walking_up animation_loop true
+parameter walking_up idle_delay_time 500
+sprite walking_up LEFT 4 3 49 90 21 87
+sprite walking_up LEFT 65 7 51 86 22 85
+sprite walking_up LEFT 129 5 55 90 24 87
+sprite walking_up LEFT 198 8 51 89 22 85
+
+parameter walking_down animation_speed 0.1
+parameter walking_down animation_loop true
+parameter walking_down idle_delay_time 500
+sprite walking_down LEFT 4 3 49 90 21 87
+sprite walking_down LEFT 65 7 51 86 22 85
+sprite walking_down LEFT 129 5 55 90 24 87
+sprite walking_down LEFT 198 8 51 89 22 85
+
+parameter running animation_speed 0.125
+parameter running animation_loop true
+sprite running LEFT 4 3 49 90 21 85
+sprite running LEFT 65 7 51 86 22 83
+sprite running LEFT 129 5 55 90 24 85
+sprite running LEFT 198 8 51 89 22 83
+
+# as this enemy is slow, it was better to remove running attack
+#sprite running_attack LEFT 278 8 47 85 21 90
+
+parameter attack_1 sound long_sword
+parameter attack_1 animation_speed 0.175
+sprite attack_1 LEFT 5 130 58 75 29 74
+sprite attack_1 LEFT 80 122 108 86 86 85
+sprite attack_1 LEFT 212 141 48 67 27 66
+sprite attack_1 LEFT 212 141 48 67 27 66
+sprite attack_1 LEFT 212 141 48 67 27 66
+
+parameter attack_short animation_speed 0.175
+sprite attack_short LEFT 293 125 52 85 27 82
+sprite attack_short LEFT 358 126 67 85 50 82
+sprite attack_short LEFT 441 125 47 85 29 82
+
+parameter stunned_1 sound hit
+sprite stunned_1 LEFT 16 215 49 70 27 69
+sprite stunned_1 LEFT 82 235 51 50 16 45
+sprite stunned_1 LEFT 82 235 51 50 16 45
+sprite stunned_1 LEFT 82 235 51 50 16 45
+sprite stunned_1 LEFT 82 235 51 50 16 45
+
+parameter stunned_2 sound hit_rap
+sprite stunned_2 LEFT 82 300 52 48 17 43
+sprite stunned_2 LEFT 82 235 51 50 16 45
+sprite stunned_2 LEFT 82 235 51 50 16 45
+sprite stunned_2 LEFT 82 235 51 50 16 45
+sprite stunned_2 LEFT 82 235 51 50 16 45
+
+parameter knock_down hit_ground_sound hit_ground_2
+parameter knock_down dust_dx -20.0
+parameter knock_down dust_dz 2.0
+sprite knock_down LEFT 181 236 63 54 8 53
+sprite knock_down LEFT 264 253 78 32 0 19
+
+sprite stand_up LEFT 82 235 51 50 16 45
+
+sprite thrown LEFT 184 305 51 50 16 39
+sprite thrown LEFT 258 317 78 32 40 19
+sprite thrown LEFT 361 307 63 54 38 30
+
+parameter dying sound male_dead
+parameter dying animation_speed 0.5
+parameter dying animation_loop true
+sprite dying LEFT 264 253 78 32 0 19
+sprite dying LEFT 366 253 78 32 0 19
+
+sprite dead LEFT 366 253 78 32 0 19
+
+
+# --- colliders ---
+
+collider BODY NONE 15 30 30 61
+collider BODY NONE 78 35 31 56
+collider BODY NONE 83 21 11 14
+collider BODY NONE 21 18 11 12
+collider BODY NONE 145 32 31 63
+collider BODY NONE 149 20 11 13
+collider BODY NONE 211 35 30 62
+collider BODY NONE 216 22 11 12
+collider ATTACK 8 2 KNOCK_DOWN 283 34 13 60
+collider BODY NONE 296 36 19 57
+collider BODY NONE 315 78 10 14
+collider BODY NONE 394 35 31 62
+collider BODY NONE 400 23 11 12
+collider BODY NONE 450 35 31 62
+collider BODY NONE 456 23 11 12
+collider BODY NONE 23 132 17 52
+collider BODY NONE 11 173 12 32
+collider BODY NONE 40 147 16 59
+collider BODY NONE 148 143 34 65
+collider ATTACK 8 2 KNOCK_DOWN 80 122 79 49
+collider BODY NONE 218 154 29 54
+collider BODY NONE 247 190 12 18
+collider BODY NONE 225 142 12 14
+collider BODY NONE 315 142 23 68
+collider BODY NONE 301 156 14 52
+collider BODY NONE 390 147 21 62
+collider BODY NONE 411 192 12 19
+collider ATTACK 8 2 KNOCK_DOWN 358 152 32 42
+collider BODY NONE 446 152 30 57
+collider BODY NONE 476 196 11 13
+collider BODY NONE 85 245 40 40
+collider BODY NONE 91 236 9 9
+collider FIRE GRAB_AND_THROW 94 234 20 53
+
+
+# --- points ---
+
+
+

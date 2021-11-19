@@ -1,0 +1,104 @@
+stage 9
+
+background 0 sky_eagle sky_eagle 0.125 0.0 0.0 0.0 1.0 1.0 true
+background 0 sky_eagle_red sky_eagle_red 0.125 0.0 0.0 0.0 1.0 1.0 true
+
+background 1 default stage_full 0.0 0.0 0.0 0.0 1.0 1.0 false
+background 1 red stage_full_red 0.0 0.0 0.0 0.0 1.0 1.0 false
+
+terrain_collision_mask stage_full_collision_mask
+camera_min_y 0 129 1920 129 1800 177 1830 227 2000 227 2147 129 2825 129 3148 113 4120 113 4161 162 4350 162 4450 0 5320 0 5400 100 5567 100 5832 32 6393 32
+camera_max_y 0 358 1535 358 1753 576 3216 576 3286 380 3495 369 4928 369 5267 409 5606 409 5708 329 6393 329
+
+terrain_magic_path_z 0 406 1406 406 1565 342 1660 342 1870 438 2118 438 2494 408 2853 344 5296 344 5388 344 6493 344
+
+shadow_shear 0.0
+
+camera_position 4900 0
+terrain_dead_height 196
+
+command 0 SPAWN player_1 4940 340 walking
+command 0 SPAWN player_2 4970 310 walking
+
+command 4850 PLAY_MUSIC battle_field 1.0 0
+command 6000 PLAY_MUSIC death_adder 0.1 2000
+
+command 0 SPAWN decoration eagle_eye eagle_eye 5433 0 247 0.1 true true 0
+
+command 5730 BACKGROUND_TRANSITION 0 sky_eagle_red 0.01 0
+command 5730 BACKGROUND_TRANSITION 1 red 0.01 0
+command 5730 SHADOW_SHEAR_TRANSITION 0.75 0.015
+
+camera_lock wave_0 4980 false 0 false 0
+camera_lock wave_1 5150 false 0 false 0
+camera_lock wave_2 5550 false 0 false 0
+camera_lock wave_3 5715 false 0 false 0
+camera_lock wave_4 5750 false 0 false 0
+camera_lock wave_5 6100 false 0 true 72
+
+command 4950 ADD_BLOCKER blocker_0 5273 297 3 93
+
+command 4950 SPAWN skeleton default skeleton_0_a wave_0 5092 347 appearance 0
+command 4950 SPAWN decoration hole_0_a hole 5092 -191 347 0.1 false true 0
+command 4950 SPAWN skeleton default skeleton_0_b wave_0 5029 297 appearance 3000
+command 4950 SPAWN decoration hole_0_b hole 5029 -191 297 0.1 false true 3000
+
+command 4985 REMOVE_BLOCKER blocker_0
+
+command 5055 SPAWN skeleton default skeleton_1_a wave_1 5284 315 appearance 0
+command 5055 SPAWN decoration hole_1_a hole 5284 -142 315 0.1 false true 0
+command 5055 SPAWN skeleton default skeleton_1_b wave_1 5345 335 appearance 4000
+command 5055 SPAWN decoration hole_1_b hole 5345 -142 335 0.1 false true 4000
+
+command 5380 SPAWN storchinaya red storchinaya_2 wave_2 5730 375 walking
+command 5380 SPAWN dragon_blue default dragon_blue_2 empty 5730 375 resting
+command 5380 MOUNT dragon_blue_2 storchinaya_2
+
+command 5700 ADD_BLOCKER blocker_3 5629 367 3 47
+
+command 5700 SPAWN heninger purple heninger_3_a wave_3 6000 350 walking
+command 5700 SPAWN longmoan purple longmoan_3_a wave_3 6050 380 walking
+
+command 5700 SPAWN heninger red heninger_3_b wave_3 6070 350 wait_until_actors_death 1 heninger_3_a walking
+command 5700 SPAWN longmoan red longmoan_3_b wave_3 5670 380 wait_until_actors_death 1 longmoan_3_a walking
+
+command 5700 SPAWN lieutenant_bitter red lieutenant_bitter_3_a wave_3 6150 350 wait_until_actors_death 2 heninger_3_b longmoan_3_b walking
+command 5700 SPAWN lieutenant_bitter red lieutenant_bitter_3_b wave_3 6180 380 wait_until_actors_death 2 heninger_3_b longmoan_3_b walking
+
+command 5730 REMOVE_BLOCKER blocker_3 
+
+command 5730 SPAWN thief wave_4 6130 390 POTION 2
+command 5730 SPAWN thief wave_4 6150 370 POTION 2
+command 5730 SPAWN thief wave_4 6180 350 POTION 2
+
+command 5900 SPAWN decoration snake_0 snake_0 6195 370 -85 0.1 true true 0
+command 5900 SPAWN decoration snake_1 snake_1 6210 360 -85 0.1 true true 0
+command 5900 SPAWN decoration snake_2 snake_2 6231 330 -85 0.1 true true 0
+command 5900 SPAWN decoration snake_3 snake_0 6260 350 -85 0.1 true true 0
+command 5900 SPAWN decoration snake_4 snake_1 6285 345 -85 0.1 true true 0
+command 5900 SPAWN decoration snake_5 snake_2 6300 350 -85 0.1 true true 0
+command 5900 SPAWN decoration snake_6 snake_0 6220 385 -85 0.1 true true 0
+command 5905 ANIMATOR death_adder snake
+
+command 5900 SPAWN heninger red heninger_5 wave_5 6300 330 stand_by 3500
+command 5900 SPAWN longmoan red longmoan_5 wave_5 6300 380 stand_by 3500
+command 5900 SPAWN bad_brothers red bad_brothers_5 wave_5 6340 360 stand_by 5000
+
+command 5900 SPAWN skeleton default skeleton_5_a wave_5 6050 320 wait_until_actors_death 3 heninger_5 longmoan_5 bad_brothers_5 walking
+command 5900 SPAWN skeleton default skeleton_5_b wave_5 6450 340 wait_until_actors_death 3 heninger_5 longmoan_5 bad_brothers_5 walking
+
+command 5900 SPAWN death_adder default death_adder wave_5 6235 300 appearance 0
+command 5900 SPAWN decoration death_adder_resurrection_support death_adder_resurrection_support 6231 301 -85 0.05 true false 0
+
+command 5900 SPAWN golden_axe default golden_axe wave_5 6235 300 golden_axe
+
+command 5850 SPAWN decoration prince prince 6183 300 -85 0.1 false false 0
+command 5850 SPAWN decoration princess princess 6293 300 -85 0.1 false false 0
+command 5850 SPAWN decoration chain_prince chain_prince 6183 301 -85 0.1 false false 0
+command 5850 SPAWN decoration chain_princess chain_princess 6293 301 -85 0.1 false false 0
+
+command 5860 ANIMATOR highness appearance_0
+
+
+
+

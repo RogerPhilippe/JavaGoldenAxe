@@ -1,0 +1,8 @@
+sprite ax RIGHT 571 13 32 64 16 60
+sprite gilius RIGHT 611 16 45 54 29 50
+sprite tyris RIGHT 669 13 29 62 15 58
+sprite burn RIGHT 572 114 20 21 11 20
+sprite burn RIGHT 599 110 20 25 10 30
+sprite burn RIGHT 626 100 20 34 11 48
+sprite burn RIGHT 653 101 18 28 8 53
+sprite burn RIGHT 678 100 17 34 9 60

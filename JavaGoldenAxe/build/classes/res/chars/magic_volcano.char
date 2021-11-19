@@ -1,0 +1,121 @@
+# --- magic volcano ---
+
+additive_blend true
+shadow false
+
+type magic
+
+
+# --- animation sprites ---
+
+sprite empty RIGHT 0 0 3 3 0 0
+
+parameter explosion_small animation_speed 0.2
+parameter explosion_small animation_loop false
+parameter explosion_small keep_on_floor true
+sprite explosion_small RIGHT 16 16 32 32 16 29
+sprite explosion_small RIGHT 63 11 26 37 13 34
+sprite explosion_small RIGHT 105 21 24 21 12 39
+sprite explosion_small RIGHT 0 0 3 3 0 0
+
+parameter explosion_medium animation_speed 0.2
+parameter explosion_medium animation_loop false
+parameter explosion_medium keep_on_floor true
+sprite explosion_medium RIGHT 11 58 36 32 18 29
+sprite explosion_medium RIGHT 81 61 62 55 31 52
+sprite explosion_medium RIGHT 3 99 64 72 32 69
+sprite explosion_medium RIGHT 161 48 64 88 32 85
+sprite explosion_medium RIGHT 0 0 3 3 0 0
+
+parameter explosion_big_0 animation_speed 0.2
+parameter explosion_big_0 animation_loop true
+sprite explosion_big_0 RIGHT 73 197 78 82 39 74
+sprite explosion_big_0 RIGHT 8 300 94 99 47 91
+sprite explosion_big_0 RIGHT 182 197 78 82 39 74
+sprite explosion_big_0 RIGHT 128 302 94 99 47 91
+sprite explosion_big_0 RIGHT 73 197 78 82 39 74
+sprite explosion_big_0 RIGHT 242 303 94 99 47 91
+
+parameter explosion_big_1 animation_speed 0.2
+parameter explosion_big_1 animation_loop true
+sprite explosion_big_1 RIGHT 7 432 110 108 55 100
+sprite explosion_big_1 RIGHT 128 302 94 99 47 91
+sprite explosion_big_1 RIGHT 145 431 110 108 55 100
+sprite explosion_big_1 RIGHT 242 303 94 99 47 91
+sprite explosion_big_1 RIGHT 281 432 110 108 55 100
+sprite explosion_big_1 RIGHT 8 300 94 99 47 91
+
+parameter explosion_big_2 animation_speed 0.2
+parameter explosion_big_2 animation_loop true
+sprite explosion_big_2 RIGHT 7 432 110 108 55 100
+sprite explosion_big_2 RIGHT 8 565 128 116 64 108
+sprite explosion_big_2 RIGHT 145 431 110 108 55 100
+sprite explosion_big_2 RIGHT 153 566 128 116 64 108
+sprite explosion_big_2 RIGHT 281 432 110 108 55 100
+sprite explosion_big_2 RIGHT 8 565 128 116 64 108
+
+parameter explosion_big_3 animation_speed 0.2
+parameter explosion_big_3 animation_loop true
+sprite explosion_big_3 RIGHT 3 695 144 125 72 117
+sprite explosion_big_3 RIGHT 8 565 128 116 64 108
+sprite explosion_big_3 RIGHT 167 696 144 125 72 117
+sprite explosion_big_3 RIGHT 153 566 128 116 64 108
+
+parameter explosion_big_4 animation_speed 0.2
+parameter explosion_big_4 animation_loop true
+sprite explosion_big_4 RIGHT 3 695 144 125 72 117
+sprite explosion_big_4 RIGHT 4 841 160 136 80 128
+sprite explosion_big_4 RIGHT 167 696 144 125 72 117
+sprite explosion_big_4 RIGHT 185 841 160 136 80 128
+
+parameter explosion_big_5 animation_speed 0.2
+parameter explosion_big_5 animation_loop true
+sprite explosion_big_5 RIGHT 345 623 176 142 88 134
+sprite explosion_big_5 RIGHT 4 841 160 136 80 128
+sprite explosion_big_5 RIGHT 548 624 176 142 88 134
+sprite explosion_big_5 RIGHT 185 841 160 136 80 128
+sprite explosion_big_5 RIGHT 446 805 176 142 88 134
+sprite explosion_big_5 RIGHT 4 841 160 136 80 128
+
+parameter explosion_big_6 animation_speed 0.4
+parameter explosion_big_6 animation_loop false
+sprite explosion_big_6 RIGHT 185 841 160 136 80 128
+sprite explosion_big_6 RIGHT 167 696 144 125 72 117
+sprite explosion_big_6 RIGHT 4 841 160 136 80 128
+sprite explosion_big_6 RIGHT 3 695 144 125 72 117
+sprite explosion_big_6 RIGHT 153 566 128 116 64 108
+sprite explosion_big_6 RIGHT 167 696 144 125 72 117
+sprite explosion_big_6 RIGHT 8 565 128 116 64 108
+sprite explosion_big_6 RIGHT 3 695 144 125 72 117
+sprite explosion_big_6 RIGHT 8 565 128 116 64 108
+sprite explosion_big_6 RIGHT 281 432 110 108 55 100
+sprite explosion_big_6 RIGHT 153 566 128 116 64 108
+sprite explosion_big_6 RIGHT 145 431 110 108 55 100
+sprite explosion_big_6 RIGHT 8 565 128 116 64 108
+sprite explosion_big_6 RIGHT 7 432 110 108 55 100
+sprite explosion_big_6 RIGHT 8 300 94 99 47 91
+sprite explosion_big_6 RIGHT 281 432 110 108 55 100
+sprite explosion_big_6 RIGHT 242 303 94 99 47 91
+sprite explosion_big_6 RIGHT 145 431 110 108 55 100
+sprite explosion_big_6 RIGHT 128 302 94 99 47 91
+sprite explosion_big_6 RIGHT 7 432 110 108 55 100
+
+
+additive_blend false
+shadow true
+
+parameter rock_0 animation_loop true
+parameter rock_0 destroy_if_hit true
+parameter rock_0 affected_by_gravity true
+sprite rock_0 RIGHT 469 448 36 37 18 36
+
+parameter rock_1 animation_loop true
+parameter rock_1 destroy_if_hit true
+parameter rock_1 affected_by_gravity true
+sprite rock_1 RIGHT 506 448 36 37 18 36
+
+# --- colliders ---
+
+
+# --- points ---
+

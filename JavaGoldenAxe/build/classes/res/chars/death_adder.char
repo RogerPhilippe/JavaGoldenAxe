@@ -1,0 +1,689 @@
+# --- death adder ---
+
+additive_blend false
+shadow true
+
+type enemy
+
+animation_parameter default_boss true
+animation_parameter default_max_energy 160
+animation_parameter default_sprite_sheet death_adder
+animation_parameter default_walk_speed 0.5
+animation_parameter default_run_speed 1.5
+animation_parameter default_attack_distance_min_x 48
+#animation_parameter default_attack_short_distance_min_x 32
+animation_parameter default_attack_frequency 12
+animation_parameter default_jump_attack_distance_x 16
+animation_parameter default_dif_z_attack_distance 16
+animation_parameter default_dif_y_attack_distance 44
+
+
+# --- animation sprites ---
+
+sprite none LEFT 0 0 3 3 0 0
+
+parameter appearance animation_speed 0.4
+parameter appearance keep_direction true
+
+
+#sprite appearance LEFT 17 497 62 44 51 46
+#sprite appearance LEFT 17 497 62 44 51 46
+#sprite appearance LEFT 90 494 62 44 51 46
+#sprite appearance LEFT 90 494 62 44 51 46
+#sprite appearance LEFT 163 490 62 44 51 46
+#sprite appearance LEFT 163 490 62 44 51 46
+#sprite appearance LEFT 14 567 62 44 51 46
+#sprite appearance LEFT 14 567 62 44 51 46
+#sprite appearance LEFT 87 564 62 44 51 46
+#sprite appearance LEFT 87 564 62 44 51 46
+#sprite appearance LEFT 160 560 62 44 51 46
+#sprite appearance LEFT 160 560 62 44 51 46
+#sprite appearance LEFT 238 557 62 44 51 46
+#sprite appearance LEFT 238 557 62 44 51 46
+
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 27 633 62 44 51 46
+sprite appearance LEFT 118 633 63 44 51 46
+sprite appearance LEFT 118 633 63 44 51 46
+sprite appearance LEFT 118 633 63 44 51 46
+sprite appearance LEFT 118 633 63 44 51 46
+sprite appearance LEFT 210 633 61 44 51 46
+sprite appearance LEFT 210 633 61 44 51 46
+sprite appearance LEFT 210 633 61 44 51 46
+sprite appearance LEFT 210 633 61 44 51 46
+sprite appearance LEFT 299 633 62 44 51 46
+sprite appearance LEFT 299 633 62 44 51 46
+sprite appearance LEFT 299 633 62 44 51 46
+sprite appearance LEFT 299 633 62 44 51 46
+sprite appearance LEFT 398 629 63 48 51 50
+sprite appearance LEFT 398 629 63 48 51 50
+sprite appearance LEFT 398 629 63 48 51 50
+sprite appearance LEFT 398 629 63 48 51 50
+sprite appearance LEFT 489 625 61 52 51 54
+sprite appearance LEFT 489 625 61 52 51 54
+sprite appearance LEFT 489 625 61 52 51 54
+sprite appearance LEFT 489 625 61 52 51 54
+sprite appearance LEFT 581 621 62 56 51 58
+sprite appearance LEFT 581 621 62 56 51 58
+sprite appearance LEFT 581 621 62 56 51 58
+sprite appearance LEFT 581 621 62 56 51 58
+sprite appearance LEFT 21 721 64 60 51 62
+sprite appearance LEFT 21 721 64 60 51 62
+sprite appearance LEFT 21 721 64 60 51 62
+sprite appearance LEFT 21 721 64 60 51 62
+sprite appearance LEFT 118 717 65 64 51 66
+sprite appearance LEFT 118 717 65 64 51 66
+sprite appearance LEFT 118 717 65 64 51 66
+sprite appearance LEFT 118 717 65 64 51 66
+sprite appearance LEFT 210 713 65 68 51 70
+sprite appearance LEFT 210 713 65 68 51 70
+sprite appearance LEFT 210 713 65 68 51 70
+sprite appearance LEFT 210 713 65 68 51 70
+sprite appearance LEFT 303 709 66 72 51 74
+sprite appearance LEFT 303 709 66 72 51 74
+sprite appearance LEFT 303 709 66 72 51 74
+sprite appearance LEFT 303 709 66 72 51 74
+sprite appearance LEFT 397 705 65 76 51 78
+sprite appearance LEFT 397 705 65 76 51 78
+sprite appearance LEFT 397 705 65 76 51 78
+sprite appearance LEFT 397 705 65 76 51 78
+
+sprite appearance LEFT 493 701 67 80 51 82
+sprite appearance LEFT 493 701 67 80 51 82
+sprite appearance LEFT 493 701 67 80 51 82
+sprite appearance LEFT 493 701 67 80 51 82
+sprite appearance LEFT 588 702 67 80 51 82
+sprite appearance LEFT 588 702 67 80 51 82
+sprite appearance LEFT 588 702 67 80 51 82
+sprite appearance LEFT 588 702 67 80 51 82
+sprite appearance LEFT 12 806 67 80 51 82
+sprite appearance LEFT 12 806 67 80 51 82
+sprite appearance LEFT 12 806 67 80 51 82
+sprite appearance LEFT 12 806 67 80 51 82
+
+sprite appearance LEFT 493 701 67 80 51 82
+sprite appearance LEFT 493 701 67 80 51 82
+sprite appearance LEFT 493 701 67 80 51 82
+sprite appearance LEFT 493 701 67 80 51 82
+sprite appearance LEFT 588 702 67 80 51 82
+sprite appearance LEFT 588 702 67 80 51 82
+sprite appearance LEFT 588 702 67 80 51 82
+sprite appearance LEFT 588 702 67 80 51 82
+sprite appearance LEFT 12 806 67 80 51 82
+sprite appearance LEFT 12 806 67 80 51 82
+sprite appearance LEFT 12 806 67 80 51 82
+sprite appearance LEFT 12 806 67 80 51 82
+
+sprite appearance LEFT 493 701 67 80 51 82
+sprite appearance LEFT 493 701 67 80 51 82
+sprite appearance LEFT 493 701 67 80 51 82
+sprite appearance LEFT 493 701 67 80 51 82
+sprite appearance LEFT 588 702 67 80 51 82
+sprite appearance LEFT 588 702 67 80 51 82
+sprite appearance LEFT 588 702 67 80 51 82
+sprite appearance LEFT 588 702 67 80 51 82
+sprite appearance LEFT 12 806 67 80 51 82
+sprite appearance LEFT 12 806 67 80 51 82
+sprite appearance LEFT 12 806 67 80 51 82
+sprite appearance LEFT 12 806 67 80 51 82
+
+sprite appearance LEFT 493 701 67 80 51 82
+sprite appearance LEFT 493 701 67 80 51 82
+sprite appearance LEFT 493 701 67 80 51 82
+sprite appearance LEFT 493 701 67 80 51 82
+sprite appearance LEFT 588 702 67 80 51 82
+sprite appearance LEFT 588 702 67 80 51 82
+sprite appearance LEFT 588 702 67 80 51 82
+sprite appearance LEFT 588 702 67 80 51 82
+sprite appearance LEFT 12 806 67 80 51 82
+sprite appearance LEFT 12 806 67 80 51 82
+sprite appearance LEFT 12 806 67 80 51 82
+sprite appearance LEFT 12 806 67 80 51 82
+
+sprite appearance LEFT 107 806 67 80 51 82
+sprite appearance LEFT 107 806 67 80 51 82
+sprite appearance LEFT 107 806 67 80 51 82
+sprite appearance LEFT 107 806 67 80 51 82
+sprite appearance LEFT 206 806 67 80 51 82
+sprite appearance LEFT 206 806 67 80 51 82
+sprite appearance LEFT 206 806 67 80 51 82
+sprite appearance LEFT 206 806 67 80 51 82
+sprite appearance LEFT 304 806 67 80 51 82
+sprite appearance LEFT 304 806 67 80 51 82
+sprite appearance LEFT 304 806 67 80 51 82
+sprite appearance LEFT 304 806 67 80 51 82
+sprite appearance LEFT 401 806 67 86 51 82
+sprite appearance LEFT 401 806 67 86 51 82
+sprite appearance LEFT 401 806 67 86 51 82
+sprite appearance LEFT 401 806 67 86 51 82
+sprite appearance LEFT 499 806 67 86 51 82
+sprite appearance LEFT 499 806 67 86 51 82
+sprite appearance LEFT 499 806 67 86 51 82
+sprite appearance LEFT 499 806 67 86 51 82
+sprite appearance LEFT 596 806 75 85 51 82
+sprite appearance LEFT 596 806 75 85 51 82
+sprite appearance LEFT 596 806 75 85 51 82
+sprite appearance LEFT 596 806 75 85 51 82
+sprite appearance LEFT 9 916 80 86 51 82
+sprite appearance LEFT 9 916 80 86 51 82
+sprite appearance LEFT 9 916 80 86 51 82
+sprite appearance LEFT 9 916 80 86 51 82
+sprite appearance LEFT 120 916 83 86 51 82
+sprite appearance LEFT 120 916 83 86 51 82
+sprite appearance LEFT 120 916 83 86 51 82
+sprite appearance LEFT 120 916 83 86 51 82
+sprite appearance LEFT 237 916 83 86 51 82
+sprite appearance LEFT 237 916 83 86 51 82
+sprite appearance LEFT 237 916 83 86 51 82
+sprite appearance LEFT 237 916 83 86 51 82
+
+sprite appearance LEFT 350 914 74 86 51 82
+sprite appearance LEFT 446 917 74 86 51 82
+sprite appearance LEFT 350 914 74 86 51 82
+sprite appearance LEFT 446 917 74 86 51 82
+sprite appearance LEFT 350 914 74 86 51 82
+sprite appearance LEFT 446 917 74 86 51 82
+sprite appearance LEFT 350 914 74 86 51 82
+sprite appearance LEFT 446 917 74 86 51 82
+sprite appearance LEFT 350 914 74 86 51 82
+sprite appearance LEFT 446 917 74 86 51 82
+sprite appearance LEFT 350 914 74 86 51 82
+sprite appearance LEFT 446 917 74 86 51 82
+sprite appearance LEFT 350 914 74 86 51 82
+sprite appearance LEFT 446 917 74 86 51 82
+sprite appearance LEFT 350 914 74 86 51 82
+sprite appearance LEFT 446 917 74 86 51 82
+sprite appearance LEFT 350 914 74 86 51 82
+sprite appearance LEFT 446 917 74 86 51 82
+sprite appearance LEFT 350 914 74 86 51 82
+sprite appearance LEFT 446 917 74 86 51 82
+
+sprite appearance LEFT 542 909 41 103 19 97
+sprite appearance LEFT 604 909 41 103 19 97
+sprite appearance LEFT 542 909 41 103 19 97
+sprite appearance LEFT 604 909 41 103 19 97
+sprite appearance LEFT 542 909 41 103 19 97
+sprite appearance LEFT 604 909 41 103 19 97
+sprite appearance LEFT 542 909 41 103 19 97
+sprite appearance LEFT 604 909 41 103 19 97
+sprite appearance LEFT 542 909 41 103 19 97
+sprite appearance LEFT 604 909 41 103 19 97
+sprite appearance LEFT 542 909 41 103 19 97
+sprite appearance LEFT 604 909 41 103 19 97
+sprite appearance LEFT 542 909 41 103 19 97
+sprite appearance LEFT 604 909 41 103 19 97
+sprite appearance LEFT 542 909 41 103 19 97
+sprite appearance LEFT 604 909 41 103 19 97
+sprite appearance LEFT 542 909 41 103 19 97
+sprite appearance LEFT 604 909 41 103 19 97
+sprite appearance LEFT 542 909 41 103 19 97
+sprite appearance LEFT 604 909 41 103 19 97
+
+
+parameter stand_by animation_speed 0.1
+parameter stand_by animation_loop true
+sprite stand_by RIGHT 531 9 41 103 22 97
+sprite stand_by RIGHT 579 10 41 102 22 96
+
+parameter idle animation_speed 0.1
+parameter idle animation_loop true
+sprite idle RIGHT 531 9 41 103 22 97
+sprite idle RIGHT 579 10 41 102 22 96
+
+parameter walking_up animation_speed 0.1
+parameter walking_up animation_loop true
+parameter walking_up idle_delay_time 500
+sprite walking_up RIGHT 196 2 43 107 24 96
+sprite walking_up RIGHT 247 5 41 104 22 97
+sprite walking_up RIGHT 298 10 40 99 21 96
+sprite walking_up RIGHT 351 6 41 103 22 97
+
+parameter walking_down animation_speed 0.1
+parameter walking_down animation_loop true
+parameter walking_down idle_delay_time 500
+sprite walking_down RIGHT 196 2 43 107 24 96
+sprite walking_down RIGHT 247 5 41 104 22 97
+sprite walking_down RIGHT 298 10 40 99 21 96
+sprite walking_down RIGHT 351 6 41 103 22 97
+
+parameter running animation_speed 0.125
+parameter running animation_loop true
+sprite running RIGHT 196 2 43 107 24 96
+sprite running RIGHT 247 5 41 104 22 97
+sprite running RIGHT 298 10 40 99 21 96
+sprite running RIGHT 351 6 41 103 22 97
+
+#sprite running_attack RIGHT 416 29 69 65 29 81
+
+parameter attack_1 sound golden_axe
+parameter attack_1 animation_speed 0.175
+sprite attack_1 LEFT 76 128 58 78 40 75
+sprite attack_1 LEFT 245 128 84 78 52 75
+sprite attack_1 LEFT 341 134 71 72 41 69
+sprite attack_1 LEFT 341 134 71 72 41 69
+sprite attack_1 LEFT 245 128 84 78 52 75
+sprite attack_1 LEFT 155 128 83 78 66 75
+sprite attack_1 LEFT 155 128 83 78 66 75
+
+#parameter attack_short animation_speed 0.175
+#sprite attack_short RIGHT 5 227 57 84 17 82
+#sprite attack_short RIGHT 5 227 57 84 17 82
+#sprite attack_short RIGHT 433 134 77 69 14 67
+
+sprite magic RIGHT 5 227 57 84 17 82
+sprite magic RIGHT 5 227 57 84 17 82
+sprite magic RIGHT 5 227 57 84 17 82
+sprite magic RIGHT 5 227 57 84 17 82
+sprite magic RIGHT 277 257 64 54 12 52
+sprite magic RIGHT 277 257 64 54 12 52
+sprite magic RIGHT 277 257 64 54 12 52
+sprite magic RIGHT 277 257 64 54 12 52
+
+parameter stunned_1 sound hit
+sprite stunned_1 LEFT 313 367 76 78 42 77
+sprite stunned_1 LEFT 407 386 69 59 37 56
+sprite stunned_1 LEFT 407 386 69 59 37 56
+sprite stunned_1 LEFT 407 386 69 59 37 56
+sprite stunned_1 LEFT 407 386 69 59 37 56
+
+parameter stunned_2 sound hit_rap
+sprite stunned_2 LEFT 489 390 69 56 37 53
+sprite stunned_2 LEFT 407 386 69 59 37 56
+sprite stunned_2 LEFT 407 386 69 59 37 56
+sprite stunned_2 LEFT 407 386 69 59 37 56
+sprite stunned_2 LEFT 407 386 69 59 37 56
+
+parameter knock_down hit_ground_sound hit_ground_2
+parameter knock_down dust_dx -20.0
+parameter knock_down dust_dz 2.0
+sprite knock_down LEFT 267 455 72 55 22 49
+sprite knock_down LEFT 342 470 93 40 12 26
+
+sprite stand_up LEFT 313 367 76 78 42 77
+
+sprite thrown LEFT 513 458 48 54 26 30
+sprite thrown LEFT 537 543 93 40 55 26
+sprite thrown LEFT 462 528 72 55 42 23
+
+#parameter dying sound male_dead
+parameter dying animation_speed 0.5
+parameter dying animation_loop true
+sprite dying LEFT 342 470 93 40 12 26
+sprite dying LEFT 342 520 93 40 12 26
+
+sprite dead LEFT 342 520 93 40 12 26
+
+#parameter attack_1 projectile_id death_adder_fire
+
+parameter attack_projectile animation_speed 0.2
+parameter attack_projectile projectile_id death_adder_fire
+parameter attack_projectile projectile_decoration_id death_adder_fire_decoration
+parameter attack_projectile projectile_decoration_start_frame 0
+parameter attack_projectile projectile_decoration_end_frame 7
+parameter attack_projectile projectile_frame 7
+sprite attack_projectile RIGHT 5 227 57 84 17 82
+sprite attack_projectile RIGHT 5 227 57 84 17 82
+sprite attack_projectile RIGHT 5 227 57 84 17 82
+sprite attack_projectile RIGHT 5 227 57 84 17 82
+sprite attack_projectile RIGHT 277 257 64 54 12 52
+sprite attack_projectile RIGHT 277 257 64 54 12 52
+sprite attack_projectile RIGHT 277 257 64 54 12 52
+sprite attack_projectile RIGHT 277 257 64 54 12 52
+sprite attack_projectile RIGHT 277 257 64 54 12 52
+sprite attack_projectile RIGHT 277 257 64 54 12 52
+sprite attack_projectile RIGHT 277 257 64 54 12 52
+sprite attack_projectile RIGHT 277 257 64 54 12 52
+
+
+# --- colliders ---
+
+collider BODY NONE 204 33 28 76
+collider BODY NONE 210 17 19 16
+collider BODY NONE 259 20 19 16
+collider BODY NONE 255 36 27 72
+collider BODY NONE 304 42 29 67
+collider BODY NONE 309 26 19 16
+collider BODY NONE 360 37 24 72
+collider BODY NONE 363 21 19 15
+collider ATTACK 8 2 KNOCK_DOWN 457 29 18 41
+collider BODY NONE 436 42 21 51
+collider BODY NONE 419 74 17 18
+collider BODY NONE 539 40 24 72
+collider BODY NONE 588 42 23 70
+collider BODY NONE 543 26 18 14
+collider BODY NONE 591 25 19 17
+collider BODY NONE 86 139 29 67
+collider BODY NONE 115 188 13 16
+collider BODY NONE 212 131 18 74
+collider BODY NONE 192 177 20 29
+collider ATTACK 8 2 KNOCK_DOWN 156 147 56 29
+collider BODY NONE 275 129 23 30
+collider ATTACK 8 2 KNOCK_DOWN 246 159 83 28
+collider BODY NONE 265 187 47 19
+collider BODY NONE 346 138 30 30
+collider BODY NONE 351 169 34 37
+collider BODY NONE 457 139 27 25
+collider BODY NONE 443 162 37 41
+collider ATTACK 8 2 KNOCK_DOWN 484 142 24 17
+collider BODY NONE 21 238 28 73
+collider BODY NONE 9 290 12 20
+collider BODY NONE 299 261 39 50
+collider BODY NONE 277 293 22 16
+collider BODY NONE 431 402 27 42
+collider BODY NONE 458 426 15 18
+collider FIRE GRAB_AND_THROW 438 400 16 48
+collider ATTACK 8 2 KNOCK_DOWN 446 917 74 86
+collider ATTACK 8 2 KNOCK_DOWN 604 909 42 103
+
+
+# --- points ---
+
+point death_adder_fire_decoration 32 231
+point death_adder_fire_decoration 333 306
+
+point death_adder_fire 333 310
+
+

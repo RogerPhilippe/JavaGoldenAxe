@@ -1,0 +1,90 @@
+stage 5
+
+background 0 sky_turtle sky_turtle 0.125 0.0 0.0 0.0 1.0 1.0 true
+
+background 1 default stage_full 0.0 0.0 0.0 0.0 1.0 1.0 false
+background 1 red stage_full_red 0.0 0.0 0.0 0.0 1.0 1.0 false
+
+terrain_collision_mask stage_full_collision_mask
+camera_min_y 0 129 2900 129 3025 228 3350 228 3406 162 3550 129 5000 129
+camera_max_y 0 358 1535 358 1753 576 3350 576 3406 369 5000 369
+
+terrain_magic_path_z 0 406 1406 406 1565 342 1660 342 1870 438 2118 438 2494 408 2853 344 5296 344 5388 379 6493 379
+
+shadow_shear 0.0
+
+camera_position 2430 194
+terrain_dead_height 196
+
+command 2430 PLAY_MUSIC path_of_the_fiend 1.0 0
+command 3550 PLAY_MUSIC battle_field 0.1 2000
+
+command 0 SPAWN decoration turtle_eye turtle_eye 3102 0 403 0.1 true true 0
+
+command 3450 BACKGROUND_TRANSITION 1 red 0.02 0
+command 3450 SHADOW_SHEAR_TRANSITION 0.75 0.015
+
+command 0 SPAWN player_1 2530 330 walking
+command 0 SPAWN player_2 2500 360 walking
+
+camera_lock wave_0 2460 false 0 false 0
+camera_lock wave_1 2540 false 0 false 0
+camera_lock wave_2 2824 false 0 false 0
+camera_lock wave_3 2970 false 0 false 0
+camera_lock wave_4_a 3170 false 0 false 0
+camera_lock wave_4_b 3250 false 0 false 0
+camera_lock wave_5 3370 false 0 false 0
+camera_lock wave_6 3665 true 2000 true 0
+
+command 2440 SPAWN dragon_red default dragon_red_0 empty 2390 370 resting
+command 2440 SPAWN longmoan silver longmoan_0_a wave_0 2390 370 walking
+command 2440 MOUNT dragon_red_0 longmoan_0_a
+
+command 2440 SPAWN longmoan silver longmoan_0_b wave_0 2790 350 walking
+
+command 2520 SPAWN dragon_blue default dragon_blue_1 empty 2850 370 resting
+command 2520 SPAWN heninger purple heninger_1 wave_1 2850 370 walking
+command 2520 MOUNT dragon_blue_1 heninger_1
+
+command 2520 SPAWN longmoan red longmoan_1 wave_1 2470 350 walking
+
+command 2775 SPAWN dragon_blue default dragon_blue_2 empty 2725 320 resting
+command 2775 SPAWN storchinaya red storchinaya_2 wave_2 2725 320 walking
+command 2775 MOUNT dragon_blue_2 storchinaya_2
+
+command 2775 SPAWN longmoan silver longmoan_2 wave_2 2725 340 walking
+command 2775 SPAWN heninger silver heninger_2 wave_2 3100 340 walking
+
+command 2940 SPAWN thief wave_3 3250 340 POTION 2
+command 2940 ADD_BLOCKER blocker_0 3265 324 3 45
+command 2975 REMOVE_BLOCKER blocker_0
+
+command 3155 ADD_BLOCKER blocker_1 3133 324 3 45
+command 3230 ADD_BLOCKER blocker_2 3198 324 3 45
+
+command 3167 SPAWN storchinaya green storchinaya_4_a wave_4_a 3460 340 walk_to 3400 340 null stand_by 2000
+command 3167 SPAWN storchinaya green storchinaya_4_b wave_4_a 3490 360 walk_to 3430 360 null stand_by 2000
+
+command 3230 SPAWN bad_brothers blue bad_brothers_5_a wave_4_b 3470 326 wait_until_actors_death 2 storchinaya_4_a storchinaya_4_b appearance 150
+command 3230 SPAWN bad_brothers blue bad_brothers_5_b wave_4_b 3470 326 wait_until_actors_death 2 storchinaya_4_a storchinaya_4_b appearance 5150
+
+command 3230 SPAWN decoration door_0 door 3469 0 320 0.2 false true 0 wait_until_actors_death 2 storchinaya_4_a storchinaya_4_b 
+command 3230 SPAWN decoration door_1 door 3469 0 320 0.2 false true 5000 wait_until_actors_death 2 storchinaya_4_a storchinaya_4_b 
+
+command 3350 REMOVE_BLOCKER blocker_1
+command 3350 REMOVE_BLOCKER blocker_2
+
+command 3350 SPAWN thief wave_5 3680 340 POTION 2
+command 3350 SPAWN thief wave_5 3680 340 POTION 3
+
+command 3570 SPAWN longmoan gold longmoan_6_a wave_6 3900 260 stand_by 2000
+command 3570 SPAWN heninger gold heninger_6_a wave_6 3880 300 stand_by 2000
+command 3570 SPAWN heninger gold heninger_6_b wave_6 3900 340 stand_by 2000
+
+command 3570 SPAWN longmoan gray longmoan_6_b wave_6 3990 300 wait_until_actors_death 3 longmoan_6_a heninger_6_a heninger_6_b walking
+command 3570 SPAWN heninger gray heninger_6_c wave_6 3620 350 wait_until_actors_death 3 longmoan_6_a heninger_6_a heninger_6_b walking
+command 3570 SPAWN lieutenant_bitter silver lieutenant_bitter_6 wave_6 3800 240 wait_until_actors_death 3 longmoan_6_a heninger_6_a heninger_6_b appearance 150
+command 3570 SPAWN decoration door_red door_red 3804 0 224 0.2 false true 0 wait_until_actors_death 3 longmoan_6_a heninger_6_a heninger_6_b
+
+
+

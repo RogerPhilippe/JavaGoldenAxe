@@ -1,0 +1,22 @@
+# --- golden axe ---
+
+additive_blend false
+shadow true
+sprite_sheet death_adder
+
+type golden_axe
+
+
+# --- animation sprites ---
+
+sprite none LEFT 0 0 3 3 0 0
+
+sprite golden_axe RIGHT 616 427 22 59 11 30
+
+
+# --- colliders ---
+
+
+# --- points ---
+
+

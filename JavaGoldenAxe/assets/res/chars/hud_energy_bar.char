@@ -1,0 +1,62 @@
+# --- hud energy bar ---
+
+additive_blend false
+shadow false
+
+blink_time_factor 0.000000035
+blink_color_1 0xffffff
+blink_color_2 0xffffff
+
+type hud
+
+# --- animation sprites ---
+
+sprite energy_0 RIGHT 0 0 103 8 0 0
+sprite energy_0 RIGHT 0 0 103 8 0 0
+sprite energy_0 RIGHT 0 0 103 8 0 0
+sprite energy_0 RIGHT 0 0 103 8 0 0
+sprite energy_0 RIGHT 0 0 103 8 0 0
+sprite energy_0 RIGHT 0 0 103 8 0 0
+sprite energy_0 RIGHT 0 0 103 8 0 0
+sprite energy_1 RIGHT 0 8 103 8 0 0
+sprite energy_1 RIGHT 0 16 103 8 0 0
+sprite energy_1 RIGHT 0 24 103 8 0 0
+sprite energy_1 RIGHT 0 32 103 8 0 0
+sprite energy_1 RIGHT 0 40 103 8 0 0
+sprite energy_1 RIGHT 0 48 103 8 0 0
+sprite energy_1 RIGHT 0 56 103 8 0 0
+sprite energy_2 RIGHT 0 64 103 8 0 0
+sprite energy_2 RIGHT 0 72 103 8 0 0
+sprite energy_2 RIGHT 0 80 103 8 0 0
+sprite energy_2 RIGHT 0 88 103 8 0 0
+sprite energy_2 RIGHT 0 96 103 8 0 0
+sprite energy_2 RIGHT 0 104 103 8 0 0
+sprite energy_2 RIGHT 0 112 103 8 0 0
+sprite energy_3 RIGHT 0 120 103 8 0 0
+sprite energy_3 RIGHT 0 128 103 8 0 0
+sprite energy_3 RIGHT 0 136 103 8 0 0
+sprite energy_3 RIGHT 0 144 103 8 0 0
+sprite energy_3 RIGHT 0 152 103 8 0 0
+sprite energy_3 RIGHT 0 160 103 8 0 0
+sprite energy_3 RIGHT 0 168 103 8 0 0
+sprite energy_4 RIGHT 0 176 103 8 0 0
+sprite energy_4 RIGHT 0 184 103 8 0 0
+sprite energy_4 RIGHT 0 192 103 8 0 0
+sprite energy_4 RIGHT 0 200 103 8 0 0
+sprite energy_4 RIGHT 0 208 103 8 0 0
+sprite energy_4 RIGHT 0 216 103 8 0 0
+sprite energy_4 RIGHT 0 224 103 8 0 0
+sprite energy_5 RIGHT 0 232 103 8 0 0
+sprite energy_5 RIGHT 0 240 103 8 0 0
+sprite energy_5 RIGHT 0 248 103 8 0 0
+sprite energy_5 RIGHT 0 256 103 8 0 0
+sprite energy_5 RIGHT 0 264 103 8 0 0
+sprite energy_5 RIGHT 0 272 103 8 0 0
+sprite energy_5 RIGHT 0 280 103 8 0 0
+
+
+# --- colliders ---
+
+
+# --- points ---
+

@@ -1,0 +1,44 @@
+# --- death adder fire ---
+
+additive_blend true
+
+type projectile
+
+# --- animation sprites ---
+
+sprite_sheet death_adder
+
+shadow false
+parameter death_adder_fire animation_speed 0.3
+parameter death_adder_fire animation_loop true
+parameter death_adder_fire vx 3.0
+parameter death_adder_fire try_hit_players true
+parameter death_adder_fire trail_id death_adder_fire_trail
+parameter death_adder_fire trails_count 10
+parameter death_adder_fire trail_interval 90
+parameter death_adder_fire trail_sound death_adder_projectile
+parameter death_adder_fire try_to_follow_player_z true
+parameter death_adder_fire check_height_hit false
+sprite death_adder_fire RIGHT 122 341 31 14 16 15
+sprite death_adder_fire RIGHT 204 335 32 22 17 20
+sprite death_adder_fire RIGHT 161 341 31 14 17 15
+
+shadow false
+parameter hit sound explosion
+parameter hit animation_speed 0.2
+parameter hit animation_loop false
+sprite hit RIGHT 11 428 36 32 18 28
+sprite hit RIGHT 54 409 62 55 31 51
+sprite hit RIGHT 129 396 64 72 31 68
+sprite hit RIGHT 209 376 64 88 32 84
+sprite hit RIGHT 0 0 3 3 0 0
+
+
+# --- colliders ---
+
+collider ATTACK 8 2 KNOCK_DOWN 122 341 31 15
+collider ATTACK 8 2 KNOCK_DOWN 162 341 30 15
+collider ATTACK 8 2 KNOCK_DOWN 204 337 33 20
+
+
+# --- points ---

@@ -1,0 +1,218 @@
+# --- decorations ---
+
+additive_blend false
+shadow true
+
+type decoration
+
+# --- animation sprites ---
+
+sprite empty LEFT 0 0 3 3 0 0
+sprite none LEFT 0 0 3 3 0 0
+
+sprite_sheet firecamp
+sprite firecamp RIGHT 0 0 24 15 12 8
+sprite firecamp RIGHT 24 0 24 15 12 8
+sprite firecamp RIGHT 48 0 24 15 12 8
+sprite firecamp RIGHT 72 0 24 15 12 8
+sprite firecamp RIGHT 48 0 24 15 12 8
+sprite firecamp RIGHT 24 0 24 15 12 8
+
+sprite_sheet turtle_eye
+sprite turtle_eye RIGHT 0 0 23 21 0 0 
+sprite turtle_eye RIGHT 0 0 23 21 0 0 
+sprite turtle_eye RIGHT 0 0 23 21 0 0 
+sprite turtle_eye RIGHT 0 0 23 21 0 0 
+sprite turtle_eye RIGHT 0 0 23 21 0 0 
+sprite turtle_eye RIGHT 0 0 23 21 0 0 
+sprite turtle_eye RIGHT 0 0 23 21 0 0 
+sprite turtle_eye RIGHT 23 0 23 21 0 0 
+sprite turtle_eye RIGHT 46 0 23 21 0 0 
+sprite turtle_eye RIGHT 46 0 23 21 0 0 
+sprite turtle_eye RIGHT 46 0 23 21 0 0 
+sprite turtle_eye RIGHT 46 0 23 21 0 0 
+sprite turtle_eye RIGHT 23 0 23 21 0 0 
+sprite turtle_eye RIGHT 0 0 23 21 0 0 
+sprite turtle_eye RIGHT 0 0 23 21 0 0 
+sprite turtle_eye RIGHT 0 0 23 21 0 0 
+sprite turtle_eye RIGHT 23 0 23 21 0 0 
+sprite turtle_eye RIGHT 23 0 23 21 0 0 
+sprite turtle_eye RIGHT 23 0 23 21 0 0 
+sprite turtle_eye RIGHT 23 0 23 21 0 0 
+sprite turtle_eye RIGHT 23 0 23 21 0 0 
+sprite turtle_eye RIGHT 23 0 23 21 0 0 
+sprite turtle_eye RIGHT 46 0 23 21 0 0 
+sprite turtle_eye RIGHT 46 0 23 21 0 0 
+sprite turtle_eye RIGHT 46 0 23 21 0 0 
+sprite turtle_eye RIGHT 23 0 23 21 0 0 
+sprite turtle_eye RIGHT 0 0 23 21 0 0 
+sprite turtle_eye RIGHT 0 0 23 21 0 0 
+sprite turtle_eye RIGHT 0 0 23 21 0 0 
+sprite turtle_eye RIGHT 0 0 23 21 0 0 
+sprite turtle_eye RIGHT 0 0 23 21 0 0 
+sprite turtle_eye RIGHT 23 0 23 21 0 0 
+sprite turtle_eye RIGHT 23 0 23 21 0 0 
+sprite turtle_eye RIGHT 46 0 23 21 0 0 
+sprite turtle_eye RIGHT 46 0 23 21 0 0 
+sprite turtle_eye RIGHT 46 0 23 21 0 0 
+sprite turtle_eye RIGHT 46 0 23 21 0 0 
+sprite turtle_eye RIGHT 46 0 23 21 0 0 
+sprite turtle_eye RIGHT 46 0 23 21 0 0 
+sprite turtle_eye RIGHT 46 0 23 21 0 0 
+sprite turtle_eye RIGHT 46 0 23 21 0 0 
+sprite turtle_eye RIGHT 23 0 23 21 0 0 
+
+sprite_sheet door
+parameter door sound door
+sprite door RIGHT 0 0 100 116 50 105
+sprite door RIGHT 100 0 100 116 50 105
+sprite door RIGHT 100 0 100 116 50 105
+sprite door RIGHT 100 0 100 116 50 105
+sprite door RIGHT 100 0 100 116 50 105
+sprite door RIGHT 0 0 100 116 50 105
+sprite door RIGHT 0 0 3 3 0 0
+
+sprite_sheet door_red
+parameter door_red sound door
+sprite door_red RIGHT 0 0 100 116 50 105
+sprite door_red RIGHT 100 0 100 116 50 105
+sprite door_red RIGHT 100 0 100 116 50 105
+sprite door_red RIGHT 100 0 100 116 50 105
+sprite door_red RIGHT 100 0 100 116 50 105
+sprite door_red RIGHT 0 0 100 116 50 105
+sprite door_red RIGHT 0 0 3 3 0 0
+
+sprite_sheet pillar
+sprite pillar RIGHT 0 0 32 117 0 0
+
+sprite_sheet eagle_eye
+sprite eagle_eye RIGHT 0 0 32 32 0 0
+sprite eagle_eye RIGHT 0 0 32 32 0 0
+sprite eagle_eye RIGHT 0 0 32 32 0 0
+sprite eagle_eye RIGHT 32 0 32 32 0 0
+sprite eagle_eye RIGHT 64 0 32 32 0 0
+sprite eagle_eye RIGHT 64 0 32 32 0 0
+sprite eagle_eye RIGHT 64 0 32 32 0 0
+sprite eagle_eye RIGHT 64 0 32 32 0 0
+sprite eagle_eye RIGHT 64 0 32 32 0 0
+sprite eagle_eye RIGHT 64 0 32 32 0 0
+sprite eagle_eye RIGHT 32 0 32 32 0 0
+sprite eagle_eye RIGHT 0 0 32 32 0 0
+sprite eagle_eye RIGHT 0 0 32 32 0 0
+sprite eagle_eye RIGHT 0 0 32 32 0 0
+sprite eagle_eye RIGHT 0 0 32 32 0 0
+sprite eagle_eye RIGHT 0 0 32 32 0 0
+sprite eagle_eye RIGHT 0 0 32 32 0 0
+sprite eagle_eye RIGHT 0 0 32 32 0 0
+sprite eagle_eye RIGHT 0 0 32 32 0 0
+sprite eagle_eye RIGHT 32 0 32 32 0 0
+sprite eagle_eye RIGHT 64 0 32 32 0 0
+sprite eagle_eye RIGHT 64 0 32 32 0 0
+sprite eagle_eye RIGHT 64 0 32 32 0 0
+sprite eagle_eye RIGHT 64 0 32 32 0 0
+sprite eagle_eye RIGHT 32 0 32 32 0 0
+sprite eagle_eye RIGHT 32 0 32 32 0 0
+sprite eagle_eye RIGHT 32 0 32 32 0 0
+sprite eagle_eye RIGHT 32 0 32 32 0 0
+sprite eagle_eye RIGHT 32 0 32 32 0 0
+
+sprite_sheet hole
+sprite hole RIGHT 0 0 46 33 26 14
+sprite hole RIGHT 46 0 46 33 26 14
+sprite hole RIGHT 92 0 46 33 26 14
+sprite hole RIGHT 138 0 46 33 26 14
+
+sprite_sheet hole_red
+sprite hole_red RIGHT 0 0 46 33 26 14
+sprite hole_red RIGHT 46 0 46 33 26 14
+sprite hole_red RIGHT 92 0 46 33 26 14
+sprite hole_red RIGHT 138 0 46 33 26 14
+
+additive_blend true
+shadow false
+sprite_sheet death_adder
+parameter death_adder_fire_trail destroy_at_end_of_animation true
+parameter death_adder_fire_trail animation_speed 0.2
+sprite death_adder_fire_trail RIGHT 253 338 22 16 11 14
+sprite death_adder_fire_trail RIGHT 296 340 23 13 12 11
+sprite death_adder_fire_trail RIGHT 335 343 24 7 12 5
+sprite death_adder_fire_trail RIGHT 373 344 24 4 12 2
+
+additive_blend true
+shadow false
+sprite_sheet death_adder
+parameter death_adder_fire_decoration animation_speed 0.2
+parameter death_adder_fire_decoration animation_loop true
+sprite death_adder_fire_decoration RIGHT 419 333 22 22 11 11
+sprite death_adder_fire_decoration RIGHT 451 333 26 22 13 11
+sprite death_adder_fire_decoration RIGHT 489 335 16 18 8 9
+
+additive_blend false
+shadow true
+sprite_sheet death_adder_resurrection_support
+sprite death_adder_resurrection_support RIGHT 0 0 89 32 45 21
+sprite death_adder_resurrection_support RIGHT 0 32 89 32 45 21
+
+sprite_sheet death_adder_resurrection_support
+parameter death_adder_resurrection_support_disappearing animation_speed 0.2
+parameter death_adder_resurrection_support_disappearing animation_loop true
+sprite death_adder_resurrection_support_disappearing RIGHT 0 64 89 32 45 21
+sprite death_adder_resurrection_support_disappearing RIGHT 0 0 3 3 0 0
+
+shadow false
+sprite_sheet death_adder
+sprite snake_0 RIGHT 109 1037 7 27 3 1
+sprite snake_0 RIGHT 118 1035 7 28 3 1
+sprite snake_0 RIGHT 136 1031 7 28 3 1
+sprite snake_0 RIGHT 154 1027 6 28 3 1
+sprite snake_0 RIGHT 163 1025 6 28 4 1
+
+shadow false
+sprite_sheet death_adder
+sprite snake_1 RIGHT 136 1031 7 28 3 1
+sprite snake_1 RIGHT 154 1027 6 28 3 1
+sprite snake_1 RIGHT 163 1025 6 28 4 1
+sprite snake_1 RIGHT 109 1037 7 27 3 1
+sprite snake_1 RIGHT 118 1035 7 28 3 1
+
+shadow false
+sprite_sheet death_adder
+sprite snake_2 RIGHT 163 1025 6 28 4 1
+sprite snake_2 RIGHT 109 1037 7 27 3 1
+sprite snake_2 RIGHT 118 1035 7 28 3 1
+sprite snake_2 RIGHT 136 1031 7 28 3 1
+sprite snake_2 RIGHT 154 1027 6 28 3 1
+
+shadow true
+sprite_sheet highness
+sprite prince RIGHT 18 14 31 92 17 91
+sprite prince RIGHT 77 21 47 92 22 91
+sprite prince RIGHT 142 47 49 41 33 30
+
+sprite_sheet highness
+sprite princess RIGHT 21 122 34 69 15 68
+sprite princess RIGHT 87 129 38 57 19 50
+sprite princess RIGHT 154 129 42 48 19 41
+
+sprite_sheet highness
+sprite chain_prince RIGHT 227 19 8 271 5 269
+sprite chain_princess RIGHT 227 19 8 252 5 250
+
+additive_blend true
+shadow false
+sprite_sheet magic_lightning
+parameter lightning_dust destroy_at_end_of_animation true
+parameter lightning_dust animation_speed 0.15
+parameter lightning_dust animation_loop false
+sprite lightning_dust RIGHT 166 148 41 56 21 50
+sprite lightning_dust RIGHT 125 162 39 39 20 33
+sprite lightning_dust RIGHT 87 163 30 30 16 25
+sprite lightning_dust RIGHT 50 166 36 24 17 22
+sprite lightning_dust RIGHT 0 0 3 3 0 0 
+
+
+# --- colliders ---
+
+
+# --- points ---
+

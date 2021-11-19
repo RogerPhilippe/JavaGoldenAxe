@@ -1,0 +1,45 @@
+# animator animator_id speed loop shadowEnabled shadowActorId shadowAnimationId
+# keyframe animator_id actor_id frame_index animation_id animation_frame wx wy wz scale_x scale_y rotation_angle direction tween sound_id
+
+
+# --- prince and princess rescued ---
+
+animator appearance_0 1.0 false false null null
+
+keyframe appearance_0 prince 0 prince 0 6183.0 -200.0 300.0 1.0 1.0 0.0 RIGHT true null
+keyframe appearance_0 princess 0 princess 0 6293.0 -200.0 300.0 1.0 1.0 0.0 RIGHT true null
+keyframe appearance_0 chain_prince 0 chain_prince 0 6183.0 -200.0 301.0 1.0 1.0 0.0 RIGHT true null
+keyframe appearance_0 chain_princess 0 chain_princess 0 6293.0 -200.0 301.0 1.0 1.0 0.0 RIGHT true null
+
+# moved to death_adder.ani
+#animator appearance_1 1.0 false false null null
+#keyframe appearance_1 prince 0 prince 0 6183.0 -200.0 300.0 1.0 1.0 0.0 RIGHT true null
+#keyframe appearance_1 princess 0 princess 0 6293.0 -200.0 300.0 1.0 1.0 0.0 RIGHT true null
+#keyframe appearance_1 chain_prince 0 chain_prince 0 6183.0 -200.0 301.0 1.0 1.0 0.0 RIGHT true null
+#keyframe appearance_1 chain_princess 0 chain_princess 0 6293.0 -200.0 301.0 1.0 1.0 0.0 RIGHT true null
+#keyframe appearance_1 prince 300 prince 0 6183.0 -170.0 300.0 1.0 1.0 0.0 RIGHT true null
+#keyframe appearance_1 princess 300 princess 0 6293.0 -170.0 300.0 1.0 1.0 0.0 RIGHT true null
+#keyframe appearance_1 chain_prince 300 chain_prince 0 6183.0 -170.0 301.0 1.0 1.0 0.0 RIGHT true null
+#keyframe appearance_1 chain_princess 300 chain_princess 0 6293.0 -170.0 301.0 1.0 1.0 0.0 RIGHT true null
+
+
+animator rescued 1.0 false false null null
+
+keyframe rescued prince 0 prince 0 6183.0 -170.0 300.0 1.0 1.0 0.0 RIGHT true null
+keyframe rescued princess 0 princess 0 6293.0 -170.0 300.0 1.0 1.0 0.0 RIGHT true null
+keyframe rescued chain_prince 0 chain_prince 0 6183.0 -170.0 301.0 1.0 1.0 0.0 RIGHT true null
+keyframe rescued chain_princess 0 chain_princess 0 6293.0 -170.0 301.0 1.0 1.0 0.0 RIGHT true null
+
+keyframe rescued prince 300 prince 1 6183.0 -100.0 300.0 1.0 1.0 0.0 RIGHT true null
+keyframe rescued princess 300 princess 0 6293.0 -100.0 300.0 1.0 1.0 0.0 RIGHT true null
+keyframe rescued chain_prince 300 chain_prince 0 6183.0 -100.0 301.0 1.0 1.0 0.0 RIGHT true null
+keyframe rescued chain_princess 300 chain_princess 0 6293.0 -100.0 301.0 1.0 1.0 0.0 RIGHT true null
+
+keyframe rescued prince 330 prince 1 6183.0 -60.0 300.0 1.0 1.0 0.0 RIGHT false null
+keyframe rescued prince 331 prince 2 6183.0 -85.0 300.0 1.0 1.0 0.0 RIGHT false null
+
+keyframe rescued princess 315 princess 1 6293.0 -85.0 300.0 1.0 1.0 0.0 RIGHT false null
+keyframe rescued princess 360 princess 1 6293.0 -85.0 299.0 1.0 1.0 0.0 RIGHT true null
+keyframe rescued princess 500 princess 2 6198.0 -85.0 299.0 1.0 1.0 0.0 RIGHT false null
+keyframe rescued princess 530 princess 2 6198.0 -85.0 299.0 1.0 1.0 0.0 RIGHT false null
+

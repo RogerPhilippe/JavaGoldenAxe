@@ -1,0 +1,38 @@
+# --- ranking ---
+
+additive_blend false
+shadow false
+
+type ranking
+
+sprite_sheet select_player
+sprite skeleton RIGHT 280 49 268 158 134 0
+
+# ---
+
+sprite_sheet ranking
+
+sprite empty LEFT 0 0 3 3 0 0
+sprite none LEFT 0 0 3 3 0 0
+
+sprite table RIGHT 14 10 140 171 70 0
+
+sprite table_data RIGHT 290 36 18 135 0 0
+
+parameter sword_right animation_speed 0.2
+parameter sword_right animation_loop true
+sprite sword_right RIGHT 197 110 40 8 0 0
+sprite sword_right RIGHT 197 126 40 8 0 0
+sprite sword_right RIGHT 197 142 40 8 0 0
+sprite sword_right RIGHT 197 126 40 8 0 0
+
+parameter sword_left animation_speed 0.2
+parameter sword_left animation_loop true
+sprite sword_left LEFT 197 110 40 8 0 0
+sprite sword_left LEFT 197 126 40 8 0 0
+sprite sword_left LEFT 197 142 40 8 0 0
+sprite sword_left LEFT 197 126 40 8 0 0
+
+sprite digits_white RIGHT 170 60 110 15 0 0
+
+sprite digits_red RIGHT 170 75 110 15 0 0
