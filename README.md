@@ -19,6 +19,7 @@ https://github.com/leonardo-ono/JavaGoldenAxe/releases/tag/v0.0.1
 [P] key: jump player 1
 
 
+
 [A, S, D, W] keys: move player 2
 
 [F] key: magic player 2
