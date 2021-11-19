@@ -1,6 +1,3 @@
-# JavaGoldenAxe
-Golden Axe (1989) game implemented in java using only standard libraries (Java 2D, Swing, AWT &amp; Java Sound API), so no external libraries required. Video: https://youtu.be/uevIVLNhQqs
-
 # Golden Axe (remake)
 
 Golden Axe game implemented in java using only standard libraries (java 2D, AWT, Swing & Java Sound API), so no external libraries required.
@@ -14,13 +11,20 @@ https://github.com/leonardo-ono/JavaGoldenAxe/releases/tag/v0.0.1
 ## Keyboard Controls
 
 [Arrow] keys: move player 1
+
 [I] key: magic player 1
+
 [O] key: attack player 1 
+
 [P] key: jump player 1
 
+
 [A, S, D, W] keys: move player 2
+
 [F] key: magic player 2
+
 [G] key: attack player 2 
+
 [H] key: jump player 2
 
 
