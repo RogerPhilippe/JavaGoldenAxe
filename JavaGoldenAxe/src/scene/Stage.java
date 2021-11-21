@@ -2,6 +2,7 @@ package scene;
 
 import actor.Decoration;
 import actor.Player;
+import static actor.Player.PlayerCharacter.GILIUS;
 import infra.Actor;
 import static infra.Actor.Control.*;
 import infra.Animation;

@@ -6,8 +6,8 @@ background 0 sky_eagle_red sky_eagle_red 0.125 0.0 0.0 0.0 1.0 1.0 true
 background 1 default stage_full 0.0 0.0 0.0 0.0 1.0 1.0 false
 background 1 red stage_full_red 0.0 0.0 0.0 0.0 1.0 1.0 false
 
-background 2 feathers feathers 8.5 -3.5 0.0 0.0 1.25 1.25 true
-background 2 cloud_red cloud_red 8.5 -3.5 0.0 0.0 1.25 1.25 true
+background 3 feathers feathers 8.5 -3.5 0.0 0.0 1.25 1.25 true
+background 3 cloud_red cloud_red 8.5 -3.5 0.0 0.0 1.25 1.25 true
 
 terrain_collision_mask stage_full_collision_mask
 camera_min_y 0 129 1920 129 1800 177 1830 227 2000 227 2147 129 2825 129 3148 113 4120 113 4161 162 4350 162 4450 13 5320 13 5400 100 5567 100 5832 32 6393 32
@@ -31,20 +31,22 @@ command 5000 PLAY_MUSIC battle_field 0.1 2000
 
 command 0 SPAWN decoration pillar pillar 4184 1000 -748 0.0 false false 0
 
-command 0 BACKGROUND_TRANSITION 2 empty 2.0 0
+command 0 BACKGROUND_TRANSITION 3 empty 2.0 0
 command 4368 CAMERA_SMOOTH_SHAKE_ENABLED true
 command 4368 BACKGROUND_SCROLL_VELOCITY_TRANSITION 0 sky_eagle 4.0 -1.5 0.02
 command 4368 BACKGROUND_SCROLL_VELOCITY_TRANSITION 0 sky_eagle_red 4.0 -1.5 0.02
-command 4368 BACKGROUND_TRANSITION 2 feathers 0.01 2000
+command 4368 BACKGROUND_TRANSITION 3 feathers 0.01 2000
 
-command 4500 BACKGROUND_TRANSITION 2 empty 0.02 0
+command 4500 BACKGROUND_TRANSITION 3 empty 0.02 0
+
+command 4630 SHADOW_SHEAR_TRANSITION 0.75 0.015
 
 command 4630 BACKGROUND_TRANSITION 0 sky_eagle_red 0.01 0
 command 4630 BACKGROUND_TRANSITION 1 red 0.01 0
 
-command 4630 BACKGROUND_TRANSITION 2 cloud_red 0.01 2000
+command 4630 BACKGROUND_TRANSITION 3 cloud_red 0.01 2000
 
-command 4845 BACKGROUND_TRANSITION 2 empty 0.02 0
+command 4845 BACKGROUND_TRANSITION 3 empty 0.02 0
 
 camera_lock wave_0 3740 false 0 false 0
 camera_lock wave_1 3940 false 0 false 0

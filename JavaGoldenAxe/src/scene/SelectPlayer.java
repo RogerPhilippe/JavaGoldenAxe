@@ -47,7 +47,20 @@ public class SelectPlayer extends State<GoldenAxeGame, SceneManager> {
             this.angleOffset = angleOffset;
         }
 
-        void update(int angleInDeg) {
+        void update(int currentPlayerIndex) {
+            if (burn[currentPlayerIndex]) {
+                burnFrame[currentPlayerIndex] += 0.25;
+                Animation animation = animationPlayer.getAnimation("burning");
+                if (burnFrame[currentPlayerIndex] 
+                                >= animation.getFramesCount() - 0.01) {
+                    
+                    burnFrame[currentPlayerIndex] = 
+                            animation.getFramesCount() - 0.01;
+                }
+            }            
+        }
+        
+        void updateAngle(int angleInDeg) {
             double angle = Math.toRadians(angleInDeg);
             x = 24 * Math.cos(angle + angleOffset);
             z = 14 * Math.sin(angle + angleOffset);
@@ -58,22 +71,16 @@ public class SelectPlayer extends State<GoldenAxeGame, SceneManager> {
                                 , double offsetX, double offsetZ) {
             
             double scaleTmp = scale;
-            
             if (burn[currentPlayerIndex]) {
                 scaleTmp += 0.1;
                 animationPlayer.setAnimation("burning", false);
-                Animation animation = animationPlayer.getCurrentAnimation();
-                animation.setCurrentFrameIndex(burnFrame[currentPlayerIndex]);
-                burnFrame[currentPlayerIndex] += 0.025;
-                if (burnFrame[currentPlayerIndex] 
-                                >= animation.getFramesCount() - 0.01) {
-                    
-                    return;
-                }
+                animationPlayer.setCurrentAnimationFrameIndex(
+                                            burnFrame[currentPlayerIndex]);
             }
             else {
                 animationPlayer.setAnimation(id, false);
             }
+            
             Composite originalComposite = g.getComposite();
             g.setComposite(Transparency.getComposite((int) (255 * scale)));
             animationPlayer.draw(g, x + offsetX, 0.0, z + offsetZ
@@ -179,6 +186,13 @@ public class SelectPlayer extends State<GoldenAxeGame, SceneManager> {
             }
         }
         
+        int maxPlayers = GoldenAxeGame.numberOfPlayers;
+        for (int playerIndex = 0; playerIndex < maxPlayers; playerIndex++) {
+            for (Avatar avatar : avatars) {
+                avatar.update(playerIndex);
+            }
+        }
+                
         if (startGameTime < 0 
                 && ((GoldenAxeGame.numberOfPlayers == 1 
                     && GoldenAxeGame.characterPlayer1 != null)
@@ -234,13 +248,12 @@ public class SelectPlayer extends State<GoldenAxeGame, SceneManager> {
         int maxPlayers = GoldenAxeGame.numberOfPlayers;
         for (int playerIndex = 0; playerIndex < maxPlayers; playerIndex++) {
             for (Avatar avatar : avatars) {
-                avatar.update(angles[playerIndex]);
+                avatar.updateAngle(angles[playerIndex]);
             }
             Collections.sort(avatars);
             for (Avatar avatar : avatars) {
                 avatar.draw(g, playerIndex, 70.0 + 137 * playerIndex, 160.0);
             }
-
             if (angles[playerIndex] % 120 == 0 ) {
                 Avatar selectedAvatar = avatarsById[angles[playerIndex] / 120];
                 if (!selectedAvatar.selected) {
