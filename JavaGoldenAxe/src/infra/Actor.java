@@ -2637,19 +2637,25 @@ public class Actor extends Entity implements Comparable<Actor> {
         public void fixedUpdate() {
             Actor deathAdder = stage.getActorById("death_adder");
             //if (deathAdder != null && deathAdder.energy == 0 && !started) {
-            if (!finished && deathAdder != null && !started && deathAdder.energy == 0) {
+            if (!finished && deathAdder != null 
+                    && !started && deathAdder.energy == 0) {
+                
                 vy = -5;
                 wy = deathAdder.getWy() - 32;
-                spriteAngle = Math.toRadians(deathAdder.getDirection().getDx() * -270);
+                spriteAngle = Math.toRadians(
+                        deathAdder.getDirection().getDx() * -270);
+                
                 animationPlayer.setAnimation("golden_axe");
                 started = true;
             }
             if (!finished && deathAdder != null && started) {
                 direction = deathAdder.getDirection();
                 wx = deathAdder.getWx() - direction.getDx() * 32;
-                wz = deathAdder.getWz() + 0.000001; // ensure this actor in front
+                wz = deathAdder.getWz() + 0.000001; //ensure this actor in front
                 
-                if (!deadSoundPlayed && vy > 0.0 && Math.abs(wy - deathAdder.getWy()) < 70) {
+                if (!deadSoundPlayed && vy > 0.0 
+                        && Math.abs(wy - deathAdder.getWy()) < 70) {
+                    
                     Audio.playSound("death_adder_defeated");
                     deadSoundPlayed = true;
                 }
