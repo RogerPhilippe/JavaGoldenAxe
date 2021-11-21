@@ -3,12 +3,19 @@
 Golden Axe game implemented in java using only standard libraries (java 2D, AWT, Swing & Java Sound API), so no external libraries required.
 
 
-## Win64 Executable / Runnable jar / Source code - v0.0.1 (java 16+)
+## Win64 Executable / Runnable jar / Source code - v0.0.2 (java 16+)
 
-https://github.com/leonardo-ono/JavaGoldenAxe/releases/tag/v0.0.1
+https://github.com/leonardo-ono/JavaGoldenAxe/releases/tag/v0.0.2
 
 
 ## Keyboard Controls
+
+[F12] key: full screen mode
+
+[F11] key: keep aspect ratio
+
+
+
 
 [Arrow] keys: move player 1
 
